@@ -28,39 +28,7 @@
 % Add at least a Dutch one, the English one could also go on the back cover
 % Again, add the chapter to the ToC
 \chapter*{Summary}
-Model explainability has become an important problem in artificial intelligence (AI) due to the increased effect that algorithmic predictions have on humans. 
-Explanations can help users understand not only why AI models make certain predictions, but also how these predictions can be changed. 
-In the first part of this thesis, we investigate counterfactual explanations: given a data point and a trained model, we want to find the minimal perturbation to the input such that the prediction changes. 
-We frame the problem of finding counterfactual explanations as a gradient-based optimization task and first focus on tree ensembles. 
-We extend previous work that could only be applied to differentiable models by incorporating probabilistic model approximations in the optimization framework, and find that our counterfactual examples are significantly closer to the original instances than those produced by other methods specifically designed for tree-based models. 
-
-We then extend our method for generating counterfactual explanations for tree ensembles to accommodate graph neural networks (GNNs), given the increasing promise of GNNs in real-world applications such as fake news detection and molecular simulation. 
-We do so by introducing a perturbation matrix that acts on the adjacency matrix in order to iteratively remove edges from the graph, and find that our method primarily removes edges that are crucial for the original predictions, resulting in minimal counterfactual explanations. 
-
-In the second part of this thesis, we investigate explanations in the context of a real-world use case: sales forecasting. 
-We propose an algorithm that generates explanations for large errors in forecasting predictions based on Monte Carlo simulations. 
-To evaluate, we conduct a user study with 75 users and find that
-%by conducting a user study to determine if our explanations help users understand why large prediction errors occur and if this promotes trust in an AI model. 
-the majority of users are able to accurately answer objective questions about the model's predictions when provided with our explanations, and that users who saw our explanations understand why the model makes large errors in predictions significantly more than users in the control group. 
-We also conduct an in-depth analysis of the difference in attitudes between practitioners and researchers, and confirm that our results hold when conditioning on the users' background. 
-
-In the final part of the thesis, we explain the setup for a technical, graduate-level course on responsible AI topics at \OurUniversity{}, which teaches responsible AI concepts through the lens of reproducibility. 
-The focal point of the course is a group project based on reproducing existing responsible AI algorithms from top AI conferences and writing a corresponding report. 
-We reflect on our experiences teaching the course over two years and propose guidelines for incorporating reproducibility in graduate-level AI study programs. 
 
 
 \chapter*{Samenvatting}
 \markboth{Samenvatting}{Samenvatting}
-
-De uitlegbaarheid van voorspellende modellen is een belangrijk probleem geworden in kunstmatige intelligentie (KI) vanwege het toegenomen effect dat algoritmische voorspellingen hebben op mensen.
-Een uitleg kan gebruikers niet alleen helpen om te begrijpen waarom KI-modellen bepaalde voorspellingen doen, maar ook hoe deze voorspellingen be\"{i}nvloed kunnen worden. 
-In het eerste deel van dit proefschrift onderzoeken we contrafeitelijke verklaringen: we willen, gegeven een datapunt en een getraind model, de minimale verandering van de input vinden die de voorspelling verandert. 
-We formuleren het probleem van het vinden van contrafeitelijke verklaring als een op gradi\"enten gebaseerde optimalisatietaak en richten ons eerst op \textit{tree ensembles}. 
-We bouwen voort op eerder werk dat alleen kon worden toegepast op differentieerbare modellen, door probabilistische modelbenaderingen op te nemen in het optimalisatiekader, en komen tot de bevinding dat onze contrafeitelijke voorbeelden significant dichter bij het oorspronkelijke datapunt liggen dan de voorbeelden die geproduceerd worden door andere methoden, die specifiek zijn ontworpen voor modellen die op bomen zijn gebaseerd.
- 
-Vervolgens breiden we onze methode voor het genereren van contrafeitelijke verklaringen uit voor \emph{tree ensembles} zodat die ook werkt voor \textit{graph neural networks} (GNNs), gezien de toenemende belofte van GNNs voor toepassingen in de echte wereld, zoals de detectie van nepnieuws en moleculaire simulatie.
-We bereiken dit door een perturbatiematrix te introduceren die de elementen uit de bogenmatrix vermenigvuldigt om iteratief zijden van de graaf te verwijderen, en komen tot de bevinding dat onze methode voornamelijk zijden verwijdert die cruciaal zijn voor de oorspronkelijke voorspelling, wat resulteert in een minimale contrafeitelijke verklaring.
- 
-In het tweede deel van dit proefschrift onderzoeken we verklaringen in de context van een praktijkvoorbeeld: verkoopprognoses. We introduceren een algoritme dat verklaringen genereert voor grote fouten bij het doen van regressievoorspellingen op basis van Monte Carlo-simulaties. We evalueren door middel van een gebruikersonderzoek met 75 deelnemers. We komen tot de bevinding dat de meerderheid van de gebruikers in staat is accuraat antwoord te geven op meerkeuzevragen over de voorspellingen van het model wanneer zij voorzien zijn van onze uitleg. Daarnaast komen we tot de bevinding dat gebruikers die onze uitleg zagen, significant vaker dan gebruikers uit de controlegroep begrijpen waarom het model grote fouten maakt in voorspellingen. We voeren ook een analyse uit van het verschil in attitudes tussen praktijkbeoefenaars en onderzoekers, en bevestigen dat onze resultaten stand houden gegeven de achtergrond van de gebruiker. 
- 
-In het laatste deel van dit proefschrift behandelen we de opzet van een technisch vak op masterniveau over verantwoord gebruik van KI, gegeven aan de Universiteit van Amsterdam. In dit vak worden verantwoorde KI-concepten vanuit het oogpunt van reproduceerbaarheid gedoceerd. Het speerpunt van de cursus is een groepsproject dat gebaseerd is op het reproduceren van bestaande verantwoorde KI-algoritmen van vooraanstaande KI-conferenties en het schrijven van een bijbehorend rapport. We reflecteren op onze ervaringen met het geven van de cursus gedurende twee jaar en stellen richtlijnen voor voor het opnemen van reproduceerbaarheid in KI-studieprogramma's op masterniveau.

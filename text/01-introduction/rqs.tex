@@ -1,37 +1,45 @@
 % !TEX root = ../thesis-main.tex
 
+\acrodef{rq:recfusion}[\ref{rq:recfusion}]{Can we use diffusion to do recommendation in the classical user-item matrix setting?}
+
+\acrodef{rq:sigmoidf1}[\ref{rq:sigmoidf1}]{Is there a way we can generate personalized posters and stills for each item on a streaming platform?}
+
+\acrodef{rq:intent}[\ref{rq:intent}]{Are users' intents together with their behavioral data useful signals to predict or explain satisfaction on a video streaming platform?}
+
+\acrodef{rq:radio}[\ref{rq:radio}]{Can we formulate a divergence metric that measures the normative diversity of recommendations?}
+
 \section{Research Outline and Questions}
 \label{section:introduction:rqs}
 
 
 We scope the thesis around four research questions, each corresponding to a chapter in the thesis.
 
-A streaming platform ()
+Personalization on streaming platforms is oftentimes perceived as a purely predictive phenomenon: we propose to view it as a comprehensive and responsible generative approach, throughout a pipeline. We introduce RecFusion to issue recommendations in a generative way with diffusion models, as part of the nascent Generative Information Retrieval field. For these recommendations, we propose a method to generate personalized stills from movies, with sigmoidF1. We show that the resulting interactions on platforms are also dependent on implicit data hidden from a web analytics platform, with our intent-satisfaction analysis. At the end of the pipeline, we propose to ensure normative diversity in the issued recommendations with RADio, a normative metrics framework.
 
-Personalization on streaming platforms is oftentimes perceived as a purely predictive phenomenon: we propose to view it as a comprehensive and responsible generative approach, throughout a pipeline. We introduce RecFusion to issue recommendations in a generative way with diffusion models, as part of the nascent Generative Information Retrieval field. For these recommendations, we propose a method to generate personalized stills from movies, with sigmoidF1. We show that the resulting interactions on platforms are also dependent on implicit data hidden from a web analytics platform, with our intent-satisfaction analysis. At the end of the pipeline, we propose to ensure normative diversity in the issued recommendations with our RADio metrics framework.
+Our first research question addresses the entry point of the user journey on a personalized platform, namely recommendations (on the main page).
 
 
-\begin{question}
-  Can we use diffusion to do recommendation in the classical user-item matrix setting?
-\end{question}
+\begin{enumerate}[label=\textbf{RQ\arabic*},ref={RQ\arabic*},resume,leftmargin=*]
+	\item \acl{rq:recfusion}\label{rq:recfusion}
+\end{enumerate}
 
-Is Bernoulli diffusion a suitable forward and backward process theoretically and empirically on binary data?
+Assuming recommendations are to be linked with a certain form of creativity, we harness here the power of generative models. The emergent diffusion models field has been applied to images, music and other modalities. Unlike these, the classical recommendation setting of the user-item matrix does not entail spatial relationships between data points: contrary to pixels on an image, there is no information encoded in the allocation of users and item on a matrix. Can diffusion still be applied in this setting? The binary nature of the classical user-item matrix formulation inspired a second more theoretical research question: \emph{can Bernoulli diffusion be a suitable forward and backward process theoretically and empirically on binary data?}
 
-\begin{question}
-  Is there a way we can generate personalized posters and stills for each item on a streaming platform?
-\end{question}
+\begin{enumerate}[label=\textbf{RQ\arabic*},ref={RQ\arabic*},resume,leftmargin=*]
+	\item \acl{rq:sigmoidf1}\label{rq:sigmoidf1}
+\end{enumerate}
 
 Can we formulate loss function that accommodates for multilabel classification at training time and operates on the whole batch to balance confusion matrix entries?
 
-\begin{question}
-  Are users' intents together with their behavioral data useful signals to predict or explain satisfaction on a video streaming platform?
-\end{question}
+\begin{enumerate}[label=\textbf{RQ\arabic*},ref={RQ\arabic*},resume,leftmargin=*]
+	\item \acl{rq:intent}\label{rq:intent}
+\end{enumerate}
 
 Can we use Bayesian posterior draws to meaningfully draw conclusions from data?
 
-\begin{question}
-  Can we formulate a divergence metric that measures the normative diversity of recommendations?
-\end{question}
+\begin{enumerate}[label=\textbf{RQ\arabic*},ref={RQ\arabic*},resume,leftmargin=*]
+	\item \acl{rq:radio}\label{rq:radio}
+\end{enumerate}
 
 This work applies to news recommendation but trivially generalizes to any domain that has categories (e.g. video streaming with movie genres).
 

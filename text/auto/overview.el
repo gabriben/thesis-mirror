@@ -1,7 +1,7 @@
 (TeX-add-style-hook
- "main"
+ "overview"
  (lambda ()
    (LaTeX-add-labels
-    "chapter:research-recfusion"))
+    "section:introduction:overview"))
  :latex)
 

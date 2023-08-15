@@ -1,15 +1,9 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Ali~Vardasbi(2021)]{trec}
-Shashank Gupta Maria Heuss Pooya Khandel Ming Li Fatemeh~Sarvi Ali~Vardasbi,
-  Gabriel~Bénédict.
-\newblock The university of amsterdam at the trec 2021 fair ranking track.
-\newblock \emph{TREC Fair Ranking}, 2021.
 
 \bibitem[B{\'e}n{\'e}dict et~al.(2022)B{\'e}n{\'e}dict, Koops, Odijk, and
   de~Rijke]{sigmoidf1}
@@ -29,6 +23,11 @@ Gabriel B\'{e}n\'{e}dict, Daan Odijk, and Maarten de~Rijke.
 \newblock \doi{10.1145/3606375}.
 \newblock URL \url{https://doi.org/10.1145/3606375}.
 
+\bibitem[Bénédict(2021)]{gans}
+Gabriel Bénédict.
+\newblock Generative adversarial networks, 2021.
+\newblock URL \url{https://spectra.mathpix.com/article/2021.09.00009/gans}.
+
 \bibitem[Bénédict et~al.(2023{\natexlab{a}})Bénédict, Jeunen, Papa,
   Bhargav, Odijk, and de~Rijke]{recfusion}
 Gabriel Bénédict, Olivier Jeunen, Samuele Papa, Samarth Bhargav, Daan Odijk,
@@ -41,6 +40,13 @@ Gabriel Bénédict, Olivier Jeunen, Samuele Papa, Samarth Bhargav, Daan Odijk,
 Gabriel Bénédict, Ruqing Zhang, and Donald Metzler.
 \newblock Gen-ir @ sigir 2023: The first workshop on generative information
   retrieval, 2023{\natexlab{b}}.
+
+\bibitem[Vardasbi et~al.(2021)Vardasbi, Bénédict, Gupta, Heuss, Khandel, Li,
+  and Sarvi]{trec}
+Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel,
+  Ming Li, and Fatemeh Sarvi.
+\newblock The university of amsterdam at the trec 2021 fair ranking track.
+\newblock \emph{TREC Fair Ranking}, 2021.
 
 \bibitem[Vrijenhoek et~al.(2022)Vrijenhoek, B\'{e}n\'{e}dict,
   Gutierrez~Granada, Odijk, and De~Rijke]{radio}

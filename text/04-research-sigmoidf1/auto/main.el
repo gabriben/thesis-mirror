@@ -2,6 +2,6 @@
  "main"
  (lambda ()
    (LaTeX-add-labels
-    "chapter:sigmoidf1"))
+    "chapter:research-sigmoidf1"))
  :latex)
 
