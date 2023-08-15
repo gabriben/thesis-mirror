@@ -2,8 +2,6 @@
  "main"
  (lambda ()
    (LaTeX-add-labels
-    "chapter:conclusions"
-    "section:conclusion-findings"
-    "section:conclusion-futurework"))
+    "chapter:research-radio"))
  :latex)
 
