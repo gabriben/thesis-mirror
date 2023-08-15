@@ -1,0 +1,90 @@
+%!TEX root = ../main.tex
+
+
+\section{Experiment 2: FOCUS vs. DACE}
+\label{section:experiment2}
+The flexibility of FOCUS allows us to plug in our choice of differentiable distance function. To compare against DACE~\citep{kanamori_dace_2020}, we use the Mahalanobis distance for both 
+\begin{inparaenum}[(i)]
+\item generation of FOCUS explanations, and
+\item evaluation in comparison to DACE, since this is the distance function used in the DACE loss function (see Equation~\ref{eq:daceloss} in Section~\ref{section:baselinedace}). 
+\end{inparaenum}
+
+We found two main limitations of DACE:
+\begin{inparaenum}[(i)]
+	\item in all of our settings, it can only generate counterfactual examples for a subset of the test set, and
+	\item it is limited by the size of the tree-based model. 
+\end{inparaenum}
+All hyperparameter settings are listed in the Appendix to this chapter. 
+
+
+\subsection{Baseline: DACE}
+\label{section:baselinedace}
+DACE generates counterfactual examples that account for the underlying data distribution through a novel cost function using Mahalanobis distance and a local outlier factor (LOF):
+\begin{align}
+\label{eq:daceloss}
+d_\mathit{DACE}(x, \bar{x}|X, C) = {d_\mathit{Mahalanobis}}^2(x, \bar{x}|C) + \lambda q_k(x, \bar{x}|X), 
+\end{align}
+where $C$ is the covariance matrix, $q_k$ is the $k$-LOF \citep{breunig_lof_2020}, $X$ is the training set, and $\lambda$ is the trade-off parameter. 
+The $k$-LOF measures the degree to which an instance is an outlier in the context of its $k$-nearest neighbors.\footnote{We use $k=1$ in our experiments, since this is the value supported in the original code.}
+To generate counterfactual examples, DACE formulates the task as a mixed-integer linear optimization problem and uses the CPLEX Optimizer\footnote{\url{http://www.ibm.com/analytics/cplex-optimizer}} to solve it. 
+We refer the reader to the original paper for a more detailed overview of this cost function. 
+The $q_k$ term in the loss function penalizes counterfactual examples that are outliers, and therefore decreasing $\lambda$ results in a greater number of counterfactual examples. 
+In our experiments, we test $\lambda \in \{0.001, 0.01, 0.1, 0.5, 1.0\}$, and choose the $\lambda$ that minimizes the mean distance to the original input, while maximizing the number of counterfactual examples generated. 
+
+
+We were only able to run DACE on \numprint{6} out of our \numprint{12} models because the problem size is too large (i.e., there are too many model parameters for DACE) for the remaining \numprint{6} models when using the free Python API of CPLEX (the optimizer used in DACE). 
+Specifically, we were unable to run DACE on the following settings:
+\begin{itemize}
+\setlength\itemsep{0.4em}
+	\item Wine Quality AB (100 trees, max depth 4)
+	\item Wine Quality RF (500 trees, max depth 4)
+	\item HELOC RF (500 trees, max depth 4)
+	\item HELOC AB (100 trees, max depth 8)
+	\item COMPAS RF (500 trees, max depth 4)
+	\item Shopping RF (500 trees, max depth 8).
+\end{itemize}
+Therefore, when comparing against DACE, we have \numprint{6} experimental settings (\numprint{6} models $\times$ \numprint{1} distance function).
+We note that these are not unreasonable model sizes, and that unlike DACE, FOCUS can be applied to all \numprint{12} models (see Table~\ref{table:distances}). 
+
+
+
+\subsection{Results}
+Table 2 shows the results for the \numprint{6} settings we could run DACE on. 
+We were only able to run DACE on \numprint{6} out of our \numprint{12} models because the problem size is too large (i.e., DACE has too many model parameters) for the remaining \numprint{6} models when using the free Python API of CPLEX (the optimizer used in DACE). 
+Therefore, when comparing against DACE, we have \numprint{6} experimental settings (\numprint{6} models $\times$ \numprint{1} distance function).
+
+We found that DACE can only generate counterfactual examples for a small subset of the test set, regardless of the $\lambda$-value, as opposed to FOCUS, which can generate counterfactual examples for the entire test set in all cases. 
+To compute $d_{mean}$, $d_{Rmean}$, and $\mathit{\%_{closer}}$, we compare FOCUS and DACE only on the instances for which DACE was able to generate a counterfactual example. 
+We find that FOCUS significantly outperforms DACE in \numprint{5} out of \numprint{6} settings in terms of all three evaluation metrics, indicating that FOCUS explanations are indeed more minimal than those produced by DACE. 
+FOCUS is also more reliable since 
+\begin{inparaenum}[(i)]
+\item it is not restricted by model size, and
+\item it can generate counterfactual examples for all instances in the test set. 
+\end{inparaenum}
+
+\begin{table*}[h!]
+\centering
+%\setlength{\tabcolsep}{3pt}
+\caption{Evaluation results for Experiment 2 comparing FOCUS and DACE counterfactual examples in terms of Mahalanobis distance. Significant improvements over the baseline are denoted by \dubbelneer\ ($p < 0.05$, two-tailed t-test,). 
+\notsig{} denotes no significant difference.}
+\begin{tabular}{ll@{}rrrrrr}
+\toprule
+                &                            & \multicolumn{1}{c}{\textsc{Wine}} & \multicolumn{1}{c}{\textsc{HELOC}} & \multicolumn{2}{c}{\textsc{COMPAS}}                               & \multicolumn{2}{c}{\textsc{Shopping}}                             \\
+                \cmidrule(r){3-3}\cmidrule(r){4-4}\cmidrule(r){5-6}\cmidrule{7-8}
+\textbf{Metric} & \textbf{Method}            & \multicolumn{1}{c}{\textbf{DT}}   & \multicolumn{1}{c}{\textbf{DT}}    & \multicolumn{1}{c}{\textbf{DT}} & \multicolumn{1}{c}{\textbf{AB}} & \multicolumn{1}{c}{\textbf{DT}} & \multicolumn{1}{c}{\textbf{AB}} \\ \midrule
+
+
+$d_{mean}$           & DACE              & 1.325                             & {1.427}                              & 0.814                           & 1.570                           & 0.050                           & 3.230                           \\
+                & FOCUS             & \textbf{0.542}\rlap{\dubbelneer}                             & \textbf{0.810}\rlap{\dubbelneer}                              & \textbf{0.776}\rlap{\notsig}                           & \textbf{0.636}\rlap{\dubbelneer}                           & \textbf{0.023}\rlap{\dubbelneer}                           & \textbf{0.303}\rlap{\dubbelneer}                           \\ \midrule
+$d_{Rmean}$          & FOCUS /           & \multirow{2}{*}{0.420}            & \multirow{2}{*}{0.622}             & \multirow{2}{*}{1.18}          & \multirow{2}{*}{0.372}          & \multirow{2}{*}{0.449}          & \multirow{2}{*}{0.380}          \\
+                & DACE              &                                   &                                    &                                 &                                 &                                 &                                 \\ \midrule
+$\mathit{\%_{closer}}$          & FOCUS \textless{} & \multirow{2}{*}{100\%}            & \multirow{2}{*}{94.5\%}             & \multirow{2}{*}{29.9\%}          & \multirow{2}{*}{96.1\%}          & \multirow{2}{*}{99.4\%}          & \multirow{2}{*}{90.8\%}          \\
+                & DACE              &                                   &                                    &                                 &                                 &                                 &                                 \\ 
+\midrule
+ \textit{\# CFs}        & DACE              & 241                               & 1342                               & 842                             & 700                             & 362                             & 448                             \\
+  \textit{found}              & FOCUS             & 1470                              & 3138                               & 1852                            & 1852                            & 3699                            & 3699                            \\ \midrule 
+                
+   \textit{\# obs      in}	& \textit{dataset}	& 1470                              & 3138                               & 1852                            & 1852                            & 3699                            & 3699                            \\ \bottomrule
+\end{tabular}
+\label{table:experiment2}
+\end{table*}

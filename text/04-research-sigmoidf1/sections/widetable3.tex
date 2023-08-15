@@ -1,0 +1,61 @@
+%!TEX root = ../main.tex
+
+\begin{tabular}{llrrrrrrrrrr}
+\toprule
+  &                   &                  & \multicolumn{3}{c}{\textbf{Euclidean}}                                                              & \multicolumn{3}{c}{\textbf{Cosine}}                                                                 & \multicolumn{3}{c}{\textbf{Manhattan}}                                                              \\
+  \cmidrule(r){4-6}\cmidrule(r){7-9} \cmidrule(r){10-12}
+ \textbf{Dataset}                 &     \textbf{Metric}                & \textbf{Method}                 & \multicolumn{1}{c}{\textbf{DT}} & \multicolumn{1}{c}{\textbf{RF}} & \multicolumn{1}{c}{\textbf{AB}} & \multicolumn{1}{c}{\textbf{DT}} & \multicolumn{1}{c}{\textbf{RF}} & \multicolumn{1}{c}{\textbf{AB}} & \multicolumn{1}{c}{\textbf{DT}} & \multicolumn{1}{c}{\textbf{RF}} & \multicolumn{1}{c}{\textbf{AB}} \\
+ \midrule
+\textit{}        &    $d_{mean}$                & FT               & 0.269 & \textbf{0.174}  & 0.267\rlap\NoExample  & 0.030 & 0.017  & 0.034\rlap\NoExample  & 0.269 & \textbf{0.223} & 0.382\rlap\NoExample  \\
+\textsc{Wine}    &                    & FOCUS              & \textbf{0.268}\rlap{\notsig} & 0.188\rlap{\dubbelop}   & \textbf{0.188}\rlap{\dubbelneer}  & \textbf{0.003}\rlap{\dubbelneer} & \textbf{0.008}\rlap{\dubbelneer}  & \textbf{0.014}\rlap{\dubbelneer}  & \textbf{0.268}\rlap{\notsig} & 0.312\rlap{\dubbelop} & \textbf{0.360}\rlap{\dubbelneer}  \\
+\cmidrule{2-12}
+\textsc{Quality}        &       $d_{Rmean}$             & FOCUS/FT           & 0.990 & 1.256  & 0.649  & 0.066 & 0.821  & 0.312  & 0.990 & 1.977 & 0.924  \\
+%\cmidrule{2-12}
+\textit{}        &      $\mathit{\%_{closer}}$              & FOCUS \textless FT                           & 100\% & 21.0\% & 87.5\% & 100\% & 80.8\% & 95.1\% & 100\% & 5.4\% & 58.6\%                           \\
+
+
+
+
+
+\midrule
+
+
+                 &      $d_{mean}$              & FT               & \textbf{0.120}  & 0.210  & 0.185  & 0.003  & 0.008  & 0.007  & \textbf{0.135}  & \textbf{0.278}  & \textbf{0.198}  \\
+  \textsc{HELOC}               &                    & FOCUS              & 0.133\rlap{\dubbelop}  & \textbf{0.186}\rlap{\dubbelneer}  & \textbf{0.136}\rlap{\dubbelneer}  & \textbf{0.001}\rlap{\dubbelneer}  & \textbf{0.002}\rlap{\dubbelneer}  & \textbf{0.001}\rlap{\dubbelneer}  & 0.152\rlap{\dubbelop}  & 0.284\rlap{\notsig}  & 0.203\rlap{\notsig}  \\
+\cmidrule{2-12}
+
+                 &     $d_{Rmean}$               & FOCUS/FT           & 1.169  & 0.942  & 0.907  & 0.303  & 0.285  & 0.421  & 1.252  & 1.144  & 1.364  \\ 
+%\cmidrule{2-12}
+                 &     $\mathit{\%_{closer}}$               & FOCUS \textless FT & 16.6\% & 57.9\% & 71.9\% & 91.6\% & 91.5\% & 92.9\% & 51.3\% & 43.6\% & 24.2\%          \\
+ 
+ \midrule
+ 
+ 
+ 
+ 
+
+                 &      	$d_{mean}$              & FT               & \textbf{0.082} & \textbf{0.075} & 0.081 & 0.013 & 0.014 & 0.015 & \textbf{0.086} & \textbf{0.078} & \textbf{0.085} \\
+  \textsc{COMPAS}               &              & FOCUS              & 0.092\rlap{\dubbelop} & 0.079\rlap{\notsig} & \textbf{0.076}\rlap{\dubbelneer} & \textbf{0.008}\rlap{\dubbelneer} & \textbf{0.011}\rlap{\dubbelneer} & \textbf{0.007}\rlap{\dubbelneer} & 0.093\rlap{\dubbelop} & 0.085\rlap{\notsig} & 0.090\rlap{\notsig} \\
+\cmidrule{2-12}
+                 &      $d_{Rmean}$              & FOCUS/FT           & 1.162 & 1.150 & 1.062 & 0.473 & 0.965 & 0.539 & 1.182 & 1.236 & 1.155 \\ 
+%\cmidrule{2-12}
+                 &      $\mathit{\%_{closer}}$              & FOCUS \textless FT & 29.4\% & 22.6\% & 44.8\% & 82.7\% & 68.0\% & 84.8\% & 65.8\% & 36.2\% & 66.9\% \\
+\midrule
+
+
+
+
+
+
+                 &      	$d_{mean}$              & FT                & \textbf{0.119}  & 0.028  & 0.126\rlap\NoExample  & \textbf{0.050}  & 0.027  & 0.131\rlap\NoExample  & \textbf{0.121}  & 0.030  & 0.142\rlap\NoExample  \\
+   \textsc{Shopping}              &              & FOCUS              & 0.142\rlap{\dubbelop}  & \textbf{0.025}\rlap{\dubbelneer}  & \textbf{0.028}\rlap{\dubbelneer}  & 0.055\rlap{\dubbelop}  & \textbf{0.013}\rlap{\dubbelneer}  & \textbf{0.006}\rlap{\dubbelneer}  & 0.128\rlap{\notsig}  & \textbf{0.026}\rlap{\dubbelneer}  & \textbf{0.046}\rlap{\dubbelneer}  \\ 
+\cmidrule{2-12}
+                 &      $d_{Rmean}$              & FOCUS/FT           & 1.051  & 1.053  & 0.218  & 0.795  & 0.482  & 0.074  & 0.944  & 0.796  & 0.312  \\ 
+%\cmidrule{2-12}
+                 &    $\mathit{\%_{closer}}$                & FOCUS \textless FT & 40.2\% & 36.1\% & 99.6\% & 44.4\% & 86.1\% & 99.5\% & 55.8\% & 81.9\% & 97.1\% \\
+
+
+
+
+ \bottomrule                
+\end{tabular}

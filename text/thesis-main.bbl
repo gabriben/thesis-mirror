@@ -1,0 +1,58 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ali~Vardasbi(2021)]{trec}
+Shashank Gupta Maria Heuss Pooya Khandel Ming Li Fatemeh~Sarvi Ali~Vardasbi,
+  Gabriel~Bénédict.
+\newblock The university of amsterdam at the trec 2021 fair ranking track.
+\newblock \emph{TREC Fair Ranking}, 2021.
+
+\bibitem[B{\'e}n{\'e}dict et~al.(2022)B{\'e}n{\'e}dict, Koops, Odijk, and
+  de~Rijke]{sigmoidf1}
+Gabriel B{\'e}n{\'e}dict, Hendrik~Vincent Koops, Daan Odijk, and Maarten
+  de~Rijke.
+\newblock sigmoidf1: A smooth f1 score surrogate loss for multilabel
+  classification.
+\newblock \emph{Transactions on Machine Learning Research}, 2022.
+\newblock ISSN 2835-8856.
+\newblock URL \url{https://openreview.net/forum?id=gvSHaaD2wQ}.
+
+\bibitem[B\'{e}n\'{e}dict et~al.(2023)B\'{e}n\'{e}dict, Odijk, and
+  de~Rijke]{intent}
+Gabriel B\'{e}n\'{e}dict, Daan Odijk, and Maarten de~Rijke.
+\newblock Intent-satisfaction modeling: From music to video streaming.
+\newblock \emph{ACM Trans. Recomm. Syst.}, 1\penalty0 (3), aug 2023.
+\newblock \doi{10.1145/3606375}.
+\newblock URL \url{https://doi.org/10.1145/3606375}.
+
+\bibitem[Bénédict et~al.(2023{\natexlab{a}})Bénédict, Jeunen, Papa,
+  Bhargav, Odijk, and de~Rijke]{recfusion}
+Gabriel Bénédict, Olivier Jeunen, Samuele Papa, Samarth Bhargav, Daan Odijk,
+  and Maarten de~Rijke.
+\newblock Recfusion: A binomial diffusion process for 1d data for
+  recommendation, 2023{\natexlab{a}}.
+
+\bibitem[Bénédict et~al.(2023{\natexlab{b}})Bénédict, Zhang, and
+  Metzler]{genir}
+Gabriel Bénédict, Ruqing Zhang, and Donald Metzler.
+\newblock Gen-ir @ sigir 2023: The first workshop on generative information
+  retrieval, 2023{\natexlab{b}}.
+
+\bibitem[Vrijenhoek et~al.(2022)Vrijenhoek, B\'{e}n\'{e}dict,
+  Gutierrez~Granada, Odijk, and De~Rijke]{radio}
+Sanne Vrijenhoek, Gabriel B\'{e}n\'{e}dict, Mateo Gutierrez~Granada, Daan
+  Odijk, and Maarten De~Rijke.
+\newblock Radio – rank-aware divergence metrics to measure normative
+  diversity in news recommendations.
+\newblock In \emph{Proceedings of the 16th ACM Conference on Recommender
+  Systems}, RecSys '22, page 208–219, New York, NY, USA, 2022. Association
+  for Computing Machinery.
+\newblock ISBN 9781450392785.
+\newblock \doi{10.1145/3523227.3546780}.
+\newblock URL \url{https://doi.org/10.1145/3523227.3546780}.
+
+\end{thebibliography}

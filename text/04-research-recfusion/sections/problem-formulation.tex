@@ -1,0 +1,31 @@
+%!TEX root = ../main.tex
+
+\section{Problem Formulation}
+\label{section:problem-formulation}
+In general, a counterfactual example $\bar{x}$ for an instance $x$ according to a trained classifier $f$ is found by perturbing the features of $x$ such that $f(x) \neq f(\bar{x})$ \citep{wachter_counterfactual_2017}. 
+An optimal counterfactual example $\bar{x}^*$ is one that minimizes the distance between the original instance and the counterfactual example, according to some distance function $d$. 
+The resulting optimal counterfactual explanation is therefore $\Delta^*_{x} = \bar{x}^* - x$ \citep{lucic2020focus}. 
+
+For graph data, it may not be enough to simply perturb node features, especially since they are not always available. 
+This is why we are interested in generating counterfactual examples by perturbing the graph structure instead. 
+In other words, we want to change the relationships between instances (i..e, nodes), rather than change the instances themselves. 
+Therefore, a counterfactual example for graph data has the form $\bar{v} = (\bar{\compadj}, x)$, where $x$ is the feature vector and $\bar{\compadj}$ is a perturbed version of  $\compadj$, the adjacency matrix of the subgraph neighborhood of a node $v$. $\bar{\compadj}$ is obtained by removing some edges from $\compadj$, such that $f(v) \neq f(\bar{v})$. 
+Following \citet{wachter_counterfactual_2017} and \citet{lucic2020focus}, we generate counterfactual examples by minimizing a loss function of the form:
+\begin{align}
+\label{eq:loss-graph}
+    \mathcal{L} = \losspred(v, \bar{v} \mid f, g) + \beta \lossdist(v, \bar{v} \mid d),
+\end{align}
+where $v$ is the original node, $f$ is the original model, $g$ is the counterfactual model that generates $\bar{v}$, and $\losspred$ is a prediction loss that encourages $f(v) \neq f(\bar{v})$. 
+$\lossdist$ is a distance loss that encourages $\bar{v}$ to be close to $v$, and $\beta$ controls how important $\lossdist$ is compared to $\losspred$. 
+We want to find $\bar{v}^*$ that minimizes Equation~\ref{eq:loss-graph}: this is the optimal counterfactual example for $v$. 
+
+
+
+
+
+
+
+
+
+
+

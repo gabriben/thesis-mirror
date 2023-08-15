@@ -1,0 +1,117 @@
+%!TEX root = ../main.tex
+
+\section{Experimental Setup}
+\label{section:focus-exp-setup}
+
+We consider \numprint{42} experimental settings to find the best counterfactual explanations using FOCUS. 
+We jointly tune the hyperparameters of FOCUS ($\sigma, \tau, \beta, \alpha$) using Adam~\citep{kingma_adam:_2017} for \numprint{1000} iterations. 
+We choose the hyperparameters that produce
+\begin{enumerate*}[label=(\roman*)]
+	\item a valid counterfactual example for every instance in the dataset, and
+	\item the smallest mean distance between corresponding pairs ($x$, $\bar{x}$).
+\end{enumerate*}
+
+We evaluate FOCUS on four binary classification datasets and three types of tree-based models for each dataset. 
+We compare against two baselines that generate counterfactual examples for tree ensembles based on the inner workings of the model: Feature Tweaking (FT) by \citet{tolomei_interpretable_2017} and Distribution-Aware Counterfactual Explanations (DACE) by \citet{kanamori_dace_2020}. 
+
+
+\subsection{Datasets}
+\label{section:focus-datasets}
+We evaluate FOCUS on four binary classification tasks using the following datasets:
+\begin{itemize}
+	\item The \textsc{Wine Quality} dataset \citep{wine_2009} has \numprint{4898} instances and \numprint{11} features. The task is about predicting the quality of white wine on a 0--10 scale. We adapt this to a binary classification setting by labelling the wine as ``high quality'' if the quality is $\geq$ \numprint{7}.
+
+	\item The \textsc{HELOC} dataset \citep{fico_2017} has \numprint{10459} instances and \numprint{23} features. The task is from the Explainable Machine Learning Challenge at NeurIPS 2017, where the task is to predict whether or not a customer will default on their loan. 
+	
+	\item The \textsc{COMPAS} dataset \citep{compas-dataset-2017} has \numprint{6172} instances and \numprint{6} features. It is used for detecting bias in ML systems, where the task is predicting whether or not a criminal defendant will reoffend upon release. 
+
+	\item The \textsc{Shopping} dataset \citep{shoppingdataset} has \numprint{12330} instances and \numprint{9} features. The task entails predicting whether or not an online website visit results in a purchase. 
+\end{itemize}
+We scale all features such that their values are in the range $\left[0, 1\right]$ and remove categorical features. 
+
+
+\subsection{Models}
+We train three types of tree-based models on \numprint{70}\% of each dataset: decision trees (DTs), random forests (RFs), and adaptive boosting (AB) with DTs as the base learners. 
+We use the remaining \numprint{30}\% to find counterfactual examples for this test set. 
+In total we have \numprint{12} models (\numprint{4} datasets $\times$ \numprint{3} tree-based models). 
+
+
+\subsection{Distance Functions}
+\label{section:distance-metrics}
+In our experiments, we generate different types of counterfactual explanations using different types of distance functions. 
+We note that the flexibility of FOCUS allows for the use of any differentiable distance function. 
+Euclidean distance measures the geometric displacement: 
+%
+\begin{align}
+\label{eq:euclidean}
+d_\mathit{Euclidean}(x, \bar{x}) = \sqrt{\sum_{i} (x_i - \bar{x}_i)^2}.
+\end{align}
+%
+Cosine distance measures the angle by which $\bar{x}$ deviates from $x$ -- whether $\bar{x}$ preserves the relationship between features in $x$:
+%
+\begin{align}
+\label{eq:cosine}
+d_\mathit{Cosine}(x, \bar{x}) = 1 - \frac{\sum_{i} \left( x_i \cdot \bar{x}_i \right)}{\norm{x} \norm{\bar{x}}}.
+\end{align}
+%
+Manhattan distance (i.e., $L1$-norm) measures per feature differences, minimizing the number of features perturbed and therefore inducing sparsity:
+%
+\begin{align}
+\label{eq:manhatten}
+d_\mathit{Manhattan}(x, \bar{x}) = \sum_{i} |x_i - \bar{x}_i|.
+\end{align}
+%
+When comparing against DACE \citep{kanamori_dace_2020}, we use the Mahalanobis distance, since this is the distance function used in their novel cost function (see Equation~\ref{eq:daceloss}):
+\begin{align}
+\label{eq:mahal}
+d_\mathit{Mahalanobis}(x, \bar{x}|C) = \sqrt{(x - \bar{x})C^{-1}(x - \bar{x})}.
+\end{align}
+$C$ is the covariance matrix of $x$ and $\bar{x}$, which allows us to account for correlations between features. 
+When all features are uncorrelated, the Mahalanobis distance is equal to the Euclidean distance. 
+
+
+
+
+\subsection{Evaluation Metrics}
+\label{section:focus-evalmetrics}
+We evaluate the counterfactual examples produced by FOCUS based on how close they are to the original input using three metrics, in terms of four distance functions (see Section~\ref{section:distance-metrics}).
+The first evaluation metric is distance from the original input averaged over all examples, $d_\mathit{mean}$. 
+Let $X$ be the set of $N$ original instances and $\bar{X}$ be the corresponding set of $N$ generated counterfactual examples.
+The \emph{mean distance} is defined as:
+% 
+\begin{equation}
+\label{eq:mean-dist}
+d_\mathit{mean}(X, \bar{X}) = \frac{1}{N}\sum_{n=1}^{N}d(x^{(n)}, \bar{x}^{(n)}).
+\end{equation}
+%
+The second evaluation metric is mean relative distance from the original input, $d_\mathit{Rmean}$. 
+This metric helps us interpret individual improvements over the baselines; if $d_\mathit{Rmean} < 1$, FOCUS's counterfactual examples are on average closer to the original input compared to the baseline. 
+Let $\bar{X}$ be the set of counterfactual examples produced by FOCUS and let $\bar{X}'$ be the set of counterfactual examples produced by a baseline. 
+Then the \emph{mean relative distance} is defined as:
+\begin{equation}
+\label{eq:mean-rel-dist}
+d_\mathit{Rmean}(\bar{X}, \bar{X}') = \frac{1}{N}\sum_{n=1}^{N} \frac{d(x^{(n)}, \bar{x}^{(n)})}{d(x^{(n)}, {\bar{x}}^{'(n)})}.
+\end{equation}
+%
+The third evaluation metric is the proportion of FOCUS's counterfactual examples that are closer to the original input in comparison to the baselines. 
+For $d$ we consider Euclidean, Cosine, Manhattan, and Mahalanobis distance.
+
+
+
+
+\if0
+\subsection{Evaluation Metrics}
+\label{section:evaluation}
+We evaluate the counterfactual examples produced by FOCUS based on how close they are to the original input using three metrics. 
+Mean distance, $d_\mathit{mean}$, measures the distance from the original input, averaged over all examples. 
+Mean relative distance, $d_\mathit{Rmean}$, measures pointwise ratios of distance to the original input. 
+This helps us interpret individual improvements over the baselines; if $d_\mathit{Rmean} < 1$, FOCUS's counterfactual examples are on average closer to the original input compared to the baseline. 
+We also evaluate the proportion of FOCUS's counterfactual examples that are closer to the original input compared to the baselines ($\mathit{\%_{closer}}$). 
+We test the metrics in terms of four distance functions: Euclidean, Cosine, Manhattan and Mahalanobis. 
+\fi
+
+
+
+
+
+

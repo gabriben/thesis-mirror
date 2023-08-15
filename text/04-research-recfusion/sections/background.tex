@@ -1,0 +1,27 @@
+%!TEX root = ../main.tex
+
+\section{Background}
+\label{section:background}
+In this section, we provide background information on GNNs (Section~\ref{section:gnns-general}) and matrix sparsification (Section~\ref{section:matrix-sparsification}), both of which are necessary for understanding CF-GNNExplainer. 
+
+\subsection{Graph Neural Networks}
+\label{section:gnns-general}
+Graphs are structures that represent a set of entities (nodes) and their relations (edges). 
+GNNs operate on graphs to produce representations that can be used in downstream tasks such as graph or node classification. The latter is the focus of this work.
+We refer to the survey papers by \citet{battaglia_relational_2018} and \citet{chami2021machine} for an overview of existing GNN methods. 
+
+Let $f(A, X; W) \rightarrow y$ be any GNN, where $y$ is the set of possible predicted classes, $A$ is an $n \times n$ adjacency matrix, $X$ is an $n \times p$ feature matrix, and $W$ is the learned weight matrix of $f$. 
+In other words, $A$ and $X$ are the inputs of $f$, and $f$ is parameterized by $W$. 
+
+A node's representation is learned by iteratively updating the node's features based on its neighbors' features.   
+The number of layers in $f$ determines which neighbors are included: if there are $\ell$ layers, then the node's final representation only includes neighbors that are at most $\ell$ hops away from that node in the graph $\graph$. 
+The rest of the nodes in $\graph$ are not relevant for the computation of the node's final representation.  
+We define the \emph{\cgraph{}} of a node $v$ as the set of the nodes and edges relevant for the computation of $f(v)$ (i.e., those in the $\ell$-hop neighborhood of $f$), represented as a tuple: $\compgraph = (\compadj, \compnode)$, where $\compadj$ is the subgraph adjacency matrix and $X_v$ is the node feature matrix for nodes that are at most $\ell$ hops away from $v$. We then define a node $v$ as a tuple of the form $v = (\compadj, x)$, where $x$ is the feature vector for $v$. 
+
+\subsection{Matrix Sparsification}
+\label{section:matrix-sparsification}
+CF-GNNExplainer uses matrix sparsification to generate counterfactual examples, inspired by~\citet{srinivas_training_2016}, who propose a method for training sparse neural networks. 
+Given a weight matrix $W$, a binary sparsification matrix is learned which is multiplied element-wise with $W$ such that some of the entries in $W$ are zeroed out. 
+In the work by \citet{srinivas_training_2016}, the objective is to remove entries in the weight matrix in order to reduce the number of parameters in the model. 
+In our case, we want to \emph{zero out entries in the adjacency matrix} (i.e., remove edges) in order to generate counterfactual explanations for GNNs. 
+That is, we want to remove the important edges -- those that are crucial for the prediction. 

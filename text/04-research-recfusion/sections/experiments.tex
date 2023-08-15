@@ -1,0 +1,123 @@
+%!TEX root = ../main.tex
+
+\section{Experimental Setup}
+\label{section:cfgnn-experimental-setup}
+
+In this section, we outline our experimental setup for evaluating CF-GNNExplainer, including the datasets and models used (Section~\ref{section:cfgnn-datasets}), the baselines we compare against (Section~\ref{section:baselines}), the evaluation metrics (Section~\ref{section:cfgnn-metrics}), and the hyperparameter search method (Section~\ref{section:hyperparams}). 
+In total, we run approximately 375 hours of experiments on one Nvidia TitanX Pascal GPU with access to 12GB RAM. 
+
+
+\subsection{Datasets and Models}
+\label{section:cfgnn-datasets}
+Given the challenges associated with defining and evaluating the accuracy of XAI methods~\citep{doshi-2017-towards}, we first focus on synthetic tasks where we know the ground-truth explanations. 
+Although there exist real graph classification datasets with ground-truth explanations~\citep{mutag_dataset}, there do not exist any real node classification datasets with ground-truth explanations, which is the task we focus on in this chapter. 
+Building such a dataset would be an excellent contribution, but is outside the scope of this paper.
+
+In our experiments, we use the \synfour{}, \textsc{tree-grids}, \synone{} datasets from the work by \citet{ying_gnnexplainer_2019}. 
+These datasets were created specifically for the task of explaining node classification predictions from GNNs. 
+Each dataset consists of (i) a base graph, (ii) motifs that are attached to random nodes of the base graph, and (iii) additional edges that are randomly added to the overall graph. 
+They are all undirected graphs. 
+The classification task is to determine whether or not the nodes are part of the motif. 
+The purpose of these datasets is to have a ground-truth for the ``correctness'' of an explanation: for nodes in the motifs, the explanation is the motif itself \citep{luo_parameterized_2020}. 
+The dataset statistics are available in Table~\ref{table:stats}. 
+
+
+
+
+
+\synfour{} consists of a binary tree base graph with 6-cycle motifs, \textsc{tree-grids} also has a binary tree as its base graph, but with 3$\times$3 grids as the motifs. 
+For \synone{}, the base graph is a Barabasi-Albert (BA) graph with house-shaped motifs, where each motif consists of 5 nodes (one for the top of the house, two in the middle, and two on the bottom). 
+Here, there are four possible classes (not in motif, in motif: top, middle, bottom). 
+We note that compared to the other two datasets, the \synone{} dataset is much more densely connected -- the node degree is more than twice as high as that of the \synfour{} or \synfive{} datasets, and the average number of nodes and edges in each node's computation graph is order(s) of magnitude larger. 
+We use the same experimental setup (i.e., dataset splits, model architecture) as \citet{ying_gnnexplainer_2019} to train a 3-layer GCN (hidden size = 20) for each task. 
+Our GCNs have at least 87\% accuracy on the test set. 
+
+
+
+
+
+
+\begin{table}[]
+\caption{Dataset statistics. The \# edges in the motif indicates the size of the ground truth (GT) explanation. }
+%\todo{Double check notation: use commas for bigger numbers or not.}		% NO commas!
+\label{table:stats}
+\centering
+\begin{tabular}{lrrr}
+\toprule
+                          & \multicolumn{1}{c}{\textsc{Tree}}   & \multicolumn{1}{c}{\textsc{Tree}} & \multicolumn{1}{c}{\textsc{BA}}     \\
+                          & \multicolumn{1}{c}{\textsc{Cycles}} & \multicolumn{1}{c}{\textsc{Grid}} & \multicolumn{1}{c}{\textsc{Shapes}} \\ 
+\midrule
+\# classes                 & 2                         & 2               & 4                          \\ 
+
+\# nodes in motif                 & 6                        & 9            & 5                        \\
+\# edges in motif      (GT)            & 6                       & 12             & 6                \\
+\midrule
+\# nodes in total                  & 871                        & 1231            & 700                        \\
+\# edges in total                  & 1950                       & 3410             & 4100                \\
+
+\midrule
+Avg node degree           & 2.27                       & 2.77                     & 5.87                       \\
+Avg \# nodes in $\compadj$ & 19.12                      & 30.69                    & 304.40                     \\
+Avg \# edges in $\compadj$ & 18.99                      & 33.94                    & 1106.24                    \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+
+\subsection{Baselines}
+\label{section:baselines}
+Since existing GNN XAI methods give explanations in the form of relevant subgraphs as opposed to counterfactual examples, it is not straightforward to identify baselines for our experiments that ensure a fair comparison between methods. 
+To evaluate CF-GNNExplainer, we compare against 4 baselines: \baserand{}, \basekeep{}, \baserm{}, and \gnnexplainer{}.
+The random perturbation is meant as a sanity check. 
+We randomly initialize the entries of $\perturbl \in \left[-1, 1\right]$ and apply the same sigmoid transformation and thresholding as described in Section~\ref{section:adjacency-perturb}. 
+We repeat this $K$ times and keep track of the most minimal perturbation resulting in a counterfactual example. 
+Next, we compare against baselines that are based on the ego graph of $v$ (i.e., its 1-hop neighbourhood): \basekeep{} keeps all edges in the ego graph of $v$, while \baserm{} removes all edges in the ego graph of $v$. 
+
+Our fourth baseline is based on \gnnexplainer{} by \citet{ying_gnnexplainer_2019}, which identifies the $S$ most relevant edges for the prediction (i.e., the most relevant subgraph of size $S$). 
+To generate counterfactual explanations, we remove the subgraph generated by \gnnexplainer{}. 
+We include this method in our experiments in order to have a baseline based on a prominent GNN XAI method, but we note that subgraph-retrieving methods like \gnnexplainer{} are not meant for generating counterfactual explanations. 
+Unlike our method, \gnnexplainer{} cannot automatically find a \emph{minimal} subgraph and therefore requires the user to determine the number of edges to keep in advance (i.e., the value of $S$). 
+As a result, we cannot evaluate how minimal its counterfactual explanations are, but we can compare it against our method in terms of 
+\begin{inparaenum}[(i)]
+	\item its ability to generate valid counterfactual examples, and 
+	\item how accurate those counterfactual examples are.
+\end{inparaenum}
+We report results on \gnnexplainer{} for $ S \in \{1, 2, 3, 4, 5,$ GT$\}$, where GT is the size of the ground truth explanation (i.e., the number of edges in the motif, see Table~\ref{table:stats}). 
+
+
+
+
+\subsection{Metrics}
+\label{section:cfgnn-metrics}
+We generate a counterfactual example for each node in the graph separately and evaluate in terms of four metrics.
+
+\medskip \noindent
+\textbf{Fidelity:} is defined as the proportion of nodes where the original predictions match the prediction for the explanations \citep{molnar2019,ribeiro-2016-should}. Since we generate counterfactual examples, we do not want the original prediction to match the prediction for the explanation, so we want a low value for fidelity. 
+
+\medskip \noindent
+\textbf{Explanation Size:} is the number of removed edges. It corresponds to the $\lossdist$ term in Equation~\ref{eq:loss-graph}: the difference between the original $\compadj$ and the counterfactual $\bar{\compadj}$. Since we want to have \emph{minimal} explanations, we want a small value for this metric. Note that we cannot evaluate this metric for \gnnexplainer{}. 
+
+\medskip \noindent
+\textbf{Sparsity:} measures the proportion of edges in $\compadj$ that are removed \citep{yuan2020explainability}. A value of 0 indicates all edges in $\compadj$ were removed. Since we want \emph{minimal} explanations, we want a value close to 1. Note that we cannot evaluate this metric for \gnnexplainer{}.
+
+\medskip \noindent
+\textbf{Accuracy:} is the mean proportion of explanations that are ``correct''. Following the work by \citet{ying_gnnexplainer_2019, luo_parameterized_2020}, we only compute accuracy for nodes that are originally predicted as being part of the motifs, since accuracy can only be computed on instances for which we know the ground truth explanations. 
+Given that we want \emph{minimal} explanations, we consider an explanation to be correct if it \emph{exclusively} involves edges that are inside the motifs (i.e., only removes edges that are within the motifs). 
+
+%The exact calculations of all metrics can be found in the public code base at \url{https://github.com/cf-gnnexplainer}. 
+
+
+
+\subsection{Hyperparameter Search}
+\label{section:hyperparams}
+We experiment with different optimizers and hyperparameter values for the number of iterations $K$, the trade-off parameter $\beta$, the learning rate $\alpha$, and the Nesterov momentum $m$ (when applicable). 
+We choose the setting that produces the most counterfactual examples. 
+We test the number of iterations $K \in \{100, 300, 500\}$, the trade-off parameter $\beta \in \{0.1, 0.5\}$, the learning rate $\alpha \in \{0.005, 0.01, 0.1, 1\}$, and the Nesterov momentum $m \in \{0, 0.5, 0.7, 0.9\}$. 
+We test Adam, SGD and AdaDelta as optimizers. 
+We find that for all three datasets, the SGD optimizer gives the best results, with $k = 500$, $\beta = 0.5$, and $\alpha = 0.1$. 
+For the \synfour{} and \synfive{} datasets, we set $m = 0$, while for the \synone{} dataset, we use $m = 0.9$. 
+
+
+

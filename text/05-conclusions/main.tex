@@ -1,0 +1,171 @@
+% !TEX root = ../thesis-main.tex
+
+\chapter{Conclusions}
+\label{chapter:conclusions}
+
+\acresetall
+In this thesis, we have investigated explainability in ML from three viewpoints: 
+\begin{inparaenum}[(i)]
+	\item algorithms, 
+	\item users, and
+	\item pedagogy. 
+\end{inparaenum}
+In this final chapter of the thesis, we revisit the research questions from Chapter~\ref{chapter:introduction}, state our main findings in Section~\ref{section:conclusion-findings}, and identify directions for future work in Section~\ref{section:conclusion-futurework}. 
+
+
+
+
+
+\section{Main Findings}
+\label{section:conclusion-findings}
+In this section, we describe our main findings across the three parts of the thesis. 
+
+\subsection{Algorithms}
+
+The first part of this thesis focused on investigating behavior-based explanations in order to explain individual predictions from specific types of ML models. 
+In Chapter~\ref{chapter:research-focus}, we asked our first research question:
+
+\begin{description}\item[\acs{rq:focus}]\acl{rq:focus}\end{description}
+
+\noindent
+The answer to \textbf{RQ1} is yes: we are able to explain predictions for tree ensembles in a counterfactual manner by including differentiable approximations of tree-based models within a standard gradient-based optimization framework. 
+In the majority of experimental settings, our method outperforms existing baselines in terms of
+\begin{inparaenum}[(i)]
+	\item the number of counterfactual examples produced, 
+	\item the average distance between the counterfactual examples and the original examples, 
+	and
+	\item the proportion of counterfactual examples that are closer to the original examples. 
+\end{inparaenum}
+Our method is flexible since it can produce different types of counterfactual explanations depending on which distance function we choose to include in the loss function. 
+In practice, this allows the user to customize the explanations depending on the use case. 
+
+We then turned to our next research question:
+
+\begin{description}\item[\acs{rq:cf-gnn}]\acl{rq:cf-gnn}\end{description}
+
+\noindent
+The answer to \textbf{RQ2} is yes: we can adapt our method from \textbf{RQ1} to the graph setting by introducing a binary perturbation matrix that is multiplied element-wise with the adjacency matrix in order to remove edges from the graph. 
+Since this was one of the first methods for generating counterfactual explanations for GNNs, we also had to design a corresponding experimental setup to evaluate it. 
+In the majority of experimental settings, we found that our method outperformed the baselines in terms of
+\begin{inparaenum}[(i)]
+	\item accuracy, 
+	\item the number of counterfactual examples produced, 
+	\item the number of edges removed, and
+	\item the proportion of the subgraph neighborhood that was perturbed.
+\end{inparaenum}
+
+
+
+\subsection{Users}
+In the second part of this thesis, we continued our work on behavior-based explanations, but shifted our predominantly algorithmic focus to also account for the users who consume the explanations. 
+We investigated the following research question:
+
+\begin{description}\item[\acs{rq:mcbrp}]\acl{rq:mcbrp}\end{description}
+
+\noindent
+The answer to \textbf{RQ3} is yes: we developed an explanation method based on the needs of real-world analysts in order to help them understand large errors in sales forecasting predictions. 
+We designed a user study to evaluate our method and found that for the vast majority of users, our explanations were both interpretable and actionable. 
+We also found that most users believed the explanations helped them understand large errors in predictions, but they did not have an impact on other aspects such as trust or confidence in the model. 
+
+
+\subsection{Pedagogy}
+In the third part of this thesis, we transitioned from creating knowledge about ML model predictions to communicating knowledge about responsible ML practices. 
+Process-based explanations play an important role here, specifically in the context of documentation practices which help ensure research is conducted in a responsible and reproducible manner. 
+We asked our final research question:
+
+\begin{description}\item[\acs{rq:pedagogy}]\acl{rq:pedagogy}\end{description}
+
+\noindent
+We answered \textbf{RQ4} by developing a course that was centered on a reproducibility project, where students worked in groups to reimplement algorithms from top-AI conferences on responsible AI topics. 
+We shared our experiences with teaching the course over two academic years and suggested best practices for implementing similar reproducibility courses in the future. 
+
+\section{Future Directions}
+\label{section:conclusion-futurework}
+In this section, we describe some limitations of the methods proposed in this thesis and identify potential avenues for future work. 
+
+
+
+\subsubsection{Limitations of counterfactual explanations}
+Researchers have raised concerns about the hidden assumptions behind the use of counterfactual examples~\citep{barocas_hidden_2019}, as well as potentials for misuse~\citep{kasirzadeh2021use}. 
+When explaining ML models using counterfactual examples, it is important to account for the context in which the systems are deployed. 
+Counterfactual explanations are not a guarantee to achieving recourse~\citep{ustun_actionable_2019} -- changes suggested should be seen as candidate changes, not absolute solutions, since what is pragmatically actionable differs depending on the end user and context. 
+%
+While existing research from the cognitive sciences has shown that humans are able to interpret counterfactual explanations, the notion of what constitutes a \emph{minimal} perturbation is not clear \citep{byrne-2016-counterfactual}. 
+Further research into the interpretability and cognitive efficacy of counterfactual explanations could help the field better understand the appropriate criteria to optimize for. 
+
+
+\subsubsection{Accommodating different types of perturbations}
+In Chapter~\ref{chapter:research-cfgnn}, we proposed a method for generating counterfactual explanations for GNNs.  
+In its current form, our method is limited to performing edge deletions for node classification tasks. 
+Given that many graph datasets also include node features, future work should involve incorporating node feature perturbations in our framework. 
+We could also extend our method to accommodate graph classification tasks. 
+%We also plan to investigate adapting graph attack methods for generating counterfactual explanations, 
+
+
+
+\subsubsection{Including additional criteria in loss functions}
+In Chapter~\ref{chapter:research-focus}, we proposed a method for generating flexible counterfactual explanations for tree-based models using gradient optimization techniques. 
+The flexibility comes from varying the distance function used in the loss function, which results in different types of counterfactual explanations depending on which distance function is chosen. 
+Future work could involve trying alternative distance functions or including additional criteria in the loss function, such as proximity to other points in the dataset or stability of the counterfactual example. 
+This could also be applied to the method proposed in Chapter~\ref{chapter:research-cfgnn}. 
+
+
+
+
+\subsubsection{Evaluating with users}
+Although the counterfactual explanations proposed in Chapters~\ref{chapter:research-focus} and~\ref{chapter:research-cfgnn} perform well on various distance metrics, we should conduct a user study to evaluate how useful they are in practice. 
+We could build on our existing user study design from Chapter~\ref{chapter:research-mcbrp} to test how
+\begin{inparaenum}[(i)]
+	\item varying the distance functions, and 
+	\item introducing new components into the loss functions
+\end{inparaenum}
+impacts user preferences for counterfactual explanations. 
+
+
+\pagebreak
+%\subsubsection*{Abstaining from prediction}
+\subsubsection{Improving trust in explanations}
+In Chapter~\ref{chapter:research-mcbrp}, we proposed a method for explaining errors in forecasting predictions based on identifying unusual feature values.
+We find that although explanations from our method help users understand large errors in predictions, they do not have an impact on users' trust, deployment support, or perception of the model's performance. 
+Future work could place more emphasis on trying to improve these aspects, for example by allowing a predictive model to abstain from prediction when a particular instance has unusual feature values beyond a certain threshold. 
+%We also plan to compile a more comprehensive set of subjective questions by using multiple questions to evaluate users' impressions on the same topic.
+
+
+
+
+\subsubsection{Developing robust protocols for XAI evaluation}
+In general, we believe it is crucial for the ML community to invest in developing more rigorous evaluation protocols for XAI methods, both in terms of user studies as well as formal metrics. 
+The XAI community could pursue collaborations with researchers from human-computer interaction to design human-centered user studies about evaluating the utility of XAI methods in practice. 
+To design metrics, the XAI community could try borrowing ideas from information theory or collaborating with ML evaluation researchers in order to ensure that the explanations we generate are truly representative of the model's behavior. 
+
+
+
+
+%\subsubsection{Promoting standardized protocols for reproducibility.}
+\subsubsection{Teaching reproducibility as a fundamental component of ML research}
+Reproducibility mechanisms such as checklists and challenges can help promote reproducible research practices, but we do not believe they alone are enough to cause a shift in the ML community. 
+We believe the key to fostering reproducible research starts in the classroom. 
+It is important to teach the next generation of ML researchers that reproducibility is not an afterthought, but rather a fundamental component of conducting ML research responsibly. 
+In addition to conducting reproducibility projects, we could also introduce reproducibility components in programming assignments across all courses within an ML study program. 
+
+
+
+\subsubsection{Identifying consistent terms for explainability}
+Due to growing collection of XAI literature, there are many definitions for various distinct but related concepts such as explainability, interpretability, transparency, and intelligibility. 
+As a community, we should make an effort to standardize the terms we use in order to facilitate easier communication, especially with researchers from non-ML disciplines. 
+Developing XAI that is useful in practice requires interdisciplinary collaboration, which is more straightforward if we can all speak the same language. 
+This could be achieved through a workshop-style event with researchers working on XAI to consolidate a standardized terminology. 
+
+\pagebreak
+
+\subsubsection{Final thoughts} 
+Overall, our main advice for future work is to continue prioritizing explainability in the ML community, whether it is \emph{behavior-based} or \emph{process-based}. 
+For both types of explanations, we should explore developing explainability techniques that cater to different types of users with varying levels of granularity, as well as robust mechanisms for evaluation. 
+As a community, we need to prioritize both correctness and interpretability of explanations -- incorrect explanations that are interpretable do not provide the user with any concrete information, and correct explanations that are uninterpretable are not useful to the user. 
+To promote correctness, we need to first identify what it means for an explanation to be ``correct'' and create datasets that allow us to explore this task explicitly. 
+To promote interpretability, we need to approach the explainability problem from an interdisciplinary perspective, and suggest that XAI researchers spend more time connecting to the communities they are designing the explanations for. 
+
+
+
+
+

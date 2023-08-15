@@ -1,0 +1,169 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis-main.aux
+The style file: plainnat.bst
+Database file #1: thesis.bib
+Warning--I didn't find a database entry for "lucic2020focus"
+Warning--I didn't find a database entry for "tolomei_interpretable_2017"
+Warning--I didn't find a database entry for "kanamori_dace_2020"
+Warning--I didn't find a database entry for "doshi-2017-towards"
+Warning--I didn't find a database entry for "gdpr"
+Warning--I didn't find a database entry for "wachter_counterfactual_2017"
+Warning--I didn't find a database entry for "madumal_explainable_2019"
+Warning--I didn't find a database entry for "alaa_deep_2017"
+Warning--I didn't find a database entry for "poyiadzi_face_2020"
+Warning--I didn't find a database entry for "karimi_model-agnostic_2019"
+Warning--I didn't find a database entry for "laugel_inverse_2017"
+Warning--I didn't find a database entry for "van_looveren_interpretable_2020"
+Warning--I didn't find a database entry for "mothilal_explaining_2020"
+Warning--I didn't find a database entry for "grath_interpretable_2018"
+Warning--I didn't find a database entry for "russell_efficient_2019"
+Warning--I didn't find a database entry for "dhurandhar_explanations_2018"
+Warning--I didn't find a database entry for "ustun_actionable_2019"
+Warning--I didn't find a database entry for "joshi_towards_2019"
+Warning--I didn't find a database entry for "karimi_recourse_2020"
+Warning--I didn't find a database entry for "karimi_imperfect_causal_2020"
+Warning--I didn't find a database entry for "goodfellow_explaining_2015"
+Warning--I didn't find a database entry for "szegedy_intriguing_2014"
+Warning--I didn't find a database entry for "su_one_2019"
+Warning--I didn't find a database entry for "brown_adversarial_2018"
+Warning--I didn't find a database entry for "biggio_wild_2018"
+Warning--I didn't find a database entry for "balestriero_neural_2017"
+Warning--I didn't find a database entry for "yang_deep_2018"
+Warning--I didn't find a database entry for "hinton_distilling_2014"
+Warning--I didn't find a database entry for "kingma_adam:_2017"
+Warning--I didn't find a database entry for "wine_2009"
+Warning--I didn't find a database entry for "fico_2017"
+Warning--I didn't find a database entry for "compas-dataset-2017"
+Warning--I didn't find a database entry for "shoppingdataset"
+Warning--I didn't find a database entry for "breunig_lof_2020"
+Warning--I didn't find a database entry for "lucic2021cfgnnexplainer"
+Warning--I didn't find a database entry for "lucic_2020_why"
+Warning--I didn't find a database entry for "riberio-2016-model"
+Warning--I didn't find a database entry for "dietvorst-2015-aa"
+Warning--I didn't find a database entry for "khandani-2010-consumer"
+Warning--I didn't find a database entry for "hilton-1986-knowledge"
+Warning--I didn't find a database entry for "sharchilev-2018-finding"
+Warning--I didn't find a database entry for "lundberg_explainable_2019"
+Warning--I didn't find a database entry for "lundberg_unified_2017"
+Warning--I didn't find a database entry for "ribeiro-2016-should"
+Warning--I didn't find a database entry for "ferrari_grounding_2018"
+Warning--I didn't find a database entry for "pimentel-2014-review"
+Warning--I didn't find a database entry for "tukey-1977-exploratory"
+Warning--I didn't find a database entry for "swinscow-1997-stats"
+Warning--I didn't find a database entry for "guidotti-2018-survey"
+Warning--I didn't find a database entry for "bhatt_explainable_2019"
+Warning--I didn't find a database entry for "miller-2017-explanations"
+Warning--I didn't find a database entry for "hilton-1990-conversational"
+Warning--I didn't find a database entry for "lipton-1990-contrastive"
+Warning--I didn't find a database entry for "hilton-2017-social"
+Warning--I didn't find a database entry for "terhoeve-2017-news"
+Warning--I didn't find a database entry for "lucic2022reproducibility"
+Warning--I didn't find a database entry for "campbell2021_responsible"
+Warning--I didn't find a database entry for "propublica"
+Warning--I didn't find a database entry for "o2017ivory"
+Warning--I didn't find a database entry for "hutson2018artificial"
+Warning--I didn't find a database entry for "leonelli2016locating"
+Warning--I didn't find a database entry for "singer2018tech"
+Warning--I didn't find a database entry for "skirpan2018ethics"
+Warning--I didn't find a database entry for "grosz2019embedded"
+Warning--I didn't find a database entry for "salz2019integrating"
+Warning--I didn't find a database entry for "danyluk2021computing"
+Warning--I didn't find a database entry for "peck2017"
+Warning--I didn't find a database entry for "fiesler2020we"
+Warning--I didn't find a database entry for "garret2020morethan"
+Warning--I didn't find a database entry for "raji_you_2021"
+Warning--I didn't find a database entry for "bates2020integrating"
+Warning--I didn't find a database entry for "lewis2021teaching"
+Warning--I didn't find a database entry for "yildiz2021reproducedpapers"
+Warning--I didn't find a database entry for "green2021aiethics"
+Warning--I didn't find a database entry for "shenvalue2021"
+Warning--I didn't find a database entry for "green2020argument"
+Warning--I didn't find a database entry for "Furey2018IntroducingET"
+Warning--I didn't find a database entry for "burton2018"
+Warning--I didn't find a database entry for "sculley2018winner"
+Warning--I didn't find a database entry for "lipton2019research"
+Warning--I didn't find a database entry for "neuripschecklist"
+Warning--I didn't find a database entry for "acm-artifact"
+Warning--I didn't find a database entry for "paperswithcode2020"
+Warning--I didn't find a database entry for "neely2021order"
+Warning--I didn't find a database entry for "neely2022song"
+Warning--I didn't find a database entry for "hardt_equality_2016"
+Warning--I didn't find a database entry for "Abadi_2016"
+Warning--I didn't find a database entry for "barocas_hidden_2019"
+Warning--I didn't find a database entry for "kasirzadeh2021use"
+Warning--I didn't find a database entry for "byrne-2016-counterfactual"
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1347 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1347 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1347 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1347 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1347 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1347 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1347 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1347 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1429 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1429 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1429 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1429 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1429 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1429 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1429 of file plainnat.bst
+Too many commas in name 1 of "Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel, Ming Li, Fatemeh Sarvi" for entry trec
+while executing---line 1429 of file plainnat.bst
+You've used 6 entries,
+            2773 wiz_defined-function locations,
+            720 strings with 7959 characters,
+and the built_in function-call counts, 3024 in all, are:
+= -- 265
+> -- 214
+< -- 2
++ -- 73
+- -- 66
+* -- 248
+:= -- 473
+add.period$ -- 24
+call.type$ -- 6
+change.case$ -- 40
+chr.to.int$ -- 5
+cite$ -- 12
+duplicate$ -- 134
+empty$ -- 209
+format.name$ -- 72
+if$ -- 633
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 4
+newline$ -- 43
+num.names$ -- 24
+pop$ -- 81
+preamble$ -- 1
+purify$ -- 34
+quote$ -- 0
+skip$ -- 120
+stack$ -- 0
+substring$ -- 30
+swap$ -- 28
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 66
+warning$ -- 0
+while$ -- 19
+width$ -- 0
+write$ -- 94
+(There were 16 error messages)

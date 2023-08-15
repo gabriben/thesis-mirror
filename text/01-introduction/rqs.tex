@@ -1,0 +1,54 @@
+% !TEX root = ../thesis-main.tex
+
+\section{Research Outline and Questions}
+\label{section:introduction:rqs}
+
+
+We scope the thesis around four research questions, each corresponding to a chapter in the thesis.
+
+A streaming platform ()
+
+Personalization on streaming platforms is oftentimes perceived as a purely predictive phenomenon: we propose to view it as a comprehensive and responsible generative approach, throughout a pipeline. We introduce RecFusion to issue recommendations in a generative way with diffusion models, as part of the nascent Generative Information Retrieval field. For these recommendations, we propose a method to generate personalized stills from movies, with sigmoidF1. We show that the resulting interactions on platforms are also dependent on implicit data hidden from a web analytics platform, with our intent-satisfaction analysis. At the end of the pipeline, we propose to ensure normative diversity in the issued recommendations with our RADio metrics framework.
+
+
+\begin{question}
+  Can we use diffusion to do recommendation in the classical user-item matrix setting?
+\end{question}
+
+Is Bernoulli diffusion a suitable forward and backward process theoretically and empirically on binary data?
+
+\begin{question}
+  Is there a way we can generate personalized posters and stills for each item on a streaming platform?
+\end{question}
+
+Can we formulate loss function that accommodates for multilabel classification at training time and operates on the whole batch to balance confusion matrix entries?
+
+\begin{question}
+  Are users' intents together with their behavioral data useful signals to predict or explain satisfaction on a video streaming platform?
+\end{question}
+
+Can we use Bayesian posterior draws to meaningfully draw conclusions from data?
+
+\begin{question}
+  Can we formulate a divergence metric that measures the normative diversity of recommendations?
+\end{question}
+
+This work applies to news recommendation but trivially generalizes to any domain that has categories (e.g. video streaming with movie genres).
+
+Can we formulate a divergence metric that is distributional and rank-aware?
+
+
+%ref to sections with \acrodef{rq:focus}[\ref{rq:focus}]{}
+
+
+
+
+
+
+
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../thesis-main"
+%%% End:
