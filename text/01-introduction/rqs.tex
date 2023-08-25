@@ -2,7 +2,7 @@
 
 \acrodef{rq:recfusion}[\ref{rq:recfusion}]{Can we use diffusion to do recommendation in the classical user-item matrix setting?}
 
-\acrodef{rq:sigmoidf1}[\ref{rq:sigmoidf1}]{Is there a way we can generate personalized posters and stills for each item on a streaming platform?}
+\acrodef{rq:sigmoidf1}[\ref{rq:sigmoidf1}]{Is there a way we can generate personalized thumbnails for each item on a streaming platform?}
 
 \acrodef{rq:intent}[\ref{rq:intent}]{Are users' intents together with their behavioral data useful signals to predict or explain satisfaction on a video streaming platform?}
 
@@ -12,39 +12,45 @@
 \label{section:introduction:rqs}
 
 
-We scope the thesis around four research questions, each corresponding to a chapter in the thesis.
+We scope the thesis around four research questions, each corresponding to a chapter in the thesis.\\
 
-Personalization on streaming platforms is oftentimes perceived as a purely predictive phenomenon: we propose to view it as a comprehensive and responsible generative approach, throughout a pipeline. We introduce RecFusion to issue recommendations in a generative way with diffusion models, as part of the nascent Generative Information Retrieval field. For these recommendations, we propose a method to generate personalized stills from movies, with sigmoidF1. We show that the resulting interactions on platforms are also dependent on implicit data hidden from a web analytics platform, with our intent-satisfaction analysis. At the end of the pipeline, we propose to ensure normative diversity in the issued recommendations with RADio, a normative metrics framework.
+% https://sl.bing.net/c5jX2Jw4SHs
 
-Our first research question addresses the entry point of the user journey on a personalized platform, namely recommendations (on the main page).
+Personalization on streaming platforms is often seen as a way of predicting what users want to watch based on their preferences and behavior. Personalization can also be seen as a creative and ethical process that involves generating new content and experiences for users through a pipeline. Our first research question addresses the entry point of the user journey on a personalized platform, namely recommendations on the home page.
 
 
 \begin{enumerate}[label=\textbf{RQ\arabic*},ref={RQ\arabic*},resume,leftmargin=*]
 	\item \acl{rq:recfusion}\label{rq:recfusion}
 \end{enumerate}
 
-Assuming recommendations are to be linked with a certain form of creativity, we harness here the power of generative models. The emergent diffusion models field has been applied to images, music and other modalities. Unlike these, the classical recommendation setting of the user-item matrix does not entail spatial relationships between data points: contrary to pixels on an image, there is no information encoded in the allocation of users and item on a matrix. Can diffusion still be applied in this setting? The binary nature of the classical user-item matrix formulation inspired a second more theoretical research question: \emph{can Bernoulli diffusion be a suitable forward and backward process theoretically and empirically on binary data?}
+Assuming recommendations are to be linked with a certain form of creativity, we harness the power of generative models. The emergent diffusion models field has been applied to images, music and other modalities. Unlike these, the classical recommendation setting of the user-item matrix does not entail spatial relationships between data points: contrary to pixels on an image, there is no information encoded in the allocation of users and item on a matrix. We illustrate this in RecFusion, where we first use Unets to fit data ina spatial way, before going back to the classical recommendation neural setting of feeding data user-by-user. For this one-dimensional user vector, ee propose a proof and first experiments to show that a binomial (Bernoulli) diffusion process is viable. After recommendation, the next step of our pipeline caters to the display of these recommended videos via thumbnails.
+
+%Can diffusion still be applied in this setting? The binary nature of the classical user-item matrix formulation inspired a second more theoretical research question: \emph{can Bernoulli diffusion be a suitable forward and backward process theoretically and empirically on binary data?}.
 
 \begin{enumerate}[label=\textbf{RQ\arabic*},ref={RQ\arabic*},resume,leftmargin=*]
 	\item \acl{rq:sigmoidf1}\label{rq:sigmoidf1}
 \end{enumerate}
 
-Can we formulate loss function that accommodates for multilabel classification at training time and operates on the whole batch to balance confusion matrix entries?
+Taking the simplifying assumption that each user has a favorite genre. We can provide a thumbnail personalized to that genre (e.g. show a romantic scene from an action movie, if the favorite genre is romance). Given editorial or automatically selected candidates for thumbnails, we wish to display the one that this most closely associated with the user's preferences. This reduces to a multilabel classification problem: given an image, predict one, or many, genre(s) they associate with. With sigmoidF1 we propose a surrogate F1 Score as a loss function, as a multilabel classification loss. At training time, we approximate step functions (i.e. confusion matrix counts: true positives, false positives etc.) with sigmoid functions and calculate an F1 score over each entire batch. We show that this improves on classical image and text benchmarks with classical backbones (CNN and transformers). Recommendations and thumbnails are what primes the users interactions with the platform. This relates to the next step in our pipeline.
+
+%\emph{Can we formulate a loss function that accommodates for multilabel classification at training time and operates on the whole batch to balance confusion matrix entries?
 
 \begin{enumerate}[label=\textbf{RQ\arabic*},ref={RQ\arabic*},resume,leftmargin=*]
 	\item \acl{rq:intent}\label{rq:intent}
-\end{enumerate}
+  \end{enumerate}
 
-Can we use Bayesian posterior draws to meaningfully draw conclusions from data?
+By merging user behavior on the website and user surveys, we connect implicit and explicit user feedback and link them to satisfaction. We reproduce a study~\cite{spotifyIntent}, but this time propose a transparent approach by revealing our survey design, code and simulated data. We use Bayesian multilevel modeling to reveal the relationships between intents, behavioral data and satisfaction. Finally, we close off our pipeline with a responsible approach to diversity.
+
+%Can we use Bayesian posterior draws to meaningfully draw conclusions from data?
 
 \begin{enumerate}[label=\textbf{RQ\arabic*},ref={RQ\arabic*},resume,leftmargin=*]
 	\item \acl{rq:radio}\label{rq:radio}
 \end{enumerate}
 
-This work applies to news recommendation but trivially generalizes to any domain that has categories (e.g. video streaming with movie genres).
+Can we empower a video/news platform to measure its ability to cater to its norms and values? We would like to account for any form of democratic norms (how a platform means to properly inform citizens) and any form of diversity metric (topic, presence of alternative voices, complexity of the text, etc.). The framework we propose caters to these normative aspects but also to the specific recommendation context: RADio is rank aware and caters any kind of discrete distribution via a our proposed rank-aware Jensen Shannon divergence. This work is focused on news recommendation but trivially generalizes to any domain that has categories (e.g. video streaming with movie genres).\\
 
-Can we formulate a divergence metric that is distributional and rank-aware?
-
+%https://sl.bing.net/ckJiDKkaL6a
+Our research questions have been outlined in this section. The main contributions of this thesis will be summarized in the next section.
 
 %ref to sections with \acrodef{rq:focus}[\ref{rq:focus}]{}
 

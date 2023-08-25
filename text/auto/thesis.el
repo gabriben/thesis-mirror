@@ -8,6 +8,7 @@
     "radio"
     "genir"
     "trec"
-    "gans"))
+    "gans"
+    "spotifyIntent"))
  (quote (or :bibtex :latex)))
 

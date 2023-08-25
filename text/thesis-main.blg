@@ -4,49 +4,46 @@ The top-level auxiliary file: thesis-main.aux
 The style file: plainnat.bst
 Database file #1: thesis.bib
 Warning--I didn't find a database entry for "lucic2021cfgnnexplainer"
-Warning--I didn't find a database entry for "barocas_hidden_2019"
-Warning--I didn't find a database entry for "kasirzadeh2021use"
-Warning--I didn't find a database entry for "ustun_actionable_2019"
-Warning--I didn't find a database entry for "byrne-2016-counterfactual"
-You've used 7 entries,
+Warning--empty journal in genir
+You've used 8 entries,
             2773 wiz_defined-function locations,
-            638 strings with 6502 characters,
-and the built_in function-call counts, 3636 in all, are:
-= -- 311
-> -- 280
+            643 strings with 6765 characters,
+and the built_in function-call counts, 4235 in all, are:
+= -- 364
+> -- 328
 < -- 2
-+ -- 95
-- -- 87
-* -- 306
-:= -- 572
-add.period$ -- 27
-call.type$ -- 7
-change.case$ -- 50
-chr.to.int$ -- 6
-cite$ -- 14
-duplicate$ -- 150
-empty$ -- 242
-format.name$ -- 94
-if$ -- 755
++ -- 111
+- -- 102
+* -- 360
+:= -- 672
+add.period$ -- 34
+call.type$ -- 8
+change.case$ -- 58
+chr.to.int$ -- 7
+cite$ -- 17
+duplicate$ -- 178
+empty$ -- 281
+format.name$ -- 110
+if$ -- 878
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 4
-newline$ -- 48
-num.names$ -- 28
-pop$ -- 104
+missing$ -- 6
+newline$ -- 56
+num.names$ -- 32
+pop$ -- 119
 preamble$ -- 1
-purify$ -- 43
+purify$ -- 50
 quote$ -- 0
-skip$ -- 140
+skip$ -- 155
 stack$ -- 0
-substring$ -- 32
-swap$ -- 29
+substring$ -- 34
+swap$ -- 30
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 77
-warning$ -- 0
-while$ -- 22
+type$ -- 88
+warning$ -- 1
+while$ -- 25
 width$ -- 0
-write$ -- 106
-(There were 5 warnings)
+write$ -- 124
+(There were 2 warnings)
