@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.13)  25 AUG 2023 15:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.13)  25 AUG 2023 17:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -860,14 +860,14 @@ File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
 \Fld@listcount=\count340
 \c@bookmark@seq@number=\count341
 \Hy@SectionHShift=\skip116
-))
+)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count342
-))
+)))
 (./definitions.tex
 \c@theorem=\count343
 \c@definition=\count344
@@ -1156,14 +1156,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
 ) (./01-introduction/contributions.tex [3]) (./01-introduction/overview.tex)
 (./01-introduction/origins.tex [4]
-Overfull \hbox (6.07635pt too wide) in paragraph at lines 27--28
+Overfull \hbox (7.65514pt too wide) in paragraph at lines 27--28
 []\OT1/lmr/m/n/10 (-20) Gabriel B^^Sen^^Sedict, Daan Odijk, and Maarten de Ri-j
-ke.  Intent-satisfaction
+ke.  Intent-Satisfaction
  []
 
-)) (./04-research-recfusion/main.tex [5] [6
-
-]
+[5])) (./04-research-recfusion/main.tex [6]
 Chapter 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 9.
@@ -1176,7 +1174,9 @@ Package hyperref Warning: Ignoring empty anchor on input line 9.
 Package natbib Warning: Citation `lucic2021cfgnnexplainer' on page 7 undefined 
 on input line 9.
 
-) (./04-research-sigmoidf1/main.tex [7] [8
+) (./04-research-sigmoidf1/main.tex [7
+
+] [8
 
 ]
 Chapter 3.
@@ -1230,27 +1230,27 @@ l.25
 s}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 
+l.31 
      pdfTeX warning (ext4): destination with the same identifier (name{cite.rec
 fusion}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 
+l.40 
      pdfTeX warning (ext4): destination with the same identifier (name{cite.gen
 ir}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44 
+l.48 
      pdfTeX warning (ext4): destination with the same identifier (name{cite.tre
 c}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 
+l.66 
      pdfTeX warning (ext4): destination with the same identifier (name{cite.rad
 io}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75 
+l.79 
      ) [19
 
 ] [20
@@ -1265,22 +1265,17 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `thesis-main.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `thesis-main.brf':
-(rerunfilecheck)             Before: 9B69EBFEDA346B835609D349503069FF;91
-(rerunfilecheck)             After:  EE8BA937A6E02F0F5D22FC46D9F03B9D;135.
+Package rerunfilecheck Info: File `thesis-main.brf' has not changed.
+(rerunfilecheck)             Checksum: EE8BA937A6E02F0F5D22FC46D9F03B9D;135.
  ) 
 Here is how much of TeX's memory you used:
- 20330 strings out of 478994
- 303349 string characters out of 5858184
- 696769 words of memory out of 5000000
- 37087 multiletter control sequences out of 15000+600000
- 494664 words of font info for 190 fonts, out of 8000000 for 9000
+ 20331 strings out of 478994
+ 303359 string characters out of 5858184
+ 696881 words of memory out of 5000000
+ 37088 multiletter control sequences out of 15000+600000
+ 494663 words of font info for 190 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,11n,105p,1109b,663s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 103i,11n,105p,1109b,648s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/loca
 l/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2021
 /texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2021/texmf-dis
@@ -1296,7 +1291,7 @@ type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
 pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texl
 ive/2021/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis-main.pdf (31 pages, 329315 bytes).
+Output written on thesis-main.pdf (31 pages, 332329 bytes).
 PDF statistics:
  343 PDF objects out of 1000 (max. 8388607)
  295 compressed objects within 3 object streams
