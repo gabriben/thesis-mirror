@@ -3,24 +3,18 @@
 \chapter{Introduction}
 \label{chapter:introduction}
 
-\todo{write}
+% aided by this chatGPT conversation: https://chat.openai.com/share/2cbbe97e-207c-4cfb-8558-c576a155814a
+% and this BING chat conversation: https://sl.bing.net/M0SlEtfmSG, https://sl.bing.net/f7cUBW51tam
 
-Define a streaming platform
+Video streaming platforms use machine learning to personalize and recommend multimedia content to users based on their behavior and preferences. However, understanding and influencing user behavior is a complex challenge that involves multiple factors, such as user intents, recommendation strips, thumbnails, satisfaction, and diversity. This thesis investigates how these factors shape the user journey on a video streaming platform, and proposes novel methods to enhance user experience in a responsible way.
+
+The \emph{user journey} comprises a sequence of stages. Initially, as users engage with their devices, they arrive with a set of \emph{intents} (watching the next episode of their show, enjoy a family movie night, explore new content etc.). Upon landing on a personalized home page, tailored to their past interactions, the user is faced with a series of horizontal \emph{recommendation} strips. Each video in the strip is represented by a (sometimes personalized) \emph{thumbnail}. Over time, users leave traces of their \emph{behavior} (clicks, time on page, videos watched, bookmarks, etc.).  From the platform's perspective, deciphering how these behaviors, prompted by user intents, translate into overall \emph{satisfaction} remains a complex challenge. Beyond making a user happy, personalization also comes with responsibilities: the platform must curate content with \emph{diversity} in mind, steering clear of one-dimensional perspectives that could inadvertently influence users' views.
+
+This thesis proposes some advances on the pipeline along this user journey. Such a pipeline includes surveying user preferences, sampling content consumption patterns, constructing predictive models, conducting adaptive testing, and conducting behavioral analysis. Together, these stages offers insights into user intent, preferences, and interaction patterns; the input for personalization tools. The tools we propose here are generative recommendation for the homepage, multilabel classification for thumbnails, intent-behavioral survey and analysis for satisfaction prediction, and diversity metrics towards a streaming platform without priors towards some normative stances.
+
+In summary, we propose a comprehensive journey through the intricacies of a video streaming platform, unraveling the layers of personalization, recommendation, and user behavior analysis. By delving into the dynamic interplay of survey methodologies, content modeling, adaptive testing, and behavioral analysis, this study aspires to contribute to the ongoing evolution of video streaming platforms, ultimately enhancing user satisfaction and engagement in a responsible manner.
 
 
-The user journey on a streaming platform is a unique experimentation platform: survey, sampling, modeling, (adaptive) testing, behavioral analysis.  
-
-personalization
-
-pipeline
-
-generative recommendation
-
-multilabel classification
-
-intent
-
-RADio
 
 %% The research questions and sub questions
 \input{01-introduction/rqs}
