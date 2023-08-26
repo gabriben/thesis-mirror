@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.13)  25 AUG 2023 17:45
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.19)  25 AUG 2023 21:56
->>>>>>> 1bdfd725620e167759e0bb1432cc7bea0c61eacf
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.19)  26 AUG 2023 08:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -593,10 +589,10 @@ Package: suffix 2006/07/15 1.5a Variant command support
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2023/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count320
-\decimalpart=\count321
+\xs_counta=\count320
+\xs_countb=\count321
 )
-Package: xstring 2023/01/14 v1.85 String manipulations (CT)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
 \AC@clearlist=\toks46
 )
@@ -888,24 +884,14 @@ File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
 \Fld@listcount=\count347
 \c@bookmark@seq@number=\count348
 \Hy@SectionHShift=\skip116
-<<<<<<< HEAD
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
-=======
-))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/bookmark/bookmark.sty
->>>>>>> 1bdfd725620e167759e0bb1432cc7bea0c61eacf
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-<<<<<<< HEAD
-\BKM@id=\count342
-)))
-=======
 \BKM@id=\count349
-))
->>>>>>> 1bdfd725620e167759e0bb1432cc7bea0c61eacf
+)))
 (./definitions.tex
 \c@theorem=\count350
 \c@definition=\count351
@@ -1157,27 +1143,14 @@ LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 (Font)              using `OT1/lmr/bx/n' instead on input line 3.
 
 (./01-introduction/rqs.tex
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 ]
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-) (./01-introduction/contributions.tex [3]) (./01-introduction/overview.tex)
-<<<<<<< HEAD
-(./01-introduction/origins.tex [4]
-Overfull \hbox (7.65514pt too wide) in paragraph at lines 27--28
-=======
-(./01-introduction/origins.tex
+[2]) (./01-introduction/contributions.tex [3]) (./01-introduction/overview.tex)
+(./01-introduction/origins.tex [4{/usr/local/texlive/2023/texmf-dist/fonts/enc/
+dvips/lm/lm-mathsy.enc}]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
 20.
 
@@ -1188,21 +1161,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-Overfull \hbox (6.07635pt too wide) in paragraph at lines 27--28
->>>>>>> 1bdfd725620e167759e0bb1432cc7bea0c61eacf
+
+Overfull \hbox (7.65514pt too wide) in paragraph at lines 27--28
 []\OT1/lmr/m/n/10 (-20) Gabriel B^^Sen^^Sedict, Daan Odijk, and Maarten de Ri-j
 ke.  Intent-Satisfaction
  []
 
-<<<<<<< HEAD
-[5])) (./04-research-recfusion/main.tex [6]
-=======
-)) (./04-research-recfusion/main.tex [5{/usr/local/texlive/2023/texmf-dist/font
-s/enc/dvips/lm/lm-rmtt.enc}] [6
-
-]
->>>>>>> 1bdfd725620e167759e0bb1432cc7bea0c61eacf
+[5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}]))
+(./04-research-recfusion/main.tex [6]
 Chapter 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 9.
@@ -1274,49 +1240,28 @@ pdfTeX warning (ext4): destination with the same identifier (name{cite.gans}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-<<<<<<< HEAD
 l.31 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.rec
-fusion}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.40 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.gen
-ir}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.48 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.tre
-c}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.66 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.rad
-io}) has been already used, duplicate ignored
-=======
-l.30 
      
 pdfTeX warning (ext4): destination with the same identifier (name{cite.recfusio
 n}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 
+l.40 
      
 pdfTeX warning (ext4): destination with the same identifier (name{cite.genir}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44 
+l.48 
      
 pdfTeX warning (ext4): destination with the same identifier (name{cite.trec}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 
+l.66 
      
 pdfTeX warning (ext4): destination with the same identifier (name{cite.radio}) 
 has been already used, duplicate ignored
->>>>>>> 1bdfd725620e167759e0bb1432cc7bea0c61eacf
 <to be read again> 
                    \relax 
 l.79 
@@ -1336,48 +1281,20 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
 
-<<<<<<< HEAD
-=======
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
->>>>>>> 1bdfd725620e167759e0bb1432cc7bea0c61eacf
 Package rerunfilecheck Info: File `thesis-main.brf' has not changed.
 (rerunfilecheck)             Checksum: EE8BA937A6E02F0F5D22FC46D9F03B9D;135.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 20331 strings out of 478994
- 303359 string characters out of 5858184
- 696881 words of memory out of 5000000
- 37088 multiletter control sequences out of 15000+600000
- 494663 words of font info for 190 fonts, out of 8000000 for 9000
+ 22050 strings out of 475189
+ 349800 string characters out of 5763832
+ 1928254 words of memory out of 5000000
+ 42631 multiletter control sequences out of 15000+600000
+ 649129 words of font info for 197 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,11n,105p,1109b,648s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/loca
-l/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2021
-/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2021/texmf-dis
-t/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/d
-vips/lm/lm-rmsc.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/l
-mbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/
-2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2021/texmf-
-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/
-type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
-/lm/lmri10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.
-pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texl
-ive/2021/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis-main.pdf (31 pages, 332329 bytes).
-=======
- 22037 strings out of 475189
- 349670 string characters out of 5763832
- 1929254 words of memory out of 5000000
- 42624 multiletter control sequences out of 15000+600000
- 648838 words of font info for 194 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 95i,11n,96p,1128b,795s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,12n,96p,1129b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2023/texm
@@ -1389,8 +1306,7 @@ sr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/te
 xlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023
 /texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dis
 t/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis-main.pdf (31 pages, 341681 bytes).
->>>>>>> 1bdfd725620e167759e0bb1432cc7bea0c61eacf
+Output written on thesis-main.pdf (31 pages, 344692 bytes).
 PDF statistics:
  355 PDF objects out of 1000 (max. 8388607)
  294 compressed objects within 3 object streams
