@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.13)  28 AUG 2023 16:18
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.19)  26 AUG 2023 08:21
+>>>>>>> f17cff22b1070f53fd915176a91bb174a51df32b
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -565,12 +569,21 @@ Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
 \integerpart=\count314
 \decimalpart=\count315
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+=======
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count320
+\xs_countb=\count321
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+>>>>>>> f17cff22b1070f53fd915176a91bb174a51df32b
 )
 \AC@clearlist=\toks43
 )
@@ -861,12 +874,20 @@ File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
 \c@bookmark@seq@number=\count341
 \Hy@SectionHShift=\skip116
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
+=======
+(/usr/local/texlive/2023/texmf-dist/tex/latex/bookmark/bookmark.sty
+>>>>>>> f17cff22b1070f53fd915176a91bb174a51df32b
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+<<<<<<< HEAD
 \BKM@id=\count342
+=======
+\BKM@id=\count349
+>>>>>>> f17cff22b1070f53fd915176a91bb174a51df32b
 )))
 (./definitions.tex
 \c@theorem=\count343
@@ -1128,12 +1149,17 @@ Chapter 1.
 LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 (Font)              using `OT1/lmr/bx/n' instead on input line 3.
 
+<<<<<<< HEAD
 
+=======
+(./01-introduction/rqs.tex
+>>>>>>> f17cff22b1070f53fd915176a91bb174a51df32b
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 ]
+<<<<<<< HEAD
 (./01-introduction/rqs.tex
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
@@ -1146,6 +1172,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
 ) (./01-introduction/contributions.tex [3]) (./01-introduction/overview.tex)
 (./01-introduction/origins.tex [4]
+=======
+[2]) (./01-introduction/contributions.tex [3]) (./01-introduction/overview.tex)
+(./01-introduction/origins.tex [4{/usr/local/texlive/2023/texmf-dist/fonts/enc/
+dvips/lm/lm-mathsy.enc}]
+>>>>>>> f17cff22b1070f53fd915176a91bb174a51df32b
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
 20.
 
@@ -1162,7 +1193,12 @@ Overfull \hbox (7.65514pt too wide) in paragraph at lines 27--28
 ke.  Intent-Satisfaction
  []
 
+<<<<<<< HEAD
 [5])) (./04-research-recfusion/main.tex [6]
+=======
+[5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}]))
+(./04-research-recfusion/main.tex [6]
+>>>>>>> f17cff22b1070f53fd915176a91bb174a51df32b
 Chapter 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 9.
@@ -1231,6 +1267,7 @@ l.25
 s}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< HEAD
 l.42 
      pdfTeX warning (ext4): destination with the same identifier (name{cite.rec
 fusion}) has been already used, duplicate ignored
@@ -1253,6 +1290,34 @@ io}) has been already used, duplicate ignored
                    \relax 
 l.100 
       ) [19
+=======
+l.31 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{cite.recfusio
+n}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{cite.genir}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{cite.trec}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.66 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{cite.radio}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.79 
+     ) [19
+>>>>>>> f17cff22b1070f53fd915176a91bb174a51df32b
 
 ] [20
 
@@ -1263,6 +1328,14 @@ l.100
 Package natbib Warning: There were undefined citations.
 
 [23] (./thesis-main.aux)
+<<<<<<< HEAD
+=======
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-11>
+ ***********
+
+>>>>>>> f17cff22b1070f53fd915176a91bb174a51df32b
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1270,6 +1343,7 @@ Package rerunfilecheck Info: File `thesis-main.brf' has not changed.
 (rerunfilecheck)             Checksum: 4ECCC279658D93A1A879AB8AD3CC61B8;249.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  20353 strings out of 478994
  303996 string characters out of 5858184
  700728 words of memory out of 5000000
@@ -1293,6 +1367,27 @@ pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texl
 ive/2021/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
 Output written on thesis-main.pdf (31 pages, 335116 bytes).
+=======
+ 22050 strings out of 475189
+ 349800 string characters out of 5763832
+ 1928254 words of memory out of 5000000
+ 42631 multiletter control sequences out of 15000+600000
+ 649129 words of font info for 197 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 95i,12n,96p,1129b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
+cal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
+e/2023/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fo
+nts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
+ublic/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lm
+r8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/te
+xlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023
+/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dis
+t/fonts/type1/public/lm/lmtt8.pfb>
+Output written on thesis-main.pdf (31 pages, 344692 bytes).
+>>>>>>> f17cff22b1070f53fd915176a91bb174a51df32b
 PDF statistics:
  352 PDF objects out of 1000 (max. 8388607)
  303 compressed objects within 4 object streams
