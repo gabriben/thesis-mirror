@@ -19,7 +19,7 @@
     '("gab" 1)
     '("daan" 1)
     '("mdr" 1)
-    '("new" 1)
+    '("tocite" 1)
     '("todo" 1)
     '("blankfootnote" 1)
     '("backrefalt" 4)

@@ -1,5 +1,5 @@
-\babel@toc {english}{}\relax 
-\babel@toc {english}{}\relax 
+\babel@toc {english}{}
+\babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Research Outline and Questions}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Main Contributions}{3}{section.1.2}%

@@ -5,45 +5,45 @@ The style file: plainnat.bst
 Database file #1: thesis.bib
 Warning--I didn't find a database entry for "lucic2021cfgnnexplainer"
 Warning--empty journal in genir
-You've used 8 entries,
+You've used 10 entries,
             2773 wiz_defined-function locations,
-            646 strings with 6824 characters,
-and the built_in function-call counts, 4283 in all, are:
-= -- 374
-> -- 328
+            669 strings with 7580 characters,
+and the built_in function-call counts, 5462 in all, are:
+= -- 477
+> -- 424
 < -- 2
-+ -- 111
-- -- 102
-* -- 364
-:= -- 690
-add.period$ -- 38
-call.type$ -- 8
-change.case$ -- 58
-chr.to.int$ -- 7
-cite$ -- 17
-duplicate$ -- 186
-empty$ -- 277
-format.name$ -- 110
-if$ -- 884
++ -- 143
+- -- 132
+* -- 482
+:= -- 884
+add.period$ -- 49
+call.type$ -- 10
+change.case$ -- 74
+chr.to.int$ -- 9
+cite$ -- 21
+duplicate$ -- 227
+empty$ -- 349
+format.name$ -- 142
+if$ -- 1121
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 8
-newline$ -- 60
-num.names$ -- 32
-pop$ -- 109
+missing$ -- 10
+newline$ -- 75
+num.names$ -- 40
+pop$ -- 134
 preamble$ -- 1
-purify$ -- 50
+purify$ -- 64
 quote$ -- 0
-skip$ -- 153
+skip$ -- 185
 stack$ -- 0
-substring$ -- 34
-swap$ -- 30
+substring$ -- 59
+swap$ -- 34
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 88
+type$ -- 110
 warning$ -- 1
-while$ -- 25
+while$ -- 32
 width$ -- 0
-write$ -- 132
+write$ -- 167
 (There were 2 warnings)

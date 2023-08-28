@@ -9,6 +9,8 @@
     "genir"
     "trec"
     "gans"
-    "spotifyIntent"))
+    "spotifyIntent"
+    "oldPersonalizationBehavior"
+    "oldPersonalizationSearch"))
  (quote (or :bibtex :latex)))
 

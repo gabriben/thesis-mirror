@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -22,6 +22,17 @@ Gabriel B\'{e}n\'{e}dict, Daan Odijk, and Maarten de~Rijke.
 \newblock \emph{ACM Trans. Recomm. Syst.}, 1\penalty0 (3), aug 2023.
 \newblock \doi{10.1145/3606375}.
 \newblock URL \url{https://doi.org/10.1145/3606375}.
+
+\bibitem[Bennett et~al.(2012)Bennett, White, Chu, Dumais, Bailey, Borisyuk, and
+  Cui]{oldPersonalizationBehavior}
+Paul~N. Bennett, Ryen~W. White, Wei Chu, Susan~T. Dumais, Peter Bailey, Fedor
+  Borisyuk, and Xiaoyuan Cui.
+\newblock Modeling the impact of short- and long-term behavior on search
+  personalization.
+\newblock \emph{Proceedings of the 35th international ACM SIGIR conference on
+  Research and development in information retrieval}, Aug 2012.
+\newblock \doi{10.1145/2348283.2348312}.
+\newblock URL \url{http://dx.doi.org/10.1145/2348283.2348312}.
 
 \bibitem[Bénédict(2021)]{gans}
 Gabriel Bénédict.
@@ -56,6 +67,16 @@ Rishabh Mehrotra, Mounia Lalmas, Doug Kenney, Thomas Lim-Meng, and Golli
   2019.
 \newblock \doi{10.1145/3308558.3313613}.
 \newblock URL \url{http://dx.doi.org/10.1145/3308558.3313613}.
+
+\bibitem[Teevan et~al.(2018)Teevan, Dumais, and
+  Horvitz]{oldPersonalizationSearch}
+Jaime Teevan, Susan~T. Dumais, and Eric Horvitz.
+\newblock Personalizing search via automated analysis of interests and
+  activities.
+\newblock \emph{ACM SIGIR Forum}, 51\penalty0 (3):\penalty0 10–17, Feb 2018.
+\newblock ISSN 0163-5840.
+\newblock \doi{10.1145/3190580.3190582}.
+\newblock URL \url{http://dx.doi.org/10.1145/3190580.3190582}.
 
 \bibitem[Vardasbi et~al.(2021)Vardasbi, Bénédict, Gupta, Heuss, Khandel, Li,
   and Sarvi]{trec}

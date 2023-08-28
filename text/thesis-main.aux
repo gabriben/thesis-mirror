@@ -1,14 +1,17 @@
 \relax 
+\providecommand\hyper@newdestlabel[2]{}
 \providecommand\babel@aux[2]{}
 \@nameuse{bbl@beforestart}
 \AC@reset@newl@bel
-\providecommand\hyper@newdestlabel[2]{}
 \providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
 \global\let\oldnewlabel\newlabel
 \gdef\newlabel#1#2{\newlabelxx{#1}#2}
 \gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
 \AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
 \let\newlabel\oldnewlabel
 \fi}
 \fi}
@@ -30,25 +33,28 @@
 \babel@aux{english}{}
 \babel@aux{english}{}
 \BKM@entry{id=1,dest={636861707465722E31},srcline={3}}{5C3337365C3337375C303030495C3030306E5C303030745C303030725C3030306F5C303030645C303030755C303030635C303030745C303030695C3030306F5C3030306E}
-\BKM@entry{id=2,dest={73656374696F6E2E312E31},srcline={11}}{5C3337365C3337375C303030525C303030655C303030735C303030655C303030615C303030725C303030635C303030685C3030305C3034305C3030304F5C303030755C303030745C3030306C5C303030695C3030306E5C303030655C3030305C3034305C303030615C3030306E5C303030645C3030305C3034305C303030515C303030755C303030655C303030735C303030745C303030695C3030306F5C3030306E5C30303073}
+\citation{oldPersonalizationBehavior,oldPersonalizationSearch}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \newlabel{chapter:introduction}{{1}{1}{Introduction}{chapter.1}{}}
-\newacro{rq:recfusion}[\ref {rq:recfusion}]{Can we use diffusion to do recommendation in the classical user-item matrix setting?}
-\newacro{rq:sigmoidf1}[\ref {rq:sigmoidf1}]{Is there a way we can generate personalized thumbnails for each item on a streaming platform?}
-\newacro{rq:intent}[\ref {rq:intent}]{Are users' intents together with their behavioral data useful signals to predict or explain satisfaction on a video streaming platform?}
-\newacro{rq:radio}[\ref {rq:radio}]{Can we formulate a divergence metric that measures the normative diversity of recommendations?}
-\citation{spotifyIntent}
+\@writefile{brf}{\backcite{oldPersonalizationBehavior}{{1}{1}{chapter.1}}}
+\@writefile{brf}{\backcite{oldPersonalizationSearch}{{1}{1}{chapter.1}}}
+\BKM@entry{id=2,dest={73656374696F6E2E312E31},srcline={11}}{5C3337365C3337375C303030525C303030655C303030735C303030655C303030615C303030725C303030635C303030685C3030305C3034305C3030304F5C303030755C303030745C3030306C5C303030695C3030306E5C303030655C3030305C3034305C303030615C3030306E5C303030645C3030305C3034305C303030515C303030755C303030655C303030735C303030745C303030695C3030306F5C3030306E5C30303073}
+\newacro{rq:recfusion}[\ref  {rq:recfusion}]{Can we use diffusion to do recommendation in the classical user-item matrix setting?}
+\newacro{rq:sigmoidf1}[\ref  {rq:sigmoidf1}]{Is there a way we can generate personalized thumbnails for each item on a streaming platform?}
+\newacro{rq:intent}[\ref  {rq:intent}]{Are users' intents together with their behavioral data useful signals to predict or explain satisfaction on a video streaming platform?}
+\newacro{rq:radio}[\ref  {rq:radio}]{Can we formulate a divergence metric that measures the normative diversity of recommendations?}
 \@writefile{toc}{\contentsline {section}{\numberline {1.1}Research Outline and Questions}{2}{section.1.1}\protected@file@percent }
 \newlabel{section:introduction:rqs}{{1.1}{2}{Research Outline and Questions}{section.1.1}{}}
 \acronymused{rq:recfusion}
 \newlabel{rq:recfusion}{{{RQ1}}{2}{Research Outline and Questions}{Item.1}{}}
 \acronymused{rq:sigmoidf1}
 \newlabel{rq:sigmoidf1}{{{RQ2}}{2}{Research Outline and Questions}{Item.2}{}}
-\acronymused{rq:intent}
-\newlabel{rq:intent}{{{RQ3}}{2}{Research Outline and Questions}{Item.3}{}}
+\citation{spotifyIntent}
 \BKM@entry{id=3,dest={73656374696F6E2E312E32},srcline={3}}{5C3337365C3337375C3030304D5C303030615C303030695C3030306E5C3030305C3034305C303030435C3030306F5C3030306E5C303030745C303030725C303030695C303030625C303030755C303030745C303030695C3030306F5C3030306E5C30303073}
+\acronymused{rq:intent}
+\newlabel{rq:intent}{{{RQ3}}{3}{Research Outline and Questions}{Item.3}{}}
 \@writefile{brf}{\backcite{spotifyIntent}{{3}{1.1}{Item.3}}}
 \acronymused{rq:radio}
 \newlabel{rq:radio}{{{RQ4}}{3}{Research Outline and Questions}{Item.4}{}}
@@ -122,10 +128,12 @@
 \bibdata{thesis}
 \bibcite{sigmoidf1}{{1}{2022}{{B{\'e}n{\'e}dict et~al.}}{{B{\'e}n{\'e}dict, Koops, Odijk, and de~Rijke}}}
 \bibcite{intent}{{2}{2023}{{B\'{e}n\'{e}dict et~al.}}{{B\'{e}n\'{e}dict, Odijk, and de~Rijke}}}
-\bibcite{gans}{{3}{2021}{{Bénédict}}{{}}}
-\bibcite{recfusion}{{4}{2023{}}{{Bénédict et~al.}}{{Bénédict, Jeunen, Papa, Bhargav, Odijk, and de~Rijke}}}
-\bibcite{genir}{{5}{2023{}}{{Bénédict et~al.}}{{Bénédict, Zhang, and Metzler}}}
-\bibcite{spotifyIntent}{{6}{2019}{{Mehrotra et~al.}}{{Mehrotra, Lalmas, Kenney, Lim-Meng, and Hashemian}}}
-\bibcite{trec}{{7}{2021}{{Vardasbi et~al.}}{{Vardasbi, Bénédict, Gupta, Heuss, Khandel, Li, and Sarvi}}}
-\bibcite{radio}{{8}{2022}{{Vrijenhoek et~al.}}{{Vrijenhoek, B\'{e}n\'{e}dict, Gutierrez~Granada, Odijk, and de~Rijke}}}
+\bibcite{oldPersonalizationBehavior}{{3}{2012}{{Bennett et~al.}}{{Bennett, White, Chu, Dumais, Bailey, Borisyuk, and Cui}}}
+\bibcite{gans}{{4}{2021}{{Bénédict}}{{}}}
+\bibcite{recfusion}{{5}{2023{}}{{Bénédict et~al.}}{{Bénédict, Jeunen, Papa, Bhargav, Odijk, and de~Rijke}}}
+\bibcite{genir}{{6}{2023{}}{{Bénédict et~al.}}{{Bénédict, Zhang, and Metzler}}}
+\bibcite{spotifyIntent}{{7}{2019}{{Mehrotra et~al.}}{{Mehrotra, Lalmas, Kenney, Lim-Meng, and Hashemian}}}
+\bibcite{oldPersonalizationSearch}{{8}{2018}{{Teevan et~al.}}{{Teevan, Dumais, and Horvitz}}}
+\bibcite{trec}{{9}{2021}{{Vardasbi et~al.}}{{Vardasbi, Bénédict, Gupta, Heuss, Khandel, Li, and Sarvi}}}
+\bibcite{radio}{{10}{2022}{{Vrijenhoek et~al.}}{{Vrijenhoek, B\'{e}n\'{e}dict, Gutierrez~Granada, Odijk, and de~Rijke}}}
 \gdef \@abspage@last{31}
