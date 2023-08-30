@@ -7,6 +7,7 @@
     "01-introduction/overview"
     "01-introduction/origins")
    (LaTeX-add-labels
-    "chapter:introduction"))
+    "chapter:introduction"
+    "fig:VLStrip"))
  :latex)
 

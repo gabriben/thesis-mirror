@@ -11,16 +11,14 @@ Gabriel B{\'e}n{\'e}dict, Hendrik~Vincent Koops, Daan Odijk, and Maarten
   de~Rijke.
 \newblock {sigmoidF1: A Smooth F1 Score Surrogate Loss for Multilabel
   Classification}.
-\newblock \emph{{Transactions on Machine Learning Research}}, 2022.
-\newblock ISSN 2835-8856.
+\newblock \emph{{TMLR}}, 2022.
 \newblock URL \url{https://openreview.net/forum?id=gvSHaaD2wQ}.
 
 \bibitem[B\'{e}n\'{e}dict et~al.(2023)B\'{e}n\'{e}dict, Odijk, and
   de~Rijke]{intent}
 Gabriel B\'{e}n\'{e}dict, Daan Odijk, and Maarten de~Rijke.
 \newblock {Intent-Satisfaction Modeling: From Music to Video Streaming}.
-\newblock \emph{ACM Trans. Recomm. Syst.}, 1\penalty0 (3), aug 2023.
-\newblock \doi{10.1145/3606375}.
+\newblock \emph{TORS}, 2023.
 \newblock URL \url{https://doi.org/10.1145/3606375}.
 
 \bibitem[Bennett et~al.(2012)Bennett, White, Chu, Dumais, Bailey, Borisyuk, and
@@ -52,9 +50,8 @@ Gabriel Bénédict, Olivier Jeunen, Samuele Papa, Samarth Bhargav, Daan Odijk,
 \bibitem[Bénédict et~al.(2023{\natexlab{b}})Bénédict, Zhang, and
   Metzler]{genir}
 Gabriel Bénédict, Ruqing Zhang, and Donald Metzler.
-\newblock {Gen-IR @ SIGIR 2023: The First Workshop on Generative Information
-  Retrieval}.
-\newblock 2023{\natexlab{b}}.
+\newblock {The First Workshop on Generative Information Retrieval}.
+\newblock \emph{SIGIR}, 2023{\natexlab{b}}.
 \newblock arXiv: 2306.02887.
 
 \bibitem[Mehrotra et~al.(2019)Mehrotra, Lalmas, Kenney, Lim-Meng, and
@@ -91,11 +88,7 @@ Sanne Vrijenhoek, Gabriel B\'{e}n\'{e}dict, Mateo Gutierrez~Granada, Daan
   Odijk, and Maarten de~Rijke.
 \newblock {RADio – Rank-Aware Divergence Metrics to Measure Normative
   Diversity in News Recommendations}.
-\newblock In \emph{Proceedings of the 16th ACM Conference on Recommender
-  Systems}, RecSys '22, page 208–219, New York, NY, USA, 2022. Association
-  for Computing Machinery.
-\newblock ISBN 9781450392785.
-\newblock \doi{10.1145/3523227.3546780}.
+\newblock RecSys, 2022.
 \newblock URL \url{https://doi.org/10.1145/3523227.3546780}.
 
 \end{thebibliography}

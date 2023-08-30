@@ -1,49 +1,49 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis-main.aux
 The style file: plainnat.bst
 Database file #1: thesis.bib
 Warning--I didn't find a database entry for "lucic2021cfgnnexplainer"
-Warning--empty journal in genir
+Warning--empty booktitle in radio
 You've used 10 entries,
             2773 wiz_defined-function locations,
-            669 strings with 7580 characters,
-and the built_in function-call counts, 5462 in all, are:
-= -- 477
+            662 strings with 7321 characters,
+and the built_in function-call counts, 5177 in all, are:
+= -- 430
 > -- 424
-< -- 2
+< -- 1
 + -- 143
 - -- 132
-* -- 482
-:= -- 884
-add.period$ -- 49
+* -- 464
+:= -- 855
+add.period$ -- 44
 call.type$ -- 10
 change.case$ -- 74
 chr.to.int$ -- 9
 cite$ -- 21
-duplicate$ -- 227
-empty$ -- 349
+duplicate$ -- 207
+empty$ -- 338
 format.name$ -- 142
-if$ -- 1121
+if$ -- 1041
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 10
-newline$ -- 75
+newline$ -- 71
 num.names$ -- 40
-pop$ -- 134
+pop$ -- 140
 preamble$ -- 1
 purify$ -- 64
 quote$ -- 0
-skip$ -- 185
+skip$ -- 160
 stack$ -- 0
-substring$ -- 59
-swap$ -- 34
-text.length$ -- 1
+substring$ -- 41
+swap$ -- 15
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 110
 warning$ -- 1
-while$ -- 32
+while$ -- 31
 width$ -- 0
-write$ -- 167
+write$ -- 155
 (There were 2 warnings)
