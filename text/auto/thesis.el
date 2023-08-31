@@ -9,7 +9,7 @@
     "genir"
     "trec"
     "gans"
-    "spotifyIntent"
+    "10.1145/3308558.3313613"
     "oldPersonalizationBehavior"
     "oldPersonalizationSearch"))
  (quote (or :bibtex :latex)))

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.13)  31 AUG 2023 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.13)  31 AUG 2023 17:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1143,20 +1143,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 2096) has occurred while \output is active []
 
  [2 <./01-introduction/images/VLHome_cropped.png>] (./01-introduction/rqs.tex [
-3])
-(./01-introduction/contributions.tex [4]) (./01-introduction/overview.tex)
-(./01-introduction/origins.tex
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-20.
+3]
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmtt.fd
-File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [5]
+Package natbib Warning: Citation `spotifyIntent' on page 4 undefined on input l
+ine 41.
+
+) (./01-introduction/contributions.tex [4]) (./01-introduction/overview.tex)
+(./01-introduction/origins.tex [5]
 Overfull \hbox (7.65514pt too wide) in paragraph at lines 27--28
 []\OT1/lmr/m/n/10 (-20) Gabriel B^^Sen^^Sedict, Daan Odijk, and Maarten de Ri-j
 ke.  Intent-Satisfaction
@@ -1175,7 +1168,17 @@ Package hyperref Warning: Ignoring empty anchor on input line 9.
 Package natbib Warning: Citation `lucic2021cfgnnexplainer' on page 7 undefined 
 on input line 9.
 
-) (./04-research-sigmoidf1/main.tex [7
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
+37.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
+(./04-research-sigmoidf1/main.tex [7
 
 ] [8
 
@@ -1217,41 +1220,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \tf@brf=\write5
 \openout5 = `thesis-main.brf'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{cite.intent})
- has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{cite.sigmoidf
+1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.rec
-fusion}) has been already used, duplicate ignored
+l.9 
+    pdfTeX warning (ext4): destination with the same identifier (name{cite.inte
+nt}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.sig
-moidf1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.58 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.rad
-io}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.67 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.gen
-ir}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.74 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.tre
-c}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.81 
+l.15 
      pdfTeX warning (ext4): destination with the same identifier (name{cite.gan
 s}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.87 
+l.28 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.rec
+fusion}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.gen
+ir}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.tre
+c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.rad
+io}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 
      ) [19
 
 ] [20
@@ -1266,19 +1269,24 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `thesis-main.brf' has not changed.
-(rerunfilecheck)             Checksum: 4EBB3BC5BAF83EE739FFF74170166470;290.
+
+Package rerunfilecheck Warning: File `thesis-main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `thesis-main.brf':
+(rerunfilecheck)             Before: 4EBB3BC5BAF83EE739FFF74170166470;290
+(rerunfilecheck)             After:  2C5817578B04C44271FD57CDC15F808E;246.
  ) 
 Here is how much of TeX's memory you used:
- 20379 strings out of 478994
- 304550 string characters out of 5858184
- 698419 words of memory out of 5000000
- 37120 multiletter control sequences out of 15000+600000
- 495212 words of font info for 194 fonts, out of 8000000 for 9000
+ 20383 strings out of 478994
+ 304520 string characters out of 5858184
+ 695454 words of memory out of 5000000
+ 37114 multiletter control sequences out of 15000+600000
+ 495480 words of font info for 199 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,11n,105p,1722b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/loca
-l/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2021
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2021
 /texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2021/texmf-dis
 t/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/d
 vips/lm/lm-rmsc.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/l
@@ -1290,12 +1298,11 @@ dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/
 type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
 /lm/lmri10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.
 pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texl
-ive/2021/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis-main.pdf (31 pages, 1047730 bytes).
+local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on thesis-main.pdf (31 pages, 1019160 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 308 compressed objects within 4 object streams
- 68 named destinations out of 1000 (max. 500000)
- 52838 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 336 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 52326 words of extra memory for PDF output out of 61914 (max. 10000000)
 

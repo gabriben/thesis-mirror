@@ -1,88 +1,64 @@
-\begin{thebibliography}{10}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{{\tt #1}}\fi
+\begin{thebibliography}{1}
 
-\bibitem[Bennett et~al.(2012)Bennett, White, Chu, Dumais, Bailey, Borisyuk, and
-  Cui]{oldPersonalizationBehavior}
-Paul~N. Bennett, Ryen~W. White, Wei Chu, Susan~T. Dumais, Peter Bailey, Fedor
-  Borisyuk, and Xiaoyuan Cui.
-\newblock Modeling the impact of short- and long-term behavior on search
-  personalization.
-\newblock {\em Proceedings of the 35th international ACM SIGIR conference on
-  Research and development in information retrieval}, Aug 2012.
-\newblock URL \url{http://dx.doi.org/10.1145/2348283.2348312}.
-
-\bibitem[Teevan et~al.(2018)Teevan, Dumais, and
-  Horvitz]{oldPersonalizationSearch}
-Jaime Teevan, Susan~T. Dumais, and Eric Horvitz.
-\newblock Personalizing search via automated analysis of interests and
-  activities.
-\newblock {\em ACM SIGIR Forum}, 51\penalty0 (3):\penalty0 10–17, Feb 2018.
-\newblock ISSN 0163-5840.
-\newblock URL \url{http://dx.doi.org/10.1145/3190580.3190582}.
-
-\bibitem[B\'{e}n\'{e}dict et~al.(2023)B\'{e}n\'{e}dict, Odijk, and
-  de~Rijke]{intent}
-Gabriel B\'{e}n\'{e}dict, Daan Odijk, and Maarten de~Rijke.
-\newblock {Intent-Satisfaction Modeling: From Music to Video Streaming}.
-\newblock {\em TORS}, 2023.
-\newblock URL \url{https://doi.org/10.1145/3606375}.
-
-\bibitem[Mehrotra et~al.(2019)Mehrotra, Lalmas, Kenney, Lim-Meng, and
-  Hashemian]{spotifyIntent}
-Rishabh Mehrotra, Mounia Lalmas, Doug Kenney, Thomas Lim-Meng, and Golli
-  Hashemian.
-\newblock {Jointly Leveraging Intent and Interaction Signals to Predict User
-  Satisfaction with Slate Recommendations}.
-\newblock In {\em The World Wide Web Conference on - WWW '19}. ACM Press, 2019.
-\newblock URL \url{http://dx.doi.org/10.1145/3308558.3313613}.
-
-\bibitem[Bénédict et~al.(2023{\natexlab{a}})Bénédict, Jeunen, Papa,
-  Bhargav, Odijk, and de~Rijke]{recfusion}
-Gabriel Bénédict, Olivier Jeunen, Samuele Papa, Samarth Bhargav, Daan Odijk,
-  and Maarten de~Rijke.
-\newblock {RecFusion: A Binomial Diffusion Process for 1D Data for
-  Recommendation}.
-\newblock {\em {arXiv}}, 2023{\natexlab{a}}, 2306.08947.
-\newblock arXiv: 2306.08947.
-
-\bibitem[B{\'e}n{\'e}dict et~al.(2022)B{\'e}n{\'e}dict, Koops, Odijk, and
-  de~Rijke]{sigmoidf1}
+\bibitem{sigmoidf1}
 Gabriel B{\'e}n{\'e}dict, Hendrik~Vincent Koops, Daan Odijk, and Maarten
   de~Rijke.
-\newblock {sigmoidF1: A Smooth {F1} Score Surrogate Loss for Multilabel
-  Classification}.
-\newblock {\em {TMLR}}, 2022.
-\newblock URL \url{https://openreview.net/forum?id=gvSHaaD2wQ}.
+\newblock sigmoidF1: A Smooth F1 Score Surrogate Loss for Multilabel
+  Classification.
+\newblock {\em Transactions of Machine Learning Research}, 2022.
 
-\bibitem[Vrijenhoek et~al.(2022)Vrijenhoek, B\'{e}n\'{e}dict,
-  Gutierrez~Granada, Odijk, and de~Rijke]{radio}
-Sanne Vrijenhoek, Gabriel B\'{e}n\'{e}dict, Mateo Gutierrez~Granada, Daan
-  Odijk, and Maarten de~Rijke.
-\newblock {RADio – Rank-Aware Divergence Metrics to Measure Normative
-  Diversity in News Recommendations}.
-\newblock RecSys, 2022.
-\newblock URL \url{https://doi.org/10.1145/3523227.3546780}.
+\bibitem{intent}
+Gabriel B\'{e}n\'{e}dict, Daan Odijk, and Maarten de~Rijke.
+\newblock Intent-Satisfaction Modeling: From Music to Video Streaming, 1(3),
+  Art.~13.
+\newblock {\em ACM Transactions On Recommender Systems}, 2023.
 
-\bibitem[Bénédict et~al.(2023{\natexlab{b}})Bénédict, Zhang, and
-  Metzler]{genir}
+\bibitem{oldPersonalizationBehavior}
+Paul~N. Bennett, Ryen~W. White, Wei Chu, Susan~T. Dumais, Peter Bailey, Fedor
+  Borisyuk, and Xiaoyuan Cui.
+\newblock Modeling the Impact of Short- and Long-Term Behavior on Search
+  Personalization.
+\newblock In {\em Proceedings of the 35th International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}, page 185–194, 2012.
+
+\bibitem{gans}
+Gabriel Bénédict.
+\newblock {Generative Adversarial Networks}.
+\newblock {\em Spectra ML Review Paper Competition}, 2021.
+
+\bibitem{recfusion}
+Gabriel Bénédict, Olivier Jeunen, Samuele Papa, Samarth Bhargav, Daan Odijk,
+  and Maarten de~Rijke.
+\newblock RecFusion: A Binomial Diffusion Process for 1D Data for
+  Recommendation.
+\newblock {\em arXiv}, 2023, 2306.08947.
+
+\bibitem{genir}
 Gabriel Bénédict, Ruqing Zhang, and Donald Metzler.
-\newblock {The First Workshop on Generative Information Retrieval}.
-\newblock {\em SIGIR}, 2023{\natexlab{b}}, 2306.02887.
-\newblock arXiv: 2306.02887.
+\newblock The First Workshop on Generative Information Retrieval.
+\newblock {\em Proceedings of the 35th international ACM SIGIR conference on
+  Research and development in information retrieval}, 2023, 2306.02887.
 
-\bibitem[Vardasbi et~al.(2021)Vardasbi, Bénédict, Gupta, Heuss, Khandel, Li,
-  and Sarvi]{trec}
+\bibitem{oldPersonalizationSearch}
+Jaime Teevan, Susan~T. Dumais, and Eric Horvitz.
+\newblock Personalizing Search via Automated Analysis of Interests and
+  Activities.
+\newblock In {\em Proceedings of the 28th Annual International ACM SIGIR
+  Conference on Research and Development in Information Retrieval}, page
+  449–456, 2005.
+
+\bibitem{trec}
 Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel,
   Ming Li, and Fatemeh Sarvi.
 \newblock {The University of Amsterdam at the TREC 2021 Fair Ranking Track}.
 \newblock {\em TREC Fair Ranking}, 2021.
 
-\bibitem[Bénédict(2021)]{gans}
-Gabriel Bénédict.
-\newblock {Generative Adversarial Networks}.
-\newblock {\em Spectra ML Review Paper Competition}, 2021.
-\newblock URL \url{https://spectra.mathpix.com/article/2021.09.00009/gans}.
+\bibitem{radio}
+Sanne Vrijenhoek, Gabriel B\'{e}n\'{e}dict, Mateo Gutierrez~Granada, Daan
+  Odijk, and Maarten de~Rijke.
+\newblock RADio – Rank-Aware Divergence Metrics to Measure Normative
+  Diversity in News Recommendations.
+\newblock In {\em Proceedings of the 16th ACM Conference on Recommender
+  Systems}, page 208–219, 2022.
 
 \end{thebibliography}

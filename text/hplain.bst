@@ -34,6 +34,7 @@ ENTRY
     type
     volume
     year
+    articleno
   }
   {}
   { label }
@@ -236,7 +237,7 @@ FUNCTION {format.editors}
 FUNCTION {format.title}
 { title empty$
     { "" }
-    { title "t" change.case$ }
+    { title }
   if$
 }
 
@@ -284,7 +285,7 @@ FUNCTION {format.date}
     }
     { month empty$
 	'year
-	{ month " " * year * }
+	{ * year * }
       if$
     }
   if$
@@ -479,6 +480,14 @@ FUNCTION {format.article.crossref}
   " \cite{" * crossref * "}" *
 }
 
+FUNCTION {format.articlenumber}
+{ articleno empty$
+    'skip$
+    { "Art.~" articleno * }
+  if$
+}
+
+
 FUNCTION {format.crossref.editor}
 { editor #1 "{vv~}{ll}" format.name$
   editor num.names$ duplicate$
@@ -551,7 +560,10 @@ FUNCTION {article}
   format.authors "author" output.check
   new.block
   format.title "title" output.check
-  new.block
+  format.vol.num.pages output
+  format.articlenumber output
+  format.pages output
+  new.block 
   crossref missing$
     { journal emphasize "journal" output.check
       format.vol.num.pages output
@@ -686,7 +698,6 @@ FUNCTION {inproceedings}
   crossref missing$
     { format.in.ed.booktitle "booktitle" output.check
       format.bvolume output
-      format.number.series output
       format.pages output
       address empty$
 	{ organization publisher new.sentence.checkb
@@ -694,11 +705,8 @@ FUNCTION {inproceedings}
 	  publisher output
 	  format.date "year" output.check
 	}
-	{ address output.nonnull
-	  format.date "year" output.check
+	{ format.date "year" output.check
 	  new.sentence
-	  organization output
-	  publisher output
 	}
       if$
     }
