@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.13)  30 AUG 2023 10:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.13)  31 AUG 2023 16:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1128,19 +1128,22 @@ Chapter 1.
 LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 (Font)              using `OT1/lmr/bx/n' instead on input line 3.
 
-[1
-
-]
-<01-introduction/images/VLHome_cropped.png, id=81, 1035.87pt x 503.8825pt>
+<01-introduction/images/VLHome_cropped.png, id=72, 1035.87pt x 503.8825pt>
 File: 01-introduction/images/VLHome_cropped.png Graphic file (type png)
 <use 01-introduction/images/VLHome_cropped.png>
 Package pdftex.def Info: 01-introduction/images/VLHome_cropped.png  used on inp
-ut line 19.
+ut line 17.
 (pdftex.def)             Requested size: 344.27809pt x 167.46577pt.
- (./01-introduction/rqs.tex
-Underfull \vbox (badness 4699) has occurred while \output is active []
 
- [2 <./01-introduction/images/VLHome_cropped.png>] [3])
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1
+
+]
+Underfull \vbox (badness 2096) has occurred while \output is active []
+
+ [2 <./01-introduction/images/VLHome_cropped.png>] (./01-introduction/rqs.tex [
+3])
 (./01-introduction/contributions.tex [4]) (./01-introduction/overview.tex)
 (./01-introduction/origins.tex
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
@@ -1214,41 +1217,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \tf@brf=\write5
 \openout5 = `thesis-main.brf'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{cite.sigmoidf
-1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{cite.intent})
+ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.int
-ent}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.23 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.gan
-s}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.40 
+l.31 
      pdfTeX warning (ext4): destination with the same identifier (name{cite.rec
 fusion}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.49 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.gen
-ir}) has been already used, duplicate ignored
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.sig
+moidf1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.tre
-c}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.84 
+l.58 
      pdfTeX warning (ext4): destination with the same identifier (name{cite.rad
 io}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 
+l.67 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.gen
+ir}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.74 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.tre
+c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.81 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.gan
+s}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.87 
      ) [19
 
 ] [20
@@ -1267,13 +1270,13 @@ Package rerunfilecheck Info: File `thesis-main.brf' has not changed.
 (rerunfilecheck)             Checksum: 4EBB3BC5BAF83EE739FFF74170166470;290.
  ) 
 Here is how much of TeX's memory you used:
- 20370 strings out of 478994
- 304438 string characters out of 5858184
- 699480 words of memory out of 5000000
+ 20379 strings out of 478994
+ 304550 string characters out of 5858184
+ 698419 words of memory out of 5000000
  37120 multiletter control sequences out of 15000+600000
- 494566 words of font info for 189 fonts, out of 8000000 for 9000
+ 495212 words of font info for 194 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,12n,105p,1562b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 103i,11n,105p,1722b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/loca
 l/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2021
 /texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2021/texmf-dis
@@ -1289,10 +1292,10 @@ type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
 pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texl
 ive/2021/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis-main.pdf (31 pages, 1046883 bytes).
+Output written on thesis-main.pdf (31 pages, 1047730 bytes).
 PDF statistics:
- 361 PDF objects out of 1000 (max. 8388607)
- 310 compressed objects within 4 object streams
- 69 named destinations out of 1000 (max. 500000)
+ 359 PDF objects out of 1000 (max. 8388607)
+ 308 compressed objects within 4 object streams
+ 68 named destinations out of 1000 (max. 500000)
  52838 words of extra memory for PDF output out of 61914 (max. 10000000)
 
