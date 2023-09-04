@@ -562,17 +562,18 @@ FUNCTION {article}
   format.title "title" output.check
   format.vol.num.pages output
   format.articlenumber output
-  format.pages output
+  journal emphasize "journal" output.check
+  %format.pages output
   new.block 
-  crossref missing$
-    { journal emphasize "journal" output.check
-      format.vol.num.pages output
-      format.date "year" output.check
-    }
-    { format.article.crossref output.nonnull
-      format.pages output
-    }
-  if$
+  %crossref missing$
+  %  { journal emphasize "journal" output.check
+  %    format.vol.num.pages output
+  %    format.date "year" output.check
+  %  }
+  %  { format.article.crossref output.nonnull
+  %    format.pages output
+  %  }
+  %if$
   format.eprint	output
   new.block
   note output

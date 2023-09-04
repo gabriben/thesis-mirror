@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.13)  31 AUG 2023 17:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.13)  4 SEP 2023 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1128,34 +1128,31 @@ Chapter 1.
 LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
 (Font)              using `OT1/lmr/bx/n' instead on input line 3.
 
-<01-introduction/images/VLHome_cropped.png, id=72, 1035.87pt x 503.8825pt>
+<01-introduction/images/VLHome_cropped.png, id=79, 1035.87pt x 503.8825pt>
 File: 01-introduction/images/VLHome_cropped.png Graphic file (type png)
 <use 01-introduction/images/VLHome_cropped.png>
 Package pdftex.def Info: 01-introduction/images/VLHome_cropped.png  used on inp
-ut line 17.
+ut line 15.
 (pdftex.def)             Requested size: 344.27809pt x 167.46577pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1
 
-]
-Underfull \vbox (badness 2096) has occurred while \output is active []
+] (./01-introduction/rqs.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2 <./01-introduction/images/VLHome_cropped.png>] (./01-introduction/rqs.tex [
-3]
-
-Package natbib Warning: Citation `spotifyIntent' on page 4 undefined on input l
-ine 41.
-
-) (./01-introduction/contributions.tex [4]) (./01-introduction/overview.tex)
-(./01-introduction/origins.tex [5]
+ [2 <./01-introduction/images/VLHome_cropped.png>] [3])
+(./01-introduction/contributions.tex [4]) (./01-introduction/overview.tex
+[5]) (./01-introduction/origins.tex
 Overfull \hbox (7.65514pt too wide) in paragraph at lines 27--28
 []\OT1/lmr/m/n/10 (-20) Gabriel B^^Sen^^Sedict, Daan Odijk, and Maarten de Ri-j
 ke.  Intent-Satisfaction
  []
 
-)) (./04-research-recfusion/main.tex [6]
+[6])) (./04-research-recfusion/main.tex [7] [8
+
+]
 Chapter 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 9.
@@ -1165,7 +1162,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Package hyperref Warning: Ignoring empty anchor on input line 9.
 
 
-Package natbib Warning: Citation `lucic2021cfgnnexplainer' on page 7 undefined 
+Package natbib Warning: Citation `lucic2021cfgnnexplainer' on page 9 undefined 
 on input line 9.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
@@ -1178,30 +1175,28 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 )
-(./04-research-sigmoidf1/main.tex [7
-
-] [8
+(./04-research-sigmoidf1/main.tex [9] [10
 
 ]
 Chapter 3.
 
 Package hyperref Warning: Ignoring empty anchor on input line 6.
 
-) (./04-research-intent/main.tex [9] [10
+) (./04-research-intent/main.tex [11] [12
 
 ]
 Chapter 4.
 
 Package hyperref Warning: Ignoring empty anchor on input line 6.
 
-) (./04-research-radio/main.tex [11] [12
+) (./04-research-radio/main.tex [13] [14
 
 ]
 Chapter 5.
 
 Package hyperref Warning: Ignoring empty anchor on input line 6.
 
-) (./05-conclusions/main.tex [13] [14
+) (./05-conclusions/main.tex [15] [16
 
 ]
 Chapter 6.
@@ -1210,11 +1205,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-[15]
+[17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16])
-[17] [18
+ [18])
+[19] [20
 
 ] (./thesis-back.tex (./thesis-main.bbl (./thesis-main.brf)
 \tf@brf=\write5
@@ -1224,67 +1219,65 @@ pdfTeX warning (ext4): destination with the same identifier (name{cite.sigmoidf
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.9 
-    pdfTeX warning (ext4): destination with the same identifier (name{cite.inte
-nt}) has been already used, duplicate ignored
+l.14 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.int
+ent}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.15 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.gan
-s}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.28 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.rec
-fusion}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.35 
+l.19 
      pdfTeX warning (ext4): destination with the same identifier (name{cite.gen
 ir}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.41 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.tre
-c}) has been already used, duplicate ignored
+l.26 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.gan
+s}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.rad
-io}) has been already used, duplicate ignored
+l.39 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.rec
+fusion}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 
-     ) [19
+l.46 
+     
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [20
+ [21
 
-] [21] [22
+]pdfTeX warning (ext4): destination with the same identifier (name{cite.trec}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.181 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.ra
+dio}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.197 
+      ) [22] [23
+
+] [24
 
 ])
 
 Package natbib Warning: There were undefined citations.
 
-[23] (./thesis-main.aux)
+[25] (./thesis-main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `thesis-main.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `thesis-main.brf':
-(rerunfilecheck)             Before: 4EBB3BC5BAF83EE739FFF74170166470;290
-(rerunfilecheck)             After:  2C5817578B04C44271FD57CDC15F808E;246.
+Package rerunfilecheck Info: File `thesis-main.brf' has not changed.
+(rerunfilecheck)             Checksum: 332E222EB268124332245E6A75C87A83;1699.
  ) 
 Here is how much of TeX's memory you used:
- 20383 strings out of 478994
- 304520 string characters out of 5858184
- 695454 words of memory out of 5000000
- 37114 multiletter control sequences out of 15000+600000
- 495480 words of font info for 199 fonts, out of 8000000 for 9000
+ 20643 strings out of 478994
+ 308008 string characters out of 5858184
+ 706580 words of memory out of 5000000
+ 37326 multiletter control sequences out of 15000+600000
+ 496458 words of font info for 210 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,11n,105p,1722b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 103i,12n,105p,1745b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2021
 /texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2021/texmf-dis
@@ -1299,10 +1292,10 @@ type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
 /lm/lmri10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.
 pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis-main.pdf (31 pages, 1019160 bytes).
+Output written on thesis-main.pdf (33 pages, 1034864 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 67 named destinations out of 1000 (max. 500000)
+ 440 PDF objects out of 1000 (max. 8388607)
+ 388 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
  52326 words of extra memory for PDF output out of 61914 (max. 10000000)
 
