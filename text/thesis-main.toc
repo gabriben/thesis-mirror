@@ -1,5 +1,5 @@
-\babel@toc {english}{}\relax 
-\babel@toc {english}{}\relax 
+\babel@toc {english}{}
+\babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {paragraph}{The user journey}{1}{paragraph*.2}%
 \contentsline {paragraph}{The personalization pipeline}{1}{paragraph*.4}%
