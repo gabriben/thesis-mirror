@@ -1,0 +1,3 @@
+[submodule "recfusion-arxiv"]
+	path = text/04-research-recfusion/recfusion-arxiv
+	url = https://github.com/gabriben/recfusion-arxiv.git

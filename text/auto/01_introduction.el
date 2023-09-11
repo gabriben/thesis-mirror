@@ -1,7 +1,8 @@
 (TeX-add-style-hook
- "main"
+ "01_introduction"
  (lambda ()
    (LaTeX-add-labels
-    "chapter:research-recfusion"))
+    "fig:userxitem"
+    "fig:one"))
  :latex)
 
