@@ -5,7 +5,7 @@
 \contentsline {paragraph}{The personalization pipeline}{1}{paragraph*.4}%
 \contentsline {section}{\numberline {1.1}Research Outline and Questions}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Main Contributions}{5}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Thesis Overview}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Thesis Overview}{6}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Origins}{6}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Generative Recommendations with Diffusion}{9}{chapter.2}%
 \contentsline {chapter}{\numberline {3}Metrics as Losses}{11}{chapter.3}%

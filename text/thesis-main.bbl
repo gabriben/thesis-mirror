@@ -5,24 +5,27 @@ Joeran Beel and Stefan Langer.
 \newblock A Comparison of Offline Evaluations, Online Evaluations, and User
   Studies in the Context of Research-Paper Recommender Systems, page 153–168,
   {\em Lecture Notes in Computer Science}.
+\newblock 2015.
 
 \bibitem{sigmoidf1}
 Gabriel B{\'e}n{\'e}dict, Hendrik~Vincent Koops, Daan Odijk, and Maarten
   de~Rijke.
 \newblock sigmoidF1: A Smooth F1 Score Surrogate Loss for Multilabel
   Classification, {\em Transactions of Machine Learning Research}.
+\newblock 2022.
 
 \bibitem{intent}
 Gabriel B\'{e}n\'{e}dict, Daan Odijk, and Maarten de~Rijke.
 \newblock Intent-Satisfaction Modeling: From Music to Video Streaming, 1(3),
-  Art.~13, {\em ACM Transactions On Recommender Systems}.
+  Art.~13,
+\newblock 2023.
 
 \bibitem{genir}
 Garbiel B\'{e}n\'{e}dict, Ruqing Zhang, and Donald Metzler.
 \newblock Gen-IR@SIGIR 2023: The First Workshop on Generative Information
   Retrieval.
 \newblock In {\em Proceedings of the 46th International ACM SIGIR Conference on
-  Research and Development in Information Retrieval}, page 3460–3463, 2023.
+  Research and Development in Information Retrieval}, page 3460–3463. 2023.
 
 \bibitem{oldPersonalizationBehavior}
 Paul~N. Bennett, Ryen~W. White, Wei Chu, Susan~T. Dumais, Peter Bailey, Fedor
@@ -30,116 +33,123 @@ Paul~N. Bennett, Ryen~W. White, Wei Chu, Susan~T. Dumais, Peter Bailey, Fedor
 \newblock Modeling the Impact of Short- and Long-Term Behavior on Search
   Personalization.
 \newblock In {\em Proceedings of the 35th International ACM SIGIR Conference on
-  Research and Development in Information Retrieval}, page 185–194, 2012.
+  Research and Development in Information Retrieval}, page 185–194. 2012.
 
 \bibitem{gans}
 Gabriel Bénédict.
-\newblock {Generative Adversarial Networks}, {\em Spectra ML Review Paper
+\newblock Generative Adversarial Networks, {\em Spectra ML Review Paper
   Competition}.
+\newblock 09.00009, 2021.
 
 \bibitem{recfusion}
 Gabriel Bénédict, Olivier Jeunen, Samuele Papa, Samarth Bhargav, Daan Odijk,
   and Maarten de~Rijke.
 \newblock RecFusion: A Binomial Diffusion Process for 1D Data for
   Recommendation, {\em arXiv}.
-\newblock 2306.08947.
+\newblock 2306.08947, 2023.
 
 \bibitem{fisher}
 Ronald~A. Fisher.
 \newblock On an Absolute Criterion for Fitting Frequency Curves, 41:155--160,
   {\em Messenger of Mathematics}.
+\newblock 1912.
 
 \bibitem{cnn}
 K.~Fukushima.
 \newblock Neocognitron: A self-organizing neural network model for a mechanism
   of pattern recognition unaffected by shift in position, 36:193 -- 202, {\em
   Biological Cybernetics}.
+\newblock 1980.
 
 \bibitem{NetflixReco}
 Carlos~A. Gomez-Uribe and Neil Hunt.
-\newblock The Netflix Recommender System, 6(4):1–19, {\em ACM Transactions on
-  Management Information Systems}.
+\newblock The Netflix Recommender System, 6(4):1–19,
+\newblock 2015.
 
 \bibitem{helberger}
 Natali Helberger.
 \newblock On the Democratic Role of News Recommenders, 7(8):993--1012, {\em
   Digital Journalism}.
-\newblock https://doi.org/10.1080/21670811.2019.1623700.
+\newblock https://doi.org/10.1080/21670811.2019.1623700, 2019.
 
 \bibitem{longTerm}
 Henning Hohnhold, Deirdre O’Brien, and Diane Tang.
-\newblock Focusing on the Long-term (It's Good for Users and Business), {\em
-  Proceedings of the 21th ACM SIGKDD International Conference on Knowledge
-  Discovery and Data Mining}.
+\newblock Focusing on the Long-term (It's Good for Users and Business),
+\newblock 2015.
 
 \bibitem{llmRec}
 Yupeng Hou, Junjie Zhang, Zihan Lin, Hongyu Lu, Ruobing Xie, Julian McAuley,
   and Wayne~Xin Zhao.
 \newblock Large Language Models are Zero-Shot Rankers for Recommender Systems.
-\newblock 2305.08845.
+\newblock 2305.08845, 2023.
 
 \bibitem{fairChatGPTReco}
 Yang Zhang Wenjie Wang Fuli Feng Xiangnan~He Jizhi~Zhang, Keqin~Bao.
 \newblock Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large
   Language Model Recommendation.
-\newblock In {\em 17th ACM Conference on Recommender Systems}, 2023.
+\newblock In {\em 17th ACM Conference on Recommender Systems}. 2023.
 
 \bibitem{sgd2}
 J.~Kiefer and J.~Wolfowitz.
 \newblock {Stochastic Estimation of the Maximum of a Regression Function},
   23(3):462 -- 466, {\em The Annals of Mathematical Statistics}.
+\newblock 1952.
 
 \bibitem{oldReco}
 Ron Kohavi and Foster Provost.
 \newblock Applications of Data Mining to Electronic Commerce, page 5–10, {\em
   Applications of Data Mining to Electronic Commerce}.
+\newblock 2001.
 
 \bibitem{MF}
 Yehuda Koren, Robert Bell, and Chris Volinsky.
 \newblock Matrix Factorization Techniques for Recommender Systems,
-  42(8):30–37, {\em Computer}.
+  42(8):30–37,
+\newblock 2009.
 
 \bibitem{oldChurn}
 Jae~Sik Lee and Jin~Chun Lee.
 \newblock Customer Churn Prediction by Hybrid Model.
 \newblock In Xue Li, Osmar~R. Za{\"i}ane, and Zhanhuai Li, editors, {\em
-  Advanced Data Mining and Applications}, pages 959--966, 2006.
+  Advanced Data Mining and Applications}, pages 959--966. 2006.
 
 \bibitem{js}
 J.~Lin.
 \newblock Divergence measures based on the Shannon entropy, 37(1):145--151,
   {\em IEEE Transactions on Information Theory}.
+\newblock 1991.
 
 \bibitem{llmRecNews}
 Qijiong Liu, Nuo Chen, Tetsuya Sakai, and Xiao-Ming Wu.
 \newblock ONCE: Boosting Content-based Recommendation with Both Open- and
   Closed-source Large Language Models.
-\newblock 2305.06566.
+\newblock 2305.06566, 2023.
 
 \bibitem{spotifyIntent}
 Rishabh Mehrotra, Mounia Lalmas, Doug Kenney, Thomas Lim-Meng, and Golli
   Hashemian.
 \newblock Jointly Leveraging Intent and Interaction Signals to Predict User
   Satisfaction with Slate Recommendations.
-\newblock In {\em The World Wide Web Conference}, page 1256–1267, 2019.
+\newblock In {\em The World Wide Web Conference}, page 1256–1267. 2019.
 
 \bibitem{genirRec}
 Shashank Rajput, Nikhil Mehta, Anima Singh, Raghunandan~H. Keshavan, Trung Vu,
   Lukasz Heldt, Lichan Hong, Yi~Tay, Vinh~Q. Tran, Jonah Samost, Maciej Kula,
   Ed~H. Chi, and Maheswaran Sathiamoorthy.
 \newblock Recommender Systems with Generative Retrieval.
-\newblock 2305.05065.
+\newblock 2305.05065, 2023.
 
 \bibitem{sgd1}
 Herbert Robbins and Sutton Monro.
 \newblock {A Stochastic Approximation Method}, 22(3):400 -- 407, {\em The
   Annals of Mathematical Statistics}.
+\newblock 1951.
 
 \bibitem{behaviorals}
 Royi Ronen, Elad Yom-Tov, and Gal Lavee.
 \newblock Recommendations meet web browsing: enhancing collaborative filtering
-  using internet browsing logs, {\em 2016 IEEE 32nd International Conference on
-  Data Engineering (ICDE)}.
+  using internet browsing logs,
+\newblock 2016.
 
 \bibitem{unet}
 Olaf Ronneberger, Philipp Fischer, and Thomas Brox.
@@ -151,19 +161,20 @@ Johannes Kruse Jordi Viader Guerrero Alain Starke Nava~Tintarev
   Sanne~Vrijenhoek, Lien~Michiels.
 \newblock NORMalize: The First Workshop on Normative Design and Evaluation of
   Recommender Systems.
-\newblock In {\em 17th ACM Conference on Recommender Systems}, 2023.
+\newblock In {\em 17th ACM Conference on Recommender Systems}. 2023.
 
 \bibitem{jascha}
 Jascha Sohl-Dickstein, Eric Weiss, Niru Maheswaranathan, and Surya Ganguli.
 \newblock Deep Unsupervised Learning using Nonequilibrium Thermodynamics.
 \newblock In Francis Bach and David Blei, editors, {\em Proceedings of the 32nd
   International Conference on Machine Learning}, volume~37 of {\em Proceedings
-  of Machine Learning Research}, 2015.
+  of Machine Learning Research},  2015.
 
 \bibitem{confusionMatrix}
 Stephen~V. Stehman.
 \newblock Selecting and interpreting measures of thematic classification
   accuracy, 62(1):77--89, {\em Remote Sensing of Environment}.
+\newblock 1997.
 
 \bibitem{oldPersonalizationSearch}
 Jaime Teevan, Susan~T. Dumais, and Eric Horvitz.
@@ -171,13 +182,14 @@ Jaime Teevan, Susan~T. Dumais, and Eric Horvitz.
   Activities.
 \newblock In {\em Proceedings of the 28th Annual International ACM SIGIR
   Conference on Research and Development in Information Retrieval}, page
-  449–456, 2005.
+  449–456. 2005.
 
 \bibitem{trec}
 Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel,
   Ming Li, and Fatemeh Sarvi.
-\newblock {The University of Amsterdam at the TREC 2021 Fair Ranking Track},
-  {\em TREC Fair Ranking}.
+\newblock The University of Amsterdam at the TREC 2021 Fair Ranking Track, {\em
+  TREC Fair Ranking}.
+\newblock 2021.
 
 \bibitem{attention}
 Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
@@ -193,12 +205,12 @@ Sanne Vrijenhoek, Gabriel B\'{e}n\'{e}dict, Mateo Gutierrez~Granada, Daan
 \newblock RADio – Rank-Aware Divergence Metrics to Measure Normative
   Diversity in News Recommendations.
 \newblock In {\em Proceedings of the 16th ACM Conference on Recommender
-  Systems}, page 208–219, 2022.
+  Systems}, page 208–219. 2022.
 
 \bibitem{generativeReco}
 Wenjie Wang, Xinyu Lin, Fuli Feng, Xiangnan He, and Tat-Seng Chua.
 \newblock {Generative Recommendation: Towards Next-generation Recommender
   Paradigm}.
-\newblock 2304.03516v1.
+\newblock 2304.03516v1, 2023.
 
 \end{thebibliography}

@@ -575,6 +575,7 @@ FUNCTION {article}
   %  }
   %if$
   format.eprint	output
+  format.date "year" output.check
   new.block
   note output
   fin.entry
@@ -697,24 +698,24 @@ FUNCTION {inproceedings}
   format.title "title" output.check
   new.block
   crossref missing$
-    { format.in.ed.booktitle "booktitle" output.check
+  { format.in.ed.booktitle "booktitle" output.check
       format.bvolume output
       format.pages output
       address empty$
-	{ organization publisher new.sentence.checkb
+	      { organization publisher new.sentence.checkb
 	  organization output
 	  publisher output
-	  format.date "year" output.check
-	}
-	{ format.date "year" output.check
+	      }
+	      { 
 	  new.sentence
-	}
+	      }
       if$
-    }
-    { format.incoll.inproc.crossref output.nonnull
-      format.pages output
-    }
+  }
+  { format.incoll.inproc.crossref output.nonnull
+    format.pages output
+  }
   if$
+  format.date "year" output.check
   format.eprint output
   new.block
   note output
