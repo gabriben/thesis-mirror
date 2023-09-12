@@ -6,13 +6,23 @@
 % aided by this chatGPT conversation: https://chat.openai.com/share/2cbbe97e-207c-4cfb-8558-c576a155814a
 % and this BING chat conversation: https://sl.bing.net/M0SlEtfmSG, https://sl.bing.net/f7cUBW51tam
 
-Video streaming platforms have changed the way people consume and interact with digital media~\cite{NetflixReco}. One of the key innovations of video streaming platforms with regards to traditional television, is their ability to tailor the experience to each single user, given their past behavior on the platform (a.k.a personalization~\cite{oldPersonalizationBehavior, oldPersonalizationSearch}). In other words, the \emph{user journey} (the user's perspective) is steered by the platform's algorithms.
+Video streaming platforms have changed the way people consume and interact with digital media~\cite{NetflixReco}. 
+One of the key innovations of video streaming platforms with regards to traditional television, is \emph{personalization}, that is, the ability to tailor the experience to each single user and their interests, given their past behavior on the platform~\cite{oldPersonalizationBehavior, oldPersonalizationSearch}. 
 
-\paragraph{The user journey} consists of several steps. First, users come to the platform with some \emph{intents} (e.g., binge-watching a series, finding a family-friendly movie, discovering new genres, etc.)~\cite{intent}. Then, they see a customized home page with various horizontal \emph{recommendation} strips (see Figure~\ref{fig:VLStrip}). Each strip contains videos with (sometimes personalized) \emph{thumbnails} (the clickable image that represents the video content). Over time, users interact with the platform and leave \emph{behavioral} signals (e.g., clicks, watch time, bookmarks, ratings, etc.). From the platform's perspective, deciphering how these behavioral signals, prompted by user intents, translate into overall \emph{satisfaction} remains a complex challenge. \\
+When designing and examining methods for personalization, the concept of \emph{user journey} is helpful. 
+Briefly, \todo{it refers to + [REF]}.
+In the setting of video streaming, the user journey consists of several steps.
 
-\gab{not sure if this paragraph on the history of personalization is needed}
+First, users come to the platform with some \emph{intents} (e.g., binge-watching a series, finding a family-friendly movie, discovering new genres, etc.)~\cite{intent}. Then, they see a customized home page with various horizontal \emph{recommendation} strips (see Figure~\ref{fig:VLStrip}). Each strip contains videos with (sometimes personalized) \emph{thumbnails} (the clickable image that represents the video content). Over time, users interact with the platform and leave \emph{behavioral} signals (e.g., clicks, watch time, bookmarks, ratings, etc.). From the platform's perspective, deciphering how these behavioral signals, prompted by user intents, translate into overall \emph{satisfaction} remains a complex challenge.
 
-Behavioral signals are used to target users individually: personalize the experience. The term personalization has been used for long to describe this strategy~\cite{oldPersonalizationBehavior, oldPersonalizationSearch}. But historically personalization has been used as an umbrella term for approaches more akin to targeting user segments / groups than actually serving each single user differently (as the term personalization seems to hint at). At first, in the domain of e-commerce in the late 90s, personalization was restricted to email newsletters and aimed at user groups~\cite{oldReco}. Personalization then appeared on early video streaming platforms like Netflix in the form of one dimensional lists (a.k.a. recommendation strip)~\cite{oldReco}. Now personalization is in the ordering of the strip (multiple 1-dimensional lists), the thumbnail, in the font title of the thumbnail, in search~\cite{NetflixReco}, etc.
+Behavioral signals have been and are being used to target users individually. 
+The term personalization has been used for long to describe this strategy~\cite{oldPersonalizationBehavior, oldPersonalizationSearch}. 
+But historically personalization has been used as an umbrella term for approaches more akin to targeting user segments/groups than actually serving each single user differently (as the term personalization seems to hint at). 
+At first, in the domain of e-commerce in the late 1990s, personalization was restricted to email newsletters and aimed at user groups~\cite{oldReco}. 
+Personalization then appeared on early video streaming platforms like Netflix in the form of one dimensional lists (a.k.a. recommendation strip)~\cite{oldReco}. 
+Today, personalization is in the ordering of the strip (multiple one-dimensional lists \todo{[REF]}), the thumbnail (\todo{[REF]}), in the font title of the thumbnail \todo{+ [REF]}, in search~\cite{NetflixReco}, etc.
+
+In other words, the \emph{user journey} (the user's perspective) is steered by the platform's algorithms.
 
 
 \begin{figure}[h]
