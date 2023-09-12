@@ -481,8 +481,9 @@ FUNCTION {format.article.crossref}
 }
 
 FUNCTION {format.articlenumber}
-{ articleno empty$
-    'skip$
+{
+  articleno empty$
+    { "" }
     { "Art.~" articleno * }
   if$
 }
