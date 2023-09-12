@@ -12,18 +12,18 @@ One of the key innovations of video streaming platforms with regards to traditio
 When designing and examining methods for personalization, the concept of \emph{user journey} is helpful. 
 Briefly, \todo{it refers to + [REF]}.
 In the setting of video streaming, the user journey consists of several steps.
+First, users come to the platform with some \emph{intents} (e.g., binge-watching a series, finding a family-friendly movie, discovering new genres, etc.)~\cite{intent}. 
+Then, they see a customized home page with various horizontal \emph{recommendation} strips (see Figure~\ref{fig:VLStrip}). 
+Each strip contains videos with (sometimes personalized) \emph{thumbnails} (the clickable image that represents the video content). 
+Over time, users interact with the platform and leave \emph{behavioral} signals (e.g., clicks, watch time, bookmarks, ratings, etc.). 
+From the platform's perspective, deciphering how these behavioral signals, prompted by user intents, translate into overall \emph{satisfaction} remains a complex challenge~\todo{[REF]}.
 
-First, users come to the platform with some \emph{intents} (e.g., binge-watching a series, finding a family-friendly movie, discovering new genres, etc.)~\cite{intent}. Then, they see a customized home page with various horizontal \emph{recommendation} strips (see Figure~\ref{fig:VLStrip}). Each strip contains videos with (sometimes personalized) \emph{thumbnails} (the clickable image that represents the video content). Over time, users interact with the platform and leave \emph{behavioral} signals (e.g., clicks, watch time, bookmarks, ratings, etc.). From the platform's perspective, deciphering how these behavioral signals, prompted by user intents, translate into overall \emph{satisfaction} remains a complex challenge.
-
-Behavioral signals have been and are being used to target users individually. 
-The term personalization has been used for long to describe this strategy~\cite{oldPersonalizationBehavior, oldPersonalizationSearch}. 
-But historically personalization has been used as an umbrella term for approaches more akin to targeting user segments/groups than actually serving each single user differently (as the term personalization seems to hint at). 
-At first, in the domain of e-commerce in the late 1990s, personalization was restricted to email newsletters and aimed at user groups~\cite{oldReco}. 
-Personalization then appeared on early video streaming platforms like Netflix in the form of one dimensional lists (a.k.a. recommendation strip)~\cite{oldReco}. 
-Today, personalization is in the ordering of the strip (multiple one-dimensional lists \todo{[REF]}), the thumbnail (\todo{[REF]}), in the font title of the thumbnail \todo{+ [REF]}, in search~\cite{NetflixReco}, etc.
-
-In other words, the \emph{user journey} (the user's perspective) is steered by the platform's algorithms.
-
+Behavioral signals generated during the user journey have long been used to target users individually. 
+The term personalization has been used describe this strategy. 
+Historically, personalization has been used as an umbrella term for approaches more akin to targeting user segments/groups than actually serving each single user differently (as the term personalization seems to hint at)~\todo{[REF]}. 
+Initially, in the domain of e-commerce in the late 1990s, personalization was restricted to email newsletters and aimed at user groups~\cite{oldReco}. 
+Personalization appeared on early video streaming platforms like Netflix in the form of one-dimensional lists, i.e.,  the recommendation strip mentioned above~\cite{oldReco}. 
+Today, the user journey on video platforms is steered by the platform's algorithms: personalization is used in the ordering of the strip (i.e., multiple one-dimensional lists \todo{[REF]}), in the choice of the thumbnail (\todo{[REF]}), in the font title of the thumbnail \todo{+ [REF]}, in search~\cite{NetflixReco}.
 
 \begin{figure}[h]
   \centering
@@ -32,29 +32,34 @@ In other words, the \emph{user journey} (the user's perspective) is steered by t
   \label{fig:VLStrip}
 \end{figure}
 
-\paragraph{The personalization pipeline} is the accumulation of a platform's algorithms for a tailored user journey. One part of the pipeline retrieves data that feeds all other algorithms: collecting user data and analyzing user behavior~\cite{behaviorals}.
+In this thesis, the term \emph{personalization pipeline} is used to denote the accumulation of a video platform's algorithms for a tailored user journey. 
+One part of the pipeline retrieves data that feeds all other algorithms: collecting user data and analyzing user behavior~\cite{behaviorals}.
 % These signals, also called user feedback are often provided by an external analytics business and the signal granularity is limited by the amount of data and how much a streaming platform is willing to pay \tocite{}.
-The data granularity can range from the number of items watched (just one data point per user session), all the way to recordings of all mouse movements (thousands of data points per session). With that session-level data, streaming platforms attempt to predict what the user will do and adapt the user journey to the user: the next movie to watch, the subsequent logins, the midterm satisfaction (typically, the amount of time spent on the platform per month), all the way to churn rate (subscription cancellation rate)~\cite{longTerm}; from short to long term forecast. These predictive models are tested first on a simulated platform with simulated users 'offline'. Models are then evaluated on the platform exposed to users 'online' over several iterations and over time. In the evaluation phase, preferences, and interaction patterns are captured again as a feedback loop~\cite{offlineOnlineSurvey, NetflixReco}. Aside from the measurable user feedback signals (such as clicks, watch time, time on the platform etc.), a platform can also take hidden signals into consideration. In this thesis, we give some attention to user intent (watching a next episode on a favorite show, looking for new content, bookmarking items for later viewing, etc.). Besides satisfying the users, the platform also bears a responsibility, because it is able to steer the user towards certain consumption behaviors. For example, the platform has to ensure that the content it offers is \emph{diverse} and promotes representative voices (e.g., promoting screenwriters of different genres, movies in different languages, a variety of movie genres). %These concerns are revisited below via our own personalization pipeline.
+The data granularity can range from the number of items watched (just one data point per user session), all the way to recordings of all mouse movements (thousands of data points per session). With that session-level data, streaming platforms attempt to predict what the user will do and adapt the user journey to the user: the next movie to watch, the subsequent logins, the midterm satisfaction (typically, the amount of time spent on the platform per month), all the way to churn rate (subscription cancellation rate)~\cite{longTerm}; from short to long term forecast. These predictive models are tested first on a simulated platform with simulated users ``offline.'' 
+Models are then evaluated on the platform exposed to users 'online' over several iterations and over time. In the evaluation phase, preferences, and interaction patterns are captured again as a feedback loop~\cite{offlineOnlineSurvey, NetflixReco}. 
 
+Aside from the measurable user feedback signals (such as clicks, watch time, time on the platform etc.), a platform can also take hidden signals into consideration. In this thesis, we give some attention to user intent (``I want to watch the next episode of my favorite show,'' ``I am looking for new content,'' ``I want to bookmarking items for later viewing,'' etc.). 
 
-For the purpose of this thesis, we will call this combination of algorithms, the \emph{personalization pipeline} (the platform's perspective). This pipeline is geared towards simple metrics like the number of minutes seen~\cite{spotifyIntent} and the churn rate~\cite{oldChurn}, but is linked with a responsibility to balance longer term user satisfaction~\cite{longTerm}, content diversity, and other ethical considerations~\cite{helberger}.
+Besides satisfying the users, the platform also bears a responsibility, because it is able to steer the user towards certain consumption behaviors. For example, the platform has to ensure that the content it offers is \emph{diverse} and promotes representative voices (e.g., promoting screenwriters of different genres, movies in different languages, a variety of movie genres). %These concerns are revisited below via our own personalization pipeline.
+
+For the purpose of this thesis, we will call the combination of algorithms listed above the \emph{personalization pipeline} \mdr{What does this mean or add: (the platform's perspective)}. 
+This pipeline is often geared towards optimizing relatively simple metrics like the number of minutes seen~\cite{spotifyIntent} and the churn rate~\cite{oldChurn}, but it is also directly linked to a responsibility to balancing multiple, sometimes competing targets, such as long-term user satisfaction~\cite{longTerm}, content diversity, and  ethical considerations~\cite{helberger}.
 
 %regarding satisfaction and diversity are related to the platform's perspective.
-
-
 %building predictive models, testing different strategies, and evaluating the outcomes. These steps help to capture user intent, preferences, and interaction patterns; the input for personalization tools. This thesis presents some novel methods and tools for improving the pipeline along this user journey. 
 
-In this thesis, we propose individual tools that map to the user journey above, for the steps of \emph{recommendations}, \emph{thumbnail} selection, \emph{intent-satisfaction} linking and \emph{diversity} measurement. Together, these tools form our proposed \textbf{personalization pipeline}. By adapting diffusion models~\cite{jascha} from the image domain (continuous-2D-structured-data) to recommendation (binary-1D-unstructured-data), we open the door to the use of priors in recommendation (preferred movie genres, past behavior or incomplete viewing history, etc.), like is seen in diffusion for images (an image description, a previous reference image, a masked image, etc.). Diffusion models are physics inspired neural models, that include a forward (perturbation) and backward (learning) process on each example~\cite{jascha}. As for personalized \emph{thumbnails}, existing research in multilabel image classification is highly reliant on variations of the binary cross-entropy loss~\cite{fisher}, but we think that the multilabel setting (as opposed to the binary or multiclass setting) requires its own solution. For the next step, we identified a lack of a systematic approach for \emph{intent-satisfaction} studies, that would provide survey design, code and modern bayesian approaches to the problem. Finally, we could not find a \emph{diversity} metric for news / movies recommendations that is distribution agnostic -- to adapt to any distributions of discrete normative standpoints -- and rank-aware -- to accommodate for the propensity of a user to scroll up to an item on a ranked list.
+In this thesis, we propose individual tools that \mdr{what does this mean: map} to the user journey above, for the steps of \emph{recommendations}, \emph{thumbnail} selection, \emph{intent-satisfaction} linking, and \emph{diversity} measurement. 
+Together, these tools form our proposed personalization pipeline. 
+\mdr{Glue sentence needed that makes the next enumeration a natural one to make at this point in the paper. I suggest you include a diagram with these steps from the personalization pipeline and then explain what specific choices you're considering for these steps in the thesis.}
+By adapting diffusion models~\cite{jascha} from the image domain (continuous-2D-structured-data) to recommendation (binary-1D-unstructured-data), we open the door to the use of priors in recommendation (preferred movie genres, past behavior or incomplete viewing history, etc.), like is seen in diffusion for images (an image description, a previous reference image, a masked image, etc.). Diffusion models are physics inspired neural models, that include a forward (perturbation) and backward (learning) process on each example~\cite{jascha}. As for personalized \emph{thumbnails}, existing research in multilabel image classification is highly reliant on variations of the binary cross-entropy loss~\cite{fisher}, but we think that the multilabel setting (as opposed to the binary or multiclass setting) requires its own solution. For the next step, we identified a lack of a systematic approach for \emph{intent-satisfaction} studies, that would provide survey design, code and modern bayesian approaches to the problem. 
+\mdr{What is this sentence trying to say? That there is a knowledge gap? If so, say what you to to address the gap.} Finally, we could not find a \emph{diversity} metric for news / movies recommendations that is distribution agnostic -- to adapt to any distributions of discrete normative standpoints -- and rank-aware -- to accommodate for the propensity of a user to scroll up to an item on a ranked list.
 
 %We identify a knowledge gap in the literature 
 %\paragraph{knowledge gap...} list for each paper.
-
 %The tools we propose here are: a generative model for creating diverse and relevant recommendation strips for the home page; a multilabel classifier for selecting optimal thumbnails for each video; a survey-based method for predicting user satisfaction from intent and behavior; and a set of metrics for measuring content diversity and avoiding unwanted biases.
 
-
-
-In short, we focus on the video streaming platform ecosystem, exploring the challenges and opportunities of personalization, recommendation, and user behavior analysis. By combining survey methods, modeling, adaptive testing, and behavioral analysis, this study aims to contribute to the development of video streaming platforms that can provide user satisfaction in a responsible way.
-
+In short, in this thesis, I focus on the video streaming platform ecosystem, explore the challenges and opportunities of personalization, recommendation, and user behavior analysis. 
+By combining survey methods, modeling, adaptive testing, and behavioral analysis, this study aims to contribute to the development of video streaming platforms that can provide user satisfaction in a responsible way.
 
 %% The research questions and sub questions
 \input{01-introduction/rqs}

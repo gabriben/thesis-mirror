@@ -16,21 +16,20 @@ We scope the thesis around four research questions, each corresponding to a rese
 
 % https://sl.bing.net/c5jX2Jw4SHs
 
-Personalization on streaming platforms is often seen as a way of predicting what users want to watch based on their preferences and behavior. Personalization can also be seen as a creative process (see recent generative recommendation models~\cite{llmRecNews, llmRec, genirRec}) with ethical impact (see recent literature on responsible recommendation~\cite{helberger, normalize, fairChatGPTReco}) that involves generating new content and experiences for users through a pipeline.
+Personalization on streaming platforms is often seen as a way of predicting what users want to watch based on their preferences and behavior. Personalization can also be seen as a creative process (see recent generative recommendation models~\cite{llmRecNews, llmRec, genirRec}) with ethical impact (see recent literature on responsible recommendation~\cite{helberger, normalize, fairChatGPTReco}) that involves generating new content and experiences for users through a pipeline. 
+\mdr{There is a lot in this sentence, you probably need to unpack that a bit.}
 
 \noindent \mdr{What are the assumptions that you are making? What is the context?}
 \gab{what kind of assumptions are expected here? I can think of a lot of assumptions regarding the model/data/platform/pipeline?}
 
-Our first research question addresses the entry point of the user journey on a personalized platform, namely recommendations on the home page (the page where a user lands first on a streaming platform).
+Our first research question addresses the entry point of the user journey on a personalized platform, namely recommendations on the home page of a video platform, that is, the page where a user first lands when visiting the  streaming platform.
 %
 \begin{enumerate}[label=\textbf{RQ\arabic*},ref={RQ\arabic*},resume,leftmargin=*]
 	\item \acl{rq:recfusion}\label{rq:recfusion}
 \end{enumerate}
 %
-
-
-
-Traditionally, recommender systems directly retrieve content from the library to the user. Alternatively, user instructions and feedback are fed to a generator of personalized content, before retrieving and ranking from that new library of generated content, according to the recent generative recommendation paradigm~\cite{generativeReco}. According to its instigators, the paradigm covers individual content generated from scratch (like diffusion based image creation) or a recommendation of content that is created in a generative way (Large Language Models (LLMs) for recommendation). Somewhat combining the two concepts, we investigate how diffusion models can be used to generate a list of recommended content. Diffusion has been applied to images, music and other modalities. Unlike these, the classical recommendation setting of the user-item matrix~\cite{MF} does not entail spatial relationships between data points: contrary to pixels on an image, there is no information encoded in the allocation of users and item on a matrix. We illustrate this in RecFusion~\cite{recfusion}, where we first use Unets~\cite{unet} to fit data in a spatial way, before going back to the classical recommendation neural setting of feeding data user-by-user. For this one-dimensional user vector, we provide a proof and first experiments to show that a binomial (Bernoulli) diffusion process is viable.
+Traditionally, recommender systems directly retrieve content from the library to the user \todo{[REF]}. 
+Alternatively, user instructions and feedback are fed to a generator of personalized content, before retrieving and ranking from that new library of generated content, according to the recent generative recommendation paradigm~\cite{generativeReco}. According to its instigators, the paradigm covers individual content generated from scratch (like diffusion based image creation) or a recommendation of content that is created in a generative way (Large Language Models (LLMs) for recommendation). Somewhat combining the two concepts, we investigate how diffusion models can be used to generate a list of recommended content. Diffusion has been applied to images, music and other modalities. Unlike these, the classical recommendation setting of the user-item matrix~\cite{MF} does not entail spatial relationships between data points: contrary to pixels on an image, there is no information encoded in the allocation of users and item on a matrix. We illustrate this in RecFusion~\cite{recfusion}, where we first use Unets~\cite{unet} to fit data in a spatial way, before going back to the classical recommendation neural setting of feeding data user-by-user. For this one-dimensional user vector, we provide a proof and first experiments to show that a binomial (Bernoulli) diffusion process is viable.
 
 After recommendation, the next step of our pipeline caters to the display of recommended videos via thumbnails.
 %
