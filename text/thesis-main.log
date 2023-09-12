@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.13)  11 SEP 2023 18:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.13)  12 SEP 2023 08:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1253,12 +1253,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.193 
+l.180 
       pdfTeX warning (ext4): destination with the same identifier (name{cite.ra
 dio}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.209 
+l.196 
       ) [22] [23
 
 ] [24
@@ -1272,14 +1272,14 @@ Package natbib Warning: There were undefined citations.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `thesis-main.brf' has not changed.
-(rerunfilecheck)             Checksum: 650DEA3FDB961C21CD3A70FC17E8493D;1925.
+(rerunfilecheck)             Checksum: E97AFD53EFD288F635D58AA87AA1A4A9;1925.
  ) 
 Here is how much of TeX's memory you used:
- 20649 strings out of 478994
- 307980 string characters out of 5858184
- 705448 words of memory out of 5000000
+ 20647 strings out of 478994
+ 307962 string characters out of 5858184
+ 705464 words of memory out of 5000000
  37326 multiletter control sequences out of 15000+600000
- 496692 words of font info for 213 fonts, out of 8000000 for 9000
+ 496658 words of font info for 212 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,11n,105p,1775b,612s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
@@ -1296,7 +1296,7 @@ type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
 /lm/lmri10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.
 pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis-main.pdf (33 pages, 1036573 bytes).
+Output written on thesis-main.pdf (33 pages, 1036585 bytes).
 PDF statistics:
  446 PDF objects out of 1000 (max. 8388607)
  394 compressed objects within 4 object streams

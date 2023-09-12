@@ -83,12 +83,6 @@ Yupeng Hou, Junjie Zhang, Zihan Lin, Hongyu Lu, Ruobing Xie, Julian McAuley,
 \newblock Large Language Models are Zero-Shot Rankers for Recommender Systems.
 \newblock 2305.08845, 2023.
 
-\bibitem{fairChatGPTReco}
-Yang Zhang Wenjie Wang Fuli Feng Xiangnan~He Jizhi~Zhang, Keqin~Bao.
-\newblock Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large
-  Language Model Recommendation.
-\newblock In {\em 17th ACM Conference on Recommender Systems}. 2023.
-
 \bibitem{sgd2}
 J.~Kiefer and J.~Wolfowitz.
 \newblock {Stochastic Estimation of the Maximum of a Regression Function},
@@ -156,13 +150,6 @@ Olaf Ronneberger, Philipp Fischer, and Thomas Brox.
 \newblock U-Net: Convolutional Networks for Biomedical Image Segmentation.
 \newblock page 234–241. Springer International Publishing, 2015.
 
-\bibitem{normalize}
-Johannes Kruse Jordi Viader Guerrero Alain Starke Nava~Tintarev
-  Sanne~Vrijenhoek, Lien~Michiels.
-\newblock NORMalize: The First Workshop on Normative Design and Evaluation of
-  Recommender Systems.
-\newblock In {\em 17th ACM Conference on Recommender Systems}. 2023.
-
 \bibitem{jascha}
 Jascha Sohl-Dickstein, Eric Weiss, Niru Maheswaranathan, and Surya Ganguli.
 \newblock Deep Unsupervised Learning using Nonequilibrium Thermodynamics.
@@ -207,10 +194,23 @@ Sanne Vrijenhoek, Gabriel B\'{e}n\'{e}dict, Mateo Gutierrez~Granada, Daan
 \newblock In {\em Proceedings of the 16th ACM Conference on Recommender
   Systems}, page 208–219. 2022.
 
+\bibitem{normalize}
+Sanne Vrijenhoek, Lien Michiels, Johannes Kruse, Jordi~Viader Guerrero, Alain
+  Starke, and Nava Tintarev.
+\newblock NORMalize: The First Workshop on Normative Design and Evaluation of
+  Recommender Systems.
+\newblock In {\em 17th ACM Conference on Recommender Systems}. 2023.
+
 \bibitem{generativeReco}
 Wenjie Wang, Xinyu Lin, Fuli Feng, Xiangnan He, and Tat-Seng Chua.
 \newblock {Generative Recommendation: Towards Next-generation Recommender
   Paradigm}.
 \newblock 2304.03516v1, 2023.
+
+\bibitem{fairChatGPTReco}
+Jizhi Zhang, Keqin Bao, Yang Zhang, Wenjie Wang, Fuli Feng, and Xiangnan He.
+\newblock Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large
+  Language Model Recommendation.
+\newblock In {\em 17th ACM Conference on Recommender Systems}. 2023.
 
 \end{thebibliography}
