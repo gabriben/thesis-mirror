@@ -5,3 +5,8 @@ text/thesis-main.log
 *.aux
 text/thesis-main.pdf
 *.aux
+*.toc
+text/thesis-main.pdf
+*.log
+*.blg
+*.aux
