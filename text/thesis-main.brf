@@ -2,6 +2,7 @@
 \backcite {oldPersonalizationBehavior}{{1}{1}{chapter.1}}
 \backcite {oldPersonalizationSearch}{{1}{1}{chapter.1}}
 \backcite {intent}{{1}{1}{chapter.1}}
+\backcite {spotifyIntent}{{1}{1}{chapter.1}}
 \backcite {oldReco}{{1}{1}{chapter.1}}
 \backcite {oldReco}{{1}{1}{chapter.1}}
 \backcite {NetflixReco}{{1}{1}{chapter.1}}
@@ -29,7 +30,7 @@
 \backcite {confusionMatrix}{{4}{1.1}{Item.2}}
 \backcite {sgd2}{{4}{1.1}{Item.2}}
 \backcite {sgd1}{{4}{1.1}{Item.2}}
-\backcite {sigmoidf1}{{4}{1.1}{Item.2}}
+\backcite {sigmoidf1}{{5}{1.1}{Item.2}}
 \backcite {cnn}{{5}{1.1}{Item.2}}
 \backcite {attention}{{5}{1.1}{Item.2}}
 \backcite {spotifyIntent}{{5}{1.1}{Item.3}}
