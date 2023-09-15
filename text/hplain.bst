@@ -35,6 +35,7 @@ ENTRY
     volume
     year
     articleno
+    archiveprefix
   }
   {}
   { label }
@@ -563,7 +564,14 @@ FUNCTION {article}
   format.title "title" output.check
   format.vol.num.pages output
   format.articlenumber output
-  journal emphasize "journal" output.check
+  journal empty$
+  {
+      archiveprefix emphasize "archiveprefix" output.check
+  }
+  {
+    journal emphasize "journal" output.check
+  }
+  if$
   %format.pages output
   new.block 
   %crossref missing$
