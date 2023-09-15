@@ -9,7 +9,7 @@
 Video streaming platforms have changed the way people consume and interact with digital media~\cite{NetflixReco}. 
 One of the key innovations of video streaming platforms with regards to traditional television, is \emph{personalization}, that is, the ability to tailor the experience to each single user and their interests, given their past behavior on the platform~\cite{oldPersonalizationBehavior, oldPersonalizationSearch}. 
 
-\begin{figure}[h]
+\begin{figure}[t]
   \captionsetup{singlelinecheck=off}
   \centering
   \includegraphics[width=\textwidth]{images/personalization_pipeline.pdf}
@@ -32,22 +32,23 @@ One of the key innovations of video streaming platforms with regards to traditio
 \end{figure}
 
 When designing and examining methods for personalization, the concept of \emph{user journey} is helpful. 
-Briefly, we propose this term in the context of this thesis to describe the user's interactions with the platform from login to logout.
+We propose this term in the context of this thesis to describe the user's interactions with a video streaming platform from login to logout.
 In the setting of video streaming, the user journey consists of several steps (see Figure~\ref{fig:journey}).
 First, users come to the platform with some \emph{intents} (e.g., binge-watching a series, finding a family-friendly movie, discovering new genres)~\cite{intent}. 
-Then, they see a customized home page with various horizontal \emph{recommendation} strips (see Figure~\ref{fig:VLStrip} for a visualization of the landing page of Videoland, a Dutch video-on-demand service \gab{do we need this figure if we already have the diagram?}). 
+Then, they see a customized home page with various horizontal \emph{recommendation} strips.
+In Figure~\ref{fig:VLStrip} we show how this step in the user journey is realized with the landing page of Videoland, a Dutch video-on-demand service. 
 Each strip contains videos with (sometimes personalized) \emph{thumbnails} (the clickable image that represents the video content). 
 Over time, users interact with the platform and leave \emph{behavioral} signals (e.g., clicks, watch time, bookmarks, ratings, etc.). 
 From the platform's perspective, deciphering how these behavioral signals, prompted by user intents, translate into overall \emph{satisfaction} remains a complex challenge~\cite{spotifyIntent}.
 
-Behavioral signals generated during the user journey have long been used to target users individually. 
-The term \emph{personalization} has been used describe this strategy. 
+Behavioral signals generated during the user journey have long been drawn on to target users individually. 
+The term \emph{personalization} is commonly used to describe this strategy. 
 Historically, personalization has been used as an umbrella term for approaches more akin to targeting user segments/groups than actually serving each single user differently (as the term personalization seems to hint at). 
 Initially, in the domain of e-commerce in the late 1990s, personalization was restricted to email newsletters and aimed at user groups~\cite{oldReco}. 
 Personalization appeared on early video streaming platforms like Netflix in the form of one-dimensional lists, i.e.,  the recommendation strip mentioned above~\cite{oldReco}. 
 Today, the user journey on video platforms is steered by the platform's algorithms: personalization is used in the ordering of the strip (i.e., multiple one-dimensional lists, in the choice of the thumbnail, in the font title of the thumbnail, in search (a review of these strategies can be found in~\cite{NetflixReco}).
 
-\begin{figure}[h]
+\begin{figure}[t]
   \centering
   \includegraphics[width=\textwidth]{images/VLHome_cropped.png}
   \caption{Videoland's recommendation strips}
@@ -70,9 +71,11 @@ This pipeline is often geared towards optimizing relatively simple metrics like 
 %regarding satisfaction and diversity are related to the platform's perspective.
 %building predictive models, testing different strategies, and evaluating the outcomes. These steps help to capture user intent, preferences, and interaction patterns; the input for personalization tools. This thesis presents some novel methods and tools for improving the pipeline along this user journey. 
 
-In this thesis, we propose individual tools that use the measured interactions from to the user journey above, for the steps of \emph{recommendations}, \emph{thumbnail} selection, \emph{intent-satisfaction} linking, and \emph{diversity} measurement. 
+In this thesis, we propose individual tools that use the logged interactions from the user journey above, for the steps of \emph{recommendations}, \emph{thumbnail} selection, \emph{intent-satisfaction} linking, and \emph{diversity} measurement. 
 Together, these tools form our proposed personalization pipeline. In the thesis we seek to make novel contributions to each of the steps in the personalization pipeline as depicted in Figure~\ref{fig:journey}.
-By adapting diffusion models~\cite{jascha} from the image domain (continuous-2D-structured-data) to recommendation (binary-1D-unstructured-data), we open the door to the use of priors in recommendation (preferred movie genres, past behavior or incomplete viewing history, etc.), like is seen in diffusion for images (an image description, a previous reference image, a masked image, etc.) \todo{REF}. Diffusion models are physics inspired neural models, that include a forward (perturbation) and backward (learning) process on each example~\cite{jascha}. As for personalized \emph{thumbnails}, existing research in multilabel image classification is highly reliant on variations of the binary cross-entropy loss~\cite{fisher}, but we think that the multilabel setting (as opposed to the binary or multiclass setting) requires its own solution. For the next step, we identified a lack of a systematic approach for \emph{intent-satisfaction} studies, that would provide survey design, code and modern bayesian approaches to the problem. Finally, we could not find a \emph{diversity} metric for news / movies recommendations that is distribution agnostic -- to adapt to any distributions of discrete normative standpoints -- and rank-aware -- to accommodate for the propensity of a user to scroll up to an item on a ranked list. So we propose a rank-aware adaptation of the Jensen-Shannon Divergence.
+By adapting diffusion models~\cite{jascha} from the image domain (continuous-2D-structured-data) to recommendation (binary-1D-unstructured-data), we open the door to the use of priors in recommendation (preferred movie genres, past behavior or incomplete viewing history, etc.), like is seen in diffusion for images (an image description, a previous reference image, a masked image, etc.) \todo{REF}. Diffusion models are physics inspired neural models, that include a forward (perturbation) and backward (learning) process on each example~\cite{jascha}. \mdr{Why do we need this particular detail about diffusion at this stage?} As for personalized \emph{thumbnails}, existing research in multilabel image classification is highly reliant on variations of the binary cross-entropy loss~\cite{fisher}, but we think that the multilabel setting (as opposed to the binary or multiclass setting) requires its own solution. For the next step, we identified a lack of a systematic approach for \emph{intent-satisfaction} studies, that would provide survey design, code and modern bayesian approaches to the problem. 
+Finally, we argue for the importance of a \emph{diversity} metric for news / movies recommendations that is distribution agnostic -- to adapt to any distributions of discrete normative standpoints -- and rank-aware -- to accommodate for the propensity of a user to scroll up to an item on a ranked list. 
+As such a metric is missing from the literature, we propose a rank-aware adaptation of the Jensen-Shannon Divergence.
 
 %We identify a knowledge gap in the literature 
 %\paragraph{knowledge gap...} list for each paper.
