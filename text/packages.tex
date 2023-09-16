@@ -57,7 +57,7 @@
 % Include all packages -- my extras
 \usepackage{multirow}
 \usepackage{balance}
-\usepackage{subfigure}
+%\usepackage{subfigure}
 \usepackage[np, autolanguage]{numprint}
 %\usepackage[noend]{algpseudocode}
 \usepackage[skip=1pt]{caption}
@@ -87,6 +87,40 @@ pdfauthor = {Your Name}
 \usepackage{bookmark}
 
 \usepackage{import}
+
+% https://tex.stackexchange.com/questions/360580/appendix-with-alphabetical-label#:~:text=Here%27s%20a%20version%20without%20any%20other%20package%20apart%20from%20appendix%20package%20by%20%27slightly%27%20(cough!%20%3B%2D))%20modifying%20the%20%5C%40makechapterhead%20command.
+
+\usepackage[title]{appendix}
+
+\newlength{\appendixafterchapheadskip}
+\newlength{\appendixbeforechapheadskip}
+\newlength{\appendixafterchaptitleskip}
+\setlength{\appendixafterchapheadskip}{10pt}
+\setlength{\appendixbeforechapheadskip}{30pt}
+\setlength{\appendixafterchaptitleskip}{30pt}
+
+
+\makeatletter
+\g@addto@macro\appendices{%
+  \def\@makechapterhead#1{%
+    \vspace*{\appendixbeforechapheadskip}%
+    { \parindent \z@ \raggedright \normalfont
+      \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+      \huge\bfseries\centering \@chapapp\space \thechapter
+      \par\nobreak
+      \vskip \appendixafterchapheadskip
+      \fi
+      \fi
+      \interlinepenalty\@M
+      \Huge \bfseries #1\par\nobreak
+      \vskip \appendixafterchaptitleskip%
+    }%
+  }
+}
+\makeatother
+
+
 %\usepackage{chapterfolder}
 
 %\let\includegraphicsWithoutCF\includegraphics

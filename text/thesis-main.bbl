@@ -1,4 +1,10 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
+
+\bibitem{Beel2019e}
+Joeran Beel and Victor Brunel.
+\newblock Data Pruning in Recommender Systems Research: Best-Practice or
+  Malpractice?
+\newblock In {\em 13th ACM Conference on Recommender Systems (RecSys)}, 2019.
 
 \bibitem{offlineOnlineSurvey}
 Joeran Beel and Stefan Langer.
@@ -27,6 +33,18 @@ Garbiel B\'{e}n\'{e}dict, Ruqing Zhang, and Donald Metzler.
 \newblock In {\em Proceedings of the 46th International ACM SIGIR Conference on
   Research and Development in Information Retrieval}, page 3460–3463. 2023.
 
+\bibitem{bengio2013:repr_learning}
+Yoshua Bengio, Aaron Courville, and Pascal Vincent.
+\newblock Representation learning: A review and new perspectives,
+  35(8):1798--1828, {\em IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}.
+\newblock 2013.
+
+\bibitem{bennett2007:netflix}
+James Bennett and Stan Lanning.
+\newblock The {Netflix} prize.
+\newblock In {\em Proceedings of KDD Cup Workshop 2007}, pages 3--6. ACM, 2007.
+
 \bibitem{oldPersonalizationBehavior}
 Paul~N. Bennett, Ryen~W. White, Wei Chu, Susan~T. Dumais, Peter Bailey, Fedor
   Borisyuk, and Xiaoyuan Cui.
@@ -34,6 +52,26 @@ Paul~N. Bennett, Ryen~W. White, Wei Chu, Susan~T. Dumais, Peter Bailey, Fedor
   Personalization.
 \newblock In {\em Proceedings of the 35th International ACM SIGIR Conference on
   Research and Development in Information Retrieval}, page 185–194. 2012.
+
+\bibitem{tpe}
+James Bergstra, R\'{e}mi Bardenet, Yoshua Bengio, and Bal\'{a}zs K\'{e}gl.
+\newblock Algorithms for Hyper-Parameter Optimization.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~24. Curran Associates, Inc., 2011.
+
+\bibitem{hyperopt}
+James Bergstra, Daniel Yamins, and David Cox.
+\newblock Making a Science of Model Search: Hyperparameter Optimization in
+  Hundreds of Dimensions for Vision Architectures.
+\newblock In Sanjoy Dasgupta and David McAllester, editors, {\em Proceedings of
+  the 30th International Conference on Machine Learning}, volume~28 of {\em
+  Proceedings of Machine Learning Research},  2013.
+
+\bibitem{bhargav2021:controlrecsys}
+Samarth Bhargav and Evangelos Kanoulas.
+\newblock Controllable Recommenders using Deep Generative Models and
+  Disentanglement, {\em arXiv preprint arXiv:2110.05056}.
+\newblock 2021.
 
 \bibitem{gans}
 Gabriel Bénédict.
@@ -48,6 +86,58 @@ Gabriel Bénédict, Olivier Jeunen, Samuele Papa, Samarth Bhargav, Daan Odijk,
   Recommendation, {\em arXiv}.
 \newblock 2306.08947, 2023.
 
+\bibitem{chen23:singl_stage_diffus_nerf}
+Hansheng Chen, Jiatao Gu, Anpei Chen, Wei Tian, Zhuowen Tu, Lingjie Liu, and
+  Hao Su.
+\newblock Single-Stage Diffusion {NeRF}: A Unified Approach to {3D} Generation
+  and Reconstruction, {\em arXiv preprint arXiv:2304.06714v2}.
+\newblock 2023.
+
+\bibitem{berdiff}
+Tao Chen, Chenhui Wang, and Hongming Shan.
+\newblock {BerDiff}: Conditional {Bernoulli} Diffusion Model for Medical Image
+  Segmentation, {\em arXiv preprint arXiv:2304.04429}.
+\newblock 2023.
+
+\bibitem{chen-2018-collective}
+Yifan Chen and Maarten de~Rijke.
+\newblock A Collective Variational Autoencoder for Top-N Recommendation with
+  Side Information.
+\newblock In {\em 3rd Workshop on Deep Learning for Recommender Systems}. 2018.
+
+\bibitem{croitoru-2023-diffusion}
+Florinel-Alin Croitoru, Vlad Hondru, Radu~Tudor Ionescu, and Mubarak Shah.
+\newblock Diffusion Models in Vision: A Survey, pages 1--20, {\em IEEE
+  Transactions on Pattern Analysis and Machine Intelligence}.
+\newblock 2023.
+
+\bibitem{dacrema2021:repro_followup}
+Maurizio~Ferrari Dacrema, Simone Boglio, Paolo Cremonesi, and Dietmar Jannach.
+\newblock A Troubling Analysis of Reproducibility and Progress in Recommender
+  Systems Research, 39(2):20:1--20:49, {\em ACM Transactions on Information
+  Systems}.
+\newblock 2021.
+
+\bibitem{firstReco}
+Florence Dehart.
+\newblock The Application of Special Library Services and Techniques to the
+  College Library, 27(2):130--152, {\em College \& Research Libraries}.
+\newblock 1966.
+
+\bibitem{Feller1949OnTT}
+William Feller.
+\newblock On the Theory of Stochastic Processes, with Particular Reference to
+  Applications.
+\newblock In {\em Proceedings of the First Berkeley Symposium on Mathematical
+  Statistics and Probability}. University of California Press, 1949.
+
+\bibitem{dacrema2019:repro_study}
+Maurizio Ferrari~Dacrema, Paolo Cremonesi, and Dietmar Jannach.
+\newblock Are we really making much progress? {A} worrying analysis of recent
+  neural recommendation approaches.
+\newblock In {\em Proceedings of the 13th ACM Conference on Recommender
+  Systems}. ACM, 2019.
+
 \bibitem{fisher}
 Ronald~A. Fisher.
 \newblock On an Absolute Criterion for Fitting Frequency Curves, 41:155--160,
@@ -61,9 +151,28 @@ K.~Fukushima.
   Biological Cybernetics}.
 \newblock 1980.
 
+\bibitem{gao-2023-difformer}
+Zhujin Gao, Junliang Guo, Xu~Tan, Yongxin Zhu, Fang Zhang, Jiang Bian, and
+  Linli Xu.
+\newblock Difformer: Empowering Diffusion Models on the Embedding Space for
+  Text Generation, {\em arXiv preprint arXiv:2212.09412}.
+\newblock 2023.
+
+\bibitem{gao2023difformer}
+Zhujin Gao, Junliang Guo, Xu~Tan, Yongxin Zhu, Fang Zhang, Jiang Bian, and
+  Linli Xu.
+\newblock Difformer: Empowering Diffusion Models on the Embedding Space for
+  Text Generation, 2023, 2212.09412.
+
 \bibitem{NetflixReco}
 Carlos~A. Gomez-Uribe and Neil Hunt.
 \newblock The Netflix Recommender System, 6(4):1–19,
+\newblock 2015.
+
+\bibitem{movieLens}
+F.~Maxwell Harper and Joseph~A. Konstan.
+\newblock The {MovieLens} Datasets: History and Context, 5:Article 19, {\em ACM
+  Transactions on Interactive Intelligent Systems}.
 \newblock 2015.
 
 \bibitem{helberger}
@@ -72,22 +181,123 @@ Natali Helberger.
   Digital Journalism}.
 \newblock https://doi.org/10.1080/21670811.2019.1623700, 2019.
 
+\bibitem{higgins2017:betavae}
+Irina Higgins, Loic Matthey, Arka Pal, Christopher Burgess, Xavier Glorot,
+  Matthew Botvinick, Shakir Mohamed, and Alexander Lerchner.
+\newblock beta-{VAE}: Learning basic visual concepts with a constrained
+  variational framework.
+\newblock In {\em International Conference on Learning Representations}, 2017.
+
+\bibitem{DDPM}
+Jonathan Ho, Ajay Jain, and Pieter Abbeel.
+\newblock Denoising Diffusion Probabilistic Models.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~33, pages 6840--6851. Curran Associates, Inc., 2020.
+
+\bibitem{ho2021classifierfree}
+Jonathan Ho and Tim Salimans.
+\newblock Classifier-Free Diffusion Guidance.
+\newblock In {\em NeurIPS 2021 Workshop on Deep Generative Models and
+  Downstream Applications}, 2021.
+
+\bibitem{ho-2022-video}
+Jonathan Ho, Tim Salimans, Alexey Gritsenko, William Chan, Mohammad Norouzi,
+  and David~J. Fleet.
+\newblock Video Diffusion Models, {\em arXiv preprint arXiv:2204.03458}.
+\newblock 2022.
+
 \bibitem{longTerm}
 Henning Hohnhold, Deirdre O’Brien, and Diane Tang.
 \newblock Focusing on the Long-term (It's Good for Users and Business),
 \newblock 2015.
 
-\bibitem{llmRec}
-Yupeng Hou, Junjie Zhang, Zihan Lin, Hongyu Lu, Ruobing Xie, Julian McAuley,
-  and Wayne~Xin Zhao.
-\newblock Large Language Models are Zero-Shot Rankers for Recommender Systems.
-\newblock 2305.08845, 2023.
+\bibitem{multinomialDiffusion}
+Emiel Hoogeboom, Didrik Nielsen, Priyank Jaini, Patrick Forr\'{e}, and Max
+  Welling.
+\newblock Argmax Flows and Multinomial Diffusion: Learning Categorical
+  Distributions.
+\newblock In M.~Ranzato, A.~Beygelzimer, Y.~Dauphin, P.S. Liang, and J.~Wortman
+  Vaughan, editors, {\em Advances in Neural Information Processing Systems},
+  volume~34, pages 12454--12465. Curran Associates, Inc., 2021.
+
+\bibitem{nonNeuralBasket1}
+Haoji Hu, Xiangnan He, Jinyang Gao, and Zhi-Li Zhang.
+\newblock Modeling Personalized Item Frequency Information for Next-basket
+  Recommendation, {\em Proceedings of the 43rd International ACM SIGIR
+  Conference on Research and Development in Information Retrieval}.
+\newblock 2020.
+
+\bibitem{Hu2008}
+Yifan Hu, Yehuda Koren, and Chris Volinsky.
+\newblock Collaborative Filtering for Implicit Feedback Datasets.
+\newblock In {\em 2008 Eighth IEEE International Conference on Data Mining},
+  pages 263--272, 2008.
+
+\bibitem{huang-2022-different}
+Jin Huang, Harrie Oosterhuis, and Maarten de~Rijke.
+\newblock It Is Different When Items Are Older: Debiasing Recommendations When
+  Selection Bias and User Preferences are Dynamic.
+\newblock In {\em WSDM 2022: The Fifteenth International Conference on Web
+  Search and Data Mining}, pages 381--289. 2022.
+
+\bibitem{nonNeuralClassic2}
+Dietmar Jannach, Gabriel de~Souza P.~Moreira, and Even Oldridge.
+\newblock Why Are Deep Learning Models Not Consistently Winning Recommender
+  Systems Competitions Yet?
+\newblock In {\em Proceedings of the Recommender Systems Challenge 2020}. ACM,
+  2020.
+
+\bibitem{blur}
+Choi Jeongwhan, Hong Seoyoung, Noseong Park, and Sung-Bae Cho.
+\newblock Blurring-Sharpening Process Models for Collaborative Filtering,
+\newblock 2023.
+
+\bibitem{socialDiffusion2}
+Bo~Jin, Ke~Cheng, Liang Zhang, Yanjie Fu, Minghao Yin, and Lu~Jiang.
+\newblock Partial Relationship Aware Influence Diffusion via a Multi-Channel
+  Encoding Scheme for Social Recommendation.
+\newblock In {\em Proceedings of the 29th ACM International Conference on
+  Information and Knowledge Management}, page 585–594. ACM, 2020.
+
+\bibitem{diff_3D_medical}
+Firas Khader, Gustav Müller-Franzes, Soroosh Tayebi~Arasteh, Tianyu Han,
+  Christoph Haarburger, Maximilian Schulze-Hagen, Philipp Schad, Sandy
+  Engelhardt, Bettina Baeßler, Sebastian Foersch, Johannes Stegmaier,
+  Christiane Kuhl, Sven Nebelung, Jakob~Nikolas Kather, and Daniel Truhn.
+\newblock Denoising diffusion probabilistic models for {3D} medical image
+  generation, 13(1), {\em Scientific Reports}.
+\newblock 2023.
 
 \bibitem{sgd2}
 J.~Kiefer and J.~Wolfowitz.
 \newblock {Stochastic Estimation of the Maximum of a Regression Function},
   23(3):462 -- 466, {\em The Annals of Mathematical Statistics}.
 \newblock 1952.
+
+\bibitem{VDM}
+Diederik~P. Kingma, Tim Salimans, Ben Poole, and Jonathan Ho.
+\newblock On Density Estimation with Diffusion Models.
+\newblock In {\em Advances in Neural Information Processing Systems}, 2021.
+
+\bibitem{kingma2013:vae}
+Diederik~P. Kingma and Max Welling.
+\newblock Auto-encoding variational {Bayes}, {\em arXiv preprint
+  arXiv:1312.6114}.
+\newblock 2013.
+
+\bibitem{kirillov2023segment}
+Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloe Rolland, Laura
+  Gustafson, Tete Xiao, Spencer Whitehead, Alexander~C. Berg, Wan-Yen Lo, Piotr
+  Dollár, and Ross Girshick.
+\newblock Segment Anything, {\em arXiv preprint arXiv:2304.02643}.
+\newblock 2023.
+
+\bibitem{nonNeuralSparse}
+Yasamin Klingler, Claude Lehmann, Jo{\~a}o~Pedro Monteiro, Carlo Saladin,
+  Abraham Bernstein, and Kurt Stockinger.
+\newblock Evaluation of Algorithms for Interaction-Sparse Recommendations:
+  Neural Networks don't Always Win.
+\newblock  2022.
 
 \bibitem{oldReco}
 Ron Kohavi and Foster Provost.
@@ -101,11 +311,48 @@ Yehuda Koren, Robert Bell, and Chris Volinsky.
   42(8):30–37,
 \newblock 2009.
 
+\bibitem{nonNeuralBasket2}
+Sara Latifi, Noemi Mauro, and Dietmar Jannach.
+\newblock Session-aware recommendation: A surprising quest for the
+  state-of-the-art, 573:291–315,
+\newblock 2021.
+
 \bibitem{oldChurn}
 Jae~Sik Lee and Jin~Chun Lee.
 \newblock Customer Churn Prediction by Hybrid Model.
 \newblock In Xue Li, Osmar~R. Za{\"i}ane, and Zhanhuai Li, editors, {\em
   Advanced Data Mining and Applications}, pages 959--966. 2006.
+
+\bibitem{li2020:rankopt}
+Hanze Li, Scott Sanner, Kai Luo, and Ga~Wu.
+\newblock A Ranking Optimization Approach to Latent Linear Critiquing for
+  Conversational Recommender Systems.
+\newblock In {\em Fourteenth ACM Conference on Recommender Systems}, page
+  13–22. ACM, 2020.
+
+\bibitem{li-2021-next-arxiv}
+Ming Li, Sami Jullien, Mozhdeh Ariannezhad, and Maarten de~Rijke.
+\newblock A Next Basket Recommendation Reality Check, {\em arXiv preprint
+  arXiv:2109.14233}.
+\newblock 2021.
+
+\bibitem{seqdiffrec}
+Zihao Li, Aixin Sun, and Chenliang Li.
+\newblock DiffuRec: A Diffusion Model for Sequential Recommendation, {\em arXiv
+  preprint arXiv:2304.00686}.
+\newblock 2023.
+
+\bibitem{Liang2016}
+Dawen Liang, Laurent Charlin, James McInerney, and David~M. Blei.
+\newblock Modeling User Exposure in Recommendation.
+\newblock In {\em Proceedings of the 25th International Conference on World
+  Wide Web}, page 951–961. 2016.
+
+\bibitem{liang2018:multvae}
+Dawen Liang, Rahul~G. Krishnan, Matthew~D. Hoffman, and Tony Jebara.
+\newblock Variational Autoencoders for Collaborative Filtering.
+\newblock In {\em Proceedings of the 2018 World Wide Web Conference}, page
+  689–698. ACM, 2018.
 
 \bibitem{js}
 J.~Lin.
@@ -113,11 +360,35 @@ J.~Lin.
   {\em IEEE Transactions on Information Theory}.
 \newblock 1991.
 
-\bibitem{llmRecNews}
-Qijiong Liu, Nuo Chen, Tetsuya Sakai, and Xiao-Ming Wu.
-\newblock ONCE: Boosting Content-based Recommendation with Both Open- and
-  Closed-source Large Language Models.
-\newblock 2305.06566, 2023.
+\bibitem{nonNeuralSessionBased}
+Malte Ludewig and Dietmar Jannach.
+\newblock Evaluation of session-based recommendation algorithms,
+  28(4–5):331–390, {\em User Modeling and User-Adapted Interaction}.
+\newblock 2018.
+
+\bibitem{luo2020:deepcritiquing}
+Kai Luo, Hojin Yang, Ga~Wu, and Scott Sanner.
+\newblock Deep Critiquing for VAE-Based Recommender Systems.
+\newblock In {\em Proceedings of the 43rd International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}, page 1269–1278. ACM,
+  2020.
+
+\bibitem{ma2019:macridvae}
+Jianxin Ma, Chang Zhou, Peng Cui, Hongxia Yang, and Wenwu Zhu.
+\newblock Learning disentangled representations for recommendation.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~32, 2019.
+
+\bibitem{ma2023segment}
+Jun Ma and Bo~Wang.
+\newblock Segment Anything in Medical Images, {\em arXiv preprint
+  arXiv:2304.12306}.
+\newblock 2023.
+
+\bibitem{marlin2004:cf_ml_perspective}
+Benjamin Marlin.
+\newblock {\em Collaborative Filtering: A Machine Learning Perspective}.
+\newblock University of Toronto, 2004.
 
 \bibitem{spotifyIntent}
 Rishabh Mehrotra, Mounia Lalmas, Doug Kenney, Thomas Lim-Meng, and Golli
@@ -126,12 +397,50 @@ Rishabh Mehrotra, Mounia Lalmas, Doug Kenney, Thomas Lim-Meng, and Golli
   Satisfaction with Slate Recommendations.
 \newblock In {\em The World Wide Web Conference}, page 1256–1267. 2019.
 
-\bibitem{genirRec}
-Shashank Rajput, Nikhil Mehta, Anima Singh, Raghunandan~H. Keshavan, Trung Vu,
-  Lukasz Heldt, Lichan Hong, Yi~Tay, Vinh~Q. Tran, Jonah Samost, Maciej Kula,
-  Ed~H. Chi, and Maheswaran Sathiamoorthy.
-\newblock Recommender Systems with Generative Retrieval.
-\newblock 2305.05065, 2023.
+\bibitem{menzen-2021-alternating}
+Clara Menzen, Manon Kok, and Kim Batselier.
+\newblock Alternating linear scheme in a {Bayesian} framework for low-rank
+  tensor approximation, {\em arXiv preprint arXiv:2012.11228}.
+\newblock 2021.
+
+\bibitem{michiels_verachtert2022:recpack}
+Lien Michiels, Robin Verachtert, and Bart Goethals.
+\newblock {RecPack}: An (other) Experimentation Toolkit for Top-N
+  Recommendation using Implicit Feedback Data.
+\newblock In {\em Proceedings of the 16th ACM Conference on Recommender
+  Systems}, pages 648--651, 2022.
+
+\bibitem{nema2021:betavae}
+Preksha Nema, Alexandros Karatzoglou, and Filip Radlinski.
+\newblock Disentangling Preference Representations for Recommendation
+  Critiquing with \ss{}-VAE.
+\newblock In {\em Proceedings of the 30th ACM International Conference on
+  Information \& Knowledge Management}, page 1356–1365. ACM, 2021.
+
+\bibitem{SLIM}
+Xia Ning and George Karypis.
+\newblock {SLIM}: Sparse Linear Methods for Top-N Recommender Systems.
+\newblock In {\em 2011 IEEE 11th International Conference on Data Mining},
+  pages 497--506, 2011.
+
+\bibitem{Pan2008}
+Rong Pan, Yunhong Zhou, Bin Cao, Nathan~N. Liu, Rajan Lukose, Martin Scholz,
+  and Qiang Yang.
+\newblock One-Class Collaborative Filtering.
+\newblock In {\em 2008 Eighth IEEE International Conference on Data Mining},
+  pages 502--511, 2008.
+
+\bibitem{nonNeuralClassic4}
+Steffen Rendle, Walid Krichene, Li~Zhang, and Yehuda Koren.
+\newblock Revisiting the Performance of {iALS} on Item Recommendation
+  Benchmarks.
+\newblock In {\em Sixteenth ACM Conference on Recommender Systems}. ACM, 2022.
+
+\bibitem{nonNeuralClassic3}
+Steffen Rendle, Li~Zhang, and Yehuda Koren.
+\newblock On the Difficulty of Evaluating Baselines: A Study on Recommender
+  Systems, {\em arXiv preprint arXiv:1905.01395v1}.
+\newblock 2019.
 
 \bibitem{sgd1}
 Herbert Robbins and Sutton Monro.
@@ -150,12 +459,80 @@ Olaf Ronneberger, Philipp Fischer, and Thomas Brox.
 \newblock U-Net: Convolutional Networks for Biomedical Image Segmentation.
 \newblock page 234–241. Springer International Publishing, 2015.
 
+\bibitem{ronneberger-2015-unet}
+Olaf Ronneberger, Philipp Fischer, and Thomas Brox.
+\newblock {U-Net}: Convolutional Networks for Biomedical Image Segmentation,
+  {\em arXiv preprint arXiv:1505.04597}.
+\newblock 2015.
+
+\bibitem{sachdeva2022infinite}
+Noveen Sachdeva, Mehak~Preet Dhaliwal, Carole-Jean Wu, and Julian McAuley.
+\newblock Infinite Recommendation Networks: A Data-Centric Approach.
+\newblock In {\em Advances in Neural Information Processing Systems}, 2022.
+
+\bibitem{imagen}
+Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily
+  Denton, Seyed Kamyar~Seyed Ghasemipour, Raphael Gontijo-Lopes, Burcu~Karagol
+  Ayan, Tim Salimans, Jonathan Ho, David~J. Fleet, and Mohammad Norouzi.
+\newblock Photorealistic Text-to-Image Diffusion Models with Deep Language
+  Understanding.
+\newblock In {\em Advances in Neural Information Processing Systems}.
+
+\bibitem{itemBased}
+Badrul Sarwar, George Karypis, Joseph Konstan, and John Riedl.
+\newblock Item-based collaborative filtering recommendation algorithms.
+\newblock In {\em Proceedings of the 10th international conference on World
+  Wide Web}, pages 285--295, 2001.
+
+\bibitem{scarlett_cevher_2021}
+Jonathan Scarlett and Volkan Cevher.
+\newblock {\em An Introductory Guide to Fano’s Inequality with Applications
+  in Statistical Estimation}, page 487–528.
+\newblock Cambridge University Press, 2021.
+
+\bibitem{suvash2015:autorec}
+Suvash Sedhain, Aditya~Krishna Menon, Scott Sanner, and Lexing Xie.
+\newblock AutoRec: Autoencoders Meet Collaborative Filtering.
+\newblock In {\em Proceedings of the 24th International Conference on World
+  Wide Web}, page 111–112. ACM, 2015.
+
+\bibitem{RecVAE}
+Ilya Shenbin, Anton Alekseev, Elena Tutubalina, Valentin Malykh, and Sergey~I.
+  Nikolenko.
+\newblock RecVAE: A New Variational Autoencoder for Top-N Recommendations with
+  Implicit Feedback.
+\newblock In {\em Proceedings of the 13th International Conference on Web
+  Search and Data Mining}. ACM, 2020.
+
 \bibitem{jascha}
 Jascha Sohl-Dickstein, Eric Weiss, Niru Maheswaranathan, and Surya Ganguli.
 \newblock Deep Unsupervised Learning using Nonequilibrium Thermodynamics.
 \newblock In Francis Bach and David Blei, editors, {\em Proceedings of the 32nd
   International Conference on Machine Learning}, volume~37 of {\em Proceedings
   of Machine Learning Research},  2015.
+
+\bibitem{diffusion}
+Jascha Sohl-Dickstein, Eric Weiss, Niru Maheswaranathan, and Surya Ganguli.
+\newblock Deep Unsupervised Learning using Nonequilibrium Thermodynamics.
+\newblock In {\em Proceedings of the 32nd International Conference on Machine
+  Learning}, volume~37 of {\em Proceedings of Machine Learning Research}, pages
+  2256--2265. PMLR, 2015.
+
+\bibitem{songdenoising}
+Jiaming Song, Chenlin Meng, and Stefano Ermon.
+\newblock Denoising Diffusion Implicit Models.
+\newblock In {\em International Conference on Learning Representations}, 2021.
+
+\bibitem{SteckEvaluation}
+Harald Steck.
+\newblock Evaluation of Recommendations: Rating-Prediction and Ranking.
+\newblock In {\em Proceedings of the 7th ACM Conference on Recommender
+  Systems}, page 213–220. ACM, 2013.
+
+\bibitem{EASE}
+Harald Steck.
+\newblock Embarrassingly Shallow Autoencoders for Sparse Data,
+\newblock 2019.
 
 \bibitem{confusionMatrix}
 Stephen~V. Stehman.
@@ -186,6 +563,11 @@ Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
   S.~Vishwanathan, and R.~Garnett, editors, {\em Advances in Neural Information
   Processing Systems}, volume~30. Curran Associates, Inc., 2017.
 
+\bibitem{Verstrepen2017}
+Koen Verstrepen, Kanishka Bhaduriy, Boris Cule, and Bart Goethals.
+\newblock Collaborative Filtering for Binary, Positiveonly Data, 19(1):1–21,
+\newblock 2017.
+
 \bibitem{radio}
 Sanne Vrijenhoek, Gabriel B\'{e}n\'{e}dict, Mateo Gutierrez~Granada, Daan
   Odijk, and Maarten de~Rijke.
@@ -194,23 +576,68 @@ Sanne Vrijenhoek, Gabriel B\'{e}n\'{e}dict, Mateo Gutierrez~Granada, Daan
 \newblock In {\em Proceedings of the 16th ACM Conference on Recommender
   Systems}, page 208–219. 2022.
 
-\bibitem{normalize}
-Sanne Vrijenhoek, Lien Michiels, Johannes Kruse, Jordi~Viader Guerrero, Alain
-  Starke, and Nava Tintarev.
-\newblock NORMalize: The First Workshop on Normative Design and Evaluation of
-  Recommender Systems.
-\newblock In {\em 17th ACM Conference on Recommender Systems}. 2023.
+\bibitem{walker-2022-recommendation}
+Joojo Walker, Ting Zhong, Fengli Zhang, Qiang Gao, and Fan Zhou.
+\newblock Recommendation Via Collaborative Diffusion Generative Model.
+\newblock In {\em Knowledge Science, Engineering and Management: 15th
+  International Conference, KSEM 2022, Singapore, August 6–8, 2022,
+  Proceedings, Part III}, page 593–605. Springer-Verlag, 2022.
+
+\bibitem{wang2019:survey_sequential}
+Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Quan~Z Sheng, and Mehmet Orgun.
+\newblock Sequential recommender systems: Challenges, progress and prospects,
+  {\em arXiv preprint arXiv:2001.04830}.
+\newblock 2019.
 
 \bibitem{generativeReco}
 Wenjie Wang, Xinyu Lin, Fuli Feng, Xiangnan He, and Tat-Seng Chua.
 \newblock {Generative Recommendation: Towards Next-generation Recommender
-  Paradigm}.
+  Paradigm}, {\em arXiv}.
 \newblock 2304.03516v1, 2023.
 
-\bibitem{fairChatGPTReco}
-Jizhi Zhang, Keqin Bao, Yang Zhang, Wenjie Wang, Fuli Feng, and Xiangnan He.
-\newblock Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large
-  Language Model Recommendation.
-\newblock In {\em 17th ACM Conference on Recommender Systems}. 2023.
+\bibitem{diffRec}
+Wang Wenjie, Xu~Yiyan, Fuli Feng, Xinyu Lin, Xiangnan He, and Tat-Seng Chua.
+\newblock Diffusion Recommender Model,
+\newblock 2023.
+
+\bibitem{gao2019:dlc}
+Ga~Wu, Kai Luo, Scott Sanner, and Harold Soh.
+\newblock Deep Language-Based Critiquing for Recommender Systems.
+\newblock In {\em Proceedings of the 13th ACM Conference on Recommender
+  Systems}, page 137–145. ACM, 2019.
+
+\bibitem{socialDiffusion1}
+Le~Wu, Peijie Sun, Yanjie Fu, Richang Hong, Xiting Wang, and Meng Wang.
+\newblock A Neural Influence Diffusion Model for Social Recommendation.
+\newblock In {\em Proceedings of the 42nd International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}, page 235–244. ACM,
+  2019.
+
+\bibitem{wu2016:cdae}
+Yao Wu, Christopher DuBois, Alice~X. Zheng, and Martin Ester.
+\newblock Collaborative Denoising Auto-Encoders for Top-N Recommender Systems.
+\newblock In {\em Proceedings of the Ninth ACM International Conference on Web
+  Search and Data Mining}, page 153–162. ACM, 2016.
+
+\bibitem{yang23:learn_diffus_prior_nerfs}
+Guandao Yang, Abhijit Kundu, Leonidas~J. Guibas, Jonathan~T. Barron, and Ben
+  Poole.
+\newblock Learning a Diffusion Prior for {NeRFs}, {\em arXiv preprint
+  arXiv:2304.14473v1}.
+\newblock 2023.
+
+\bibitem{yang2021:bayesiancrit}
+Hojin Yang, Tianshu Shen, and Scott Sanner.
+\newblock Bayesian Critiquing with Keyphrase Activation Vectors for VAE-Based
+  Recommender Systems.
+\newblock In {\em Proceedings of the 44th International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}, page 2111–2115. ACM,
+  2021.
+
+\bibitem{diffusionImageSurvey}
+Chenshuang Zhang, Chaoning Zhang, Mengchun Zhang, and In~So Kweon.
+\newblock {Text-to-image Diffusion Models in Generative AI: A Survey}, {\em
+  arXiv}.
+\newblock 2303.07909v2, 2023.
 
 \end{thebibliography}

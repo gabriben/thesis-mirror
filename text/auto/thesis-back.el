@@ -2,6 +2,7 @@
  "thesis-back"
  (lambda ()
    (LaTeX-add-bibliographies
-    "thesis"))
+    "thesis"
+    "04-research-recfusion/recfusion-arxiv/refs.bib"))
  :latex)
 

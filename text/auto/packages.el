@@ -2,7 +2,7 @@
  "packages"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("geometry" "paperwidth=17cm" "paperheight=24cm" "inner=2.6cm" "outer=2.3cm" "top=2.3cm" "bottom=2.3cm") ("url" "hyphens") ("natbib" "square" "sort" "sectionbib" "numbers") ("xcolor" "usenames" "dvipsnames" "table") ("ulem" "normalem") ("babel" "english") ("algorithmic" "noend") ("enumitem" "shortlabels" "inline") ("numprint" "np" "autolanguage") ("caption" "skip=1pt") ("eurosym" "official") ("hyperref" "backref=page")))
+                     '(("geometry" "paperwidth=17cm" "paperheight=24cm" "inner=2.6cm" "outer=2.3cm" "top=2.3cm" "bottom=2.3cm") ("url" "hyphens") ("natbib" "square" "sort" "sectionbib" "numbers") ("xcolor" "usenames" "dvipsnames" "table") ("ulem" "normalem") ("babel" "english") ("algorithmic" "noend") ("enumitem" "shortlabels" "inline") ("numprint" "np" "autolanguage") ("caption" "skip=1pt") ("eurosym" "official") ("hyperref" "backref=page") ("appendix" "title")))
    (add-to-list 'LaTeX-verbatim-environments-local "lstlisting")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "lstinline")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
@@ -49,7 +49,6 @@
     "acronym"
     "bibentry"
     "balance"
-    "subfigure"
     "numprint"
     "caption"
     "amsthm"
@@ -59,6 +58,11 @@
     "lmodern"
     "ragged2e"
     "hyperref"
-    "bookmark"))
+    "bookmark"
+    "appendix")
+   (LaTeX-add-lengths
+    "appendixafterchapheadskip"
+    "appendixbeforechapheadskip"
+    "appendixafterchaptitleskip"))
  :latex)
 

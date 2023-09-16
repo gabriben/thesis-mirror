@@ -17,11 +17,11 @@
    (TeX-run-style-hooks
     "latex2e"
     "packages"
+    "04-research-recfusion/recfusion-arxiv/packages"
     "definitions"
     "thesis-front"
     "acknowledgements"
     "01-introduction/main"
-    "04-research-recfusion/main"
     "04-research-sigmoidf1/main"
     "04-research-intent/main"
     "04-research-radio/main"
