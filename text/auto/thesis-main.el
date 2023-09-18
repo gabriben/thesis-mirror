@@ -19,6 +19,7 @@
     "packages"
     "04-research-recfusion/recfusion-arxiv/packages"
     "04-research-sigmoidf1/multilabel/sigmoidF1/packages"
+    "04-research-intent/intent-based/intentBased/packages"
     "definitions"
     "thesis-front"
     "acknowledgements"

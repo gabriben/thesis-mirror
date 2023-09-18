@@ -21,6 +21,11 @@ Rahul Agrawal, Archit Gupta, Yashoteja Prabhu, and Manik Varma.
 \newblock In {\em Proceedings of the 22nd International Conference on World
   Wide Web}, pages 13--24. 2013.
 
+\bibitem{AmazonCat}
+{Amazon}.
+\newblock Amazon Music Has More Than 55 Million Customers Worldwide.
+\newblock 2020.
+
 \bibitem{Amoualian2020SIGIR2E}
 Hesam Amoualian, Parantapa Goswami, Laurent Ach, Pradipto Das, and Pablo
   Montalvo.
@@ -36,6 +41,12 @@ Evlampios Apostolidis, Eleni Adamantidou, Alexandros~I. Metsai, Vasileios
   Circuits and Systems for Video Technology}.
 \newblock 2020.
 
+\bibitem{AppleCat}
+{Apple}.
+\newblock Apple Music.
+\newblock \url{https://www.apple.com/apple-music/}, 2022.
+\newblock Accessed on 03.02.2022.
+
 \bibitem{extremeDiSMEC}
 Rohit Babbar and Bernhard Sch\"{o}lkopf.
 \newblock DiSMEC: Distributed Sparse Machines for Extreme Multi-Label
@@ -49,6 +60,12 @@ Emanuel~Ben Baruch, Tal Ridnik, Nadav Zamir, Asaf Noy, Itamar Friedman, Matan
 \newblock Asymmetric Loss For Multi-Label Classification, abs/2009.14119, {\em
   CoRR}.
 \newblock 2009.14119, 2020.
+
+\bibitem{lme4}
+Douglas Bates, Martin M{\"a}chler, Ben Bolker, and Steve Walker.
+\newblock Fitting Linear Mixed-Effects Models Using {lme4}, 67(1):1--48, {\em
+  Journal of Statistical Software}.
+\newblock 2015.
 
 \bibitem{Beel2019e}
 Joeran Beel and Victor Brunel.
@@ -69,6 +86,12 @@ Bichitrananda Behera, G.~{Kumaravelan}, and P.~{Kumar B.}
   Document Classification.
 \newblock In {\em 2019 11th International Conference on Advanced Computing
   (ICoAC)}, pages 220--224, 2019.
+
+\bibitem{cognitiveReco}
+Amin Beheshti, Shahpar Yakhchi, Salman Mousaeirad, Seyed~Mohssen Ghafari,
+  Srinivasa~Reddy Goluguri, and Mohammad~Amin Edrisi.
+\newblock Towards Cognitive Recommender Systems, 13(8), {\em Algorithms}.
+\newblock 2020.
 
 \bibitem{sigmoidf1}
 Gabriel B{\'e}n{\'e}dict, Hendrik~Vincent Koops, Daan Odijk, and Maarten
@@ -144,6 +167,13 @@ Kush Bhatia, Himanshu Jain, Purushottam Kar, Manik Varma, and Prateek Jain.
   editors, {\em Advances in Neural Information Processing Systems}, volume~28.
   Curran Associates, Inc., 2015.
 
+\bibitem{intentReco}
+Biswarup Bhattacharya, Iftikhar Burhanuddin, Abhilasha Sancheti, and Kushal
+  Satya.
+\newblock Intent-Aware Contextual Recommendation System.
+\newblock In {\em 2017 IEEE International Conference on Data Mining Workshops
+  (ICDMW)}. 2017.
+
 \bibitem{Bishop}
 Christopher~M. Bishop.
 \newblock {\em Pattern Recognition and Machine Learning}.
@@ -157,6 +187,13 @@ M.~J. Blosseville, Georges H\'{e}brail, Marie-Ga{\"e}lle Monteil, and
 \newblock In {\em Proceedings of the 15th Annual International ACM SIGIR
   Conference on Research and Development in Information Retrieval}, pages
   51--58. 1992.
+
+\bibitem{DLTabular2}
+Vadim Borisov, Tobias Leemann, Kathrin Se{\ss}ler, Johannes Haug, Martin
+  Pawelczyk, and Gjergji Kasneci.
+\newblock {Deep Neural Networks and Tabular Data: A Survey}, {\em arXiv
+  preprint arXiv:2110.01889}.
+\newblock 2021.
 
 \bibitem{labelPowerset}
 Matthew~R. Boutell, Jiebo Luo, Xipeng Shen, and Christopher~M. Brown.
@@ -177,6 +214,13 @@ Trstenjak Bruno, Mikac Sasa, and Dzenana Donko.
   69:1356--1364,
 \newblock 2013.
 
+\bibitem{SUM}
+Sahan Bulathwela, Mar\'{\i}a P\'{e}rez-Ortiz, Rishabh Mehrotra, Davor Orlic,
+  Colin de~la Higuera, John Shawe-Taylor, and Emine Yilmaz.
+\newblock SUM'20: State-Based User Modelling.
+\newblock In {\em Proceedings of the 13th International Conference on Web
+  Search and Data Mining}, pages 899--900. 2020.
+
 \bibitem{gans}
 Gabriel Bénédict.
 \newblock Generative Adversarial Networks, {\em Spectra ML Review Paper
@@ -190,6 +234,15 @@ Gabriel Bénédict, Olivier Jeunen, Samuele Papa, Samarth Bhargav, Daan Odijk,
   Recommendation, {\em arXiv}.
 \newblock 2306.08947, 2023.
 
+\bibitem{discoveryRetention}
+Steven {Caldwell Brown} and Amanda Krause.
+\newblock A Psychological Approach to Understanding the Varied Functions that
+  Different Music Formats Serve.
+\newblock In {\em Proceedings of the 14th International Conference on Music
+  Perception and Cognition}, 2016.
+\newblock 14th Biennial International Conference on Music Perception and
+  Cognition, ICMPC14.
+
 \bibitem{softF1}
 Wei-Cheng Chang, Hsiang-Fu Yu, Kai Zhong, Yiming Yang, and Inderjit~S. Dhillon.
 \newblock The Unknown Benefits of using a Soft-F1 Loss in Classification
@@ -201,6 +254,11 @@ Wei-Cheng Chang, Hsiang-Fu Yu, Kai Zhong, Yiming Yang, and Inderjit~S. Dhillon.
 \newblock Taming Pretrained Transformers for Extreme Multi-label Text
   Classification,
 \newblock 2020.
+
+\bibitem{2002}
+Nitesh~V. Chawla, Kevin~W. Bowyer, Lawrence~O. Hall, and W.~Philip Kegelmeyer.
+\newblock SMOTE: Synthetic Minority Over-sampling Technique, 16:321--357,
+\newblock 2002.
 
 \bibitem{chen23:singl_stage_diffus_nerf}
 Hansheng Chen, Jiatao Gu, Anpei Chen, Wei Tian, Zhuowen Tu, Lingjie Liu, and
@@ -221,6 +279,26 @@ Tao Chen, Chenhui Wang, and Hongming Shan.
   Segmentation, {\em arXiv preprint arXiv:2304.04429}.
 \newblock 2023.
 
+\bibitem{XGBoost}
+Tianqi Chen and Carlos Guestrin.
+\newblock {XGBoost}: A Scalable Tree Boosting System.
+\newblock In {\em Proceedings of the 22nd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, pages 785--794. 2016.
+
+\bibitem{xgboostR}
+Tianqi Chen, Tong He, Michael Benesty, Vadim Khotilovich, Yuan Tang, Hyunsu
+  Cho, Kailong Chen, Rory Mitchell, Ignacio Cano, Tianyi Zhou, Mu~Li, Junyuan
+  Xie, Min Lin, Yifeng Geng, and Yutian Li.
+\newblock {\em xgboost: Extreme Gradient Boosting}, 2021.
+\newblock R package version 1.5.0.2.
+
+\bibitem{chen-2020-improving}
+Wanyu Chen, Pengjie Ren, Fei Cai, Fei Sun, and Maarten de~Rijke.
+\newblock Improving End-to-End Sequential Recommendations with Intent-aware
+  Diversification.
+\newblock In {\em CIKM 2020: 29th ACM International Conference on Information
+  and Knowledge Management}, pages 175--184. 2020.
+
 \bibitem{rankingNDCG}
 Wei Chen, Tie-yan Liu, Yanyan Lan, Zhi-ming Ma, and Hang Li.
 \newblock Ranking Measures and Loss Functions in Learning to Rank.
@@ -234,11 +312,36 @@ Yifan Chen and Maarten de~Rijke.
   Side Information.
 \newblock In {\em 3rd Workshop on Deep Learning for Recommender Systems}. 2018.
 
+\bibitem{notInterestedOld}
+Zhixiang Chen, Xiannong Meng, Binhai Zhu, and R.H. Fowler.
+\newblock WebSail: From On-line Learning to Web Search.
+\newblock In {\em Proceedings of the First International Conference on Web
+  Information Systems Engineering}, volume~1, pages 206--213 vol.1, 2000.
+
+\bibitem{pinterestIntent}
+Justin Cheng, Caroline Lo, and Jure Leskovec.
+\newblock Predicting Intent Using Activity Logs.
+\newblock In {\em Proceedings of the 26th International Conference on World
+  Wide Web Companion - WWW '17 Companion}. ACM Press, 2017.
+
+\bibitem{googleSurveys}
+Konstantina Christakopoulou, Madeleine Traverse, Trevor Potter, Emma Marriott,
+  Daniel Li, Chris Haulk, Ed~H. Chi, and Minmin Chen.
+\newblock Deconfounding User Satisfaction Estimation from Response Rate Bias,
+\newblock 2020.
+
 \bibitem{moviePosters}
 Wei-Ta Chu and Hung-Jui Guo.
 \newblock Movie Genre Classification based on Poster Images with Deep Neural
   Networks,
 \newblock 2017.
+
+\bibitem{chuklin-using-2013}
+Aleksandr Chuklin, Pavel Serdyukov, and Maarten de~Rijke.
+\newblock Using intent information to model user behavior in diversified
+  search.
+\newblock In {\em 34th European Conference on Information Retrieval (ECIR'13)}.
+  2013.
 
 \bibitem{ML-DT}
 Amanda Clare and Ross~D. King.
@@ -285,6 +388,12 @@ Stijn Decubber, Thomas Mortier, Krzysztof Dembczynski, and Willem Waegeman.
 \newblock Deep F-Measure Maximization in Multi-label Classification: A
   Comparative Study.
 \newblock In {\em ECML/PKDD}, pages 290--305, 2018.
+
+\bibitem{DeezerCat}
+{Deezer}.
+\newblock Deezer About Page.
+\newblock \url{https://www.deezer.com/en/company}, 2022.
+\newblock Accessed on 03.02.2022.
 
 \bibitem{firstReco}
 Florence Dehart.
@@ -336,11 +445,23 @@ Ali Diba, Mohsen Fayyaz, Vivek Sharma, Manohar Paluri, Jurgen Gall, Rainer
   arXiv:1904.11451v3}.
 \newblock 2019.
 
+\bibitem{contextBandits}
+Paolo Dragone, Rishabh Mehrotra, and Mounia Lalmas.
+\newblock Deriving User- and Content-specific Rewards for Contextual Bandits.
+\newblock In {\em The World Wide Web Conference on - WWW '19}. ACM Press, 2019.
+
 \bibitem{multitaskLabel}
 Jingcheng Du, Qingyu Chen, Yifan Peng, Yang Xiang, Cui Tao, and Zhiyong Lu.
 \newblock ML-Net: Multi-label Classification of Biomedical Texts with Deep
   Neural Networks, 26(11):1279--1285,
 \newblock 2019.
+
+\bibitem{intentProductSearch}
+Huizhong Duan and ChengXiang Zhai.
+\newblock Mining Coordinated Intent Representation for Entity Search and
+  Recommendation.
+\newblock In {\em Proceedings of the 24th ACM International on Conference on
+  Information and Knowledge Management}. 2015.
 
 \bibitem{optimizableLosses}
 Elad Eban, Mariano Schain, Alan Mackey, Ariel Gordon, Ryan Rifkin, and Gal
@@ -357,6 +478,13 @@ Andr\'{e} Elisseeff and Jason Weston.
 \newblock In {\em Proceedings of the 14th International Conference on Neural
   Information Processing Systems: Natural and Synthetic}, pages 681--687. 2001.
 
+\bibitem{GDPR}
+{European Commission}.
+\newblock General Data Protection Regulation.
+\newblock
+  \url{https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679},
+  2022.
+
 \bibitem{pascalVOC}
 Mark Everingham, Luc~Van Gool, Christopher~KI Williams, John Winn, and Andrew
   Zisserman.
@@ -365,6 +493,11 @@ Mark Everingham, Luc~Van Gool, Christopher~KI Williams, John Winn, and Andrew
 \newblock
   \url{http://www.pascal-network.org/challenges/VOC/voc2007/index.html}, 2007.
 
+\bibitem{piracyIsBack}
+Brian Feldman.
+\newblock Piracy Is Back, {\em New York Magazine}.
+\newblock 2019.
+
 \bibitem{Feller1949OnTT}
 William Feller.
 \newblock On the Theory of Stochastic Processes, with Particular Reference to
@@ -372,12 +505,22 @@ William Feller.
 \newblock In {\em Proceedings of the First Berkeley Symposium on Mathematical
   Statistics and Probability}. University of California Press, 1949.
 
+\bibitem{imbalancedBook}
+Alberto Fern{\'a}ndez.
+\newblock {\em Learning from Imbalanced Data Sets}.
+\newblock Springer International Publishing, Cham, 1st ed. 2018. edition, 2018.
+
 \bibitem{dacrema2019:repro_study}
 Maurizio Ferrari~Dacrema, Paolo Cremonesi, and Dietmar Jannach.
 \newblock Are we really making much progress? {A} worrying analysis of recent
   neural recommendation approaches.
 \newblock In {\em Proceedings of the 13th ACM Conference on Recommender
   Systems}. ACM, 2019.
+
+\bibitem{SIGIRDefinitions}
+Nicola Ferro and Diane Kelly.
+\newblock SIGIR Initiative to Implement ACM Artifact Review and Badging, 52(1),
+\newblock 2018.
 
 \bibitem{fisher}
 Ronald~A. Fisher.
@@ -410,6 +553,26 @@ Zhujin Gao, Junliang Guo, Xu~Tan, Yongxin Zhu, Fang Zhang, Jiang Bian, and
 \newblock Difformer: Empowering Diffusion Models on the Embedding Space for
   Text Generation, 2023, 2212.09412.
 
+\bibitem{mixedSatisfaction}
+Jean Garcia-Gathright, Christine Hosey, Brian~St. Thomas, Ben Carterette, and
+  Fernando Diaz.
+\newblock Mixed Methods for Evaluating User Satisfaction.
+\newblock In {\em Proceedings of the 12th ACM Conference on Recommender
+  Systems}. 2018.
+
+\bibitem{spotifySatisfactionEmail}
+Jean Garcia-Gathright, Brian St.~Thomas, Christine Hosey, Zahra Nazari, and
+  Fernando Diaz.
+\newblock Understanding and Evaluating User Satisfaction with Music Discovery.
+\newblock In {\em The 41st International ACM SIGIR Conference on Research \&
+  Development in Information Retrieval}. 2018.
+
+\bibitem{EUOnPiracy}
+Francisco Garcia-Valero, Michal Kazimierczak, Carolina Arias-Burgos, and Nathan
+  Wajsman.
+\newblock Online Copyright Infringement in the European Union,
+\newblock 2021.
+
 \bibitem{shallowF4}
 Maxime Gasse and Alex Aussem.
 \newblock F-measure Maximization in Multi-Label Classification with
@@ -429,10 +592,21 @@ Google.
   \url{https://tfhub.dev/google/imagenet/mobilenet_v2_100_224/feature_vector/4},
   2021.
 
+\bibitem{DLTabular}
+Yury Gorishniy, Ivan Rubachev, Valentin Khrulkov, and Artem Babenko.
+\newblock Revisiting Deep Learning Models for Tabular Data.
+\newblock In A.~Beygelzimer, Y.~Dauphin, P.~Liang, and J.~Wortman Vaughan,
+  editors, {\em Advances in Neural Information Processing Systems}, 2021.
+
 \bibitem{binaryOpt}
 Josif Grabocka, Randolf Scholz, and Lars Schmidt{-}Thieme.
 \newblock Learning Surrogate Losses, abs/1905.10108, {\em CoRR}.
 \newblock 1905.10108, 2019.
+
+\bibitem{EUVoDCat}
+Christian Grece and Marta Jim{\'e}nez~Pumares.
+\newblock Film and TV Content in VOD catalogues -- 2020 edition,
+\newblock 2020.
 
 \bibitem{predsConf}
 Chuan Guo, Geoff Pleiss, Yu~Sun, and Kilian~Q. Weinberger.
@@ -440,6 +614,26 @@ Chuan Guo, Geoff Pleiss, Yu~Sun, and Kilian~Q. Weinberger.
 \newblock In Doina Precup and Yee~Whye Teh, editors, {\em Proceedings of the
   34th International Conference on Machine Learning}, volume~70 of {\em
   Proceedings of Machine Learning Research}, pages 1321--1330. 2017.
+
+\bibitem{advertisersIntent}
+Liyi Guo, Rui Lu, Haoqi Zhang, Junqi Jin, Zhenzhe Zheng, Fan Wu, Jin Li,
+  Haiyang Xu, Han Li, Wenkai Lu, and et~al.
+\newblock A Deep Prediction Network for Understanding Advertiser Intent and
+  Satisfaction.
+\newblock In {\em Proceedings of the 29th ACM International Conference on
+  Information \& Knowledge Management}. 2020.
+
+\bibitem{beyondDwellTime}
+Qi~Guo and Eugene Agichtein.
+\newblock Beyond Dwell Time.
+\newblock In {\em Proceedings of the 21st international conference on World
+  Wide Web - WWW '12}. ACM Press, 2012.
+
+\bibitem{MateoVL}
+Mateo Gutierrez~Granada and Daan Odijk.
+\newblock Recommendations at Videoland.
+\newblock In {\em Fifteenth ACM Conference on Recommender Systems}, pages
+  580--582. 2021.
 
 \bibitem{cancerHallmarks}
 Douglas Hanahan and Robert~A. Weinberg.
@@ -463,6 +657,19 @@ Natali Helberger.
 \newblock On the Democratic Role of News Recommenders, 7(8):993--1012, {\em
   Digital Journalism}.
 \newblock https://doi.org/10.1080/21670811.2019.1623700, 2019.
+
+\bibitem{hendriksen-2020-analyzing}
+Mariya Hendriksen, Ernst Kuiper, Pim Nauts, Sebastian Schelter, and Maarten
+  de~Rijke.
+\newblock Analyzing and Predicting Purchase Intent in E-commerce: Anonymous vs.
+  Identified Customers.
+\newblock In {\em eCOM 2020: The 2020 SIGIIR Workshop on eCommerce}. 2020.
+
+\bibitem{streamingWarsPiracy}
+Alex Hern.
+\newblock Streaming Was Supposed to Stop Piracy. Now It Is Easier Than Ever,
+  {\em The Guardian}.
+\newblock 2021.
 
 \bibitem{higgins2017:betavae}
 Irina Higgins, Loic Matthey, Arka Pal, Christopher Burgess, Xavier Glorot,
@@ -529,6 +736,13 @@ Hao Huang, Haihua Xu, Xianhui Wang, and Wushour Silamu.
   Mispronunciation Detection, 23(4):787--797,
 \newblock 2015.
 
+\bibitem{CTRSatisfaction}
+Jeff Huang, Ryen~W. White, Georg Buscher, and Kuansan Wang.
+\newblock Improving Searcher Models Using Mouse Cursor Activity.
+\newblock In {\em Proceedings of the 35th international ACM SIGIR conference on
+  Research and development in information retrieval - SIGIR '12}. ACM Press,
+  2012.
+
 \bibitem{huang-2022-different}
 Jin Huang, Harrie Oosterhuis, and Maarten de~Rijke.
 \newblock It Is Different When Items Are Older: Debiasing Recommendations When
@@ -575,6 +789,14 @@ Dietmar Jannach, Gabriel de~Souza P.~Moreira, and Even Oldridge.
 \newblock In {\em Proceedings of the Recommender Systems Challenge 2020}. ACM,
   2020.
 
+\bibitem{SpotifyVSNetflix}
+Tony Jebara.
+\newblock Personalization of Spotify Home and TensorFlow.
+\newblock
+  \url{https://www.oreilly.com/radar/personalization-of-spotify-home-and-tensorflow/},
+  2019.
+\newblock Accessed on 13.02.2022.
+
 \bibitem{blur}
 Choi Jeongwhan, Hong Seoyoung, Noseong Park, and Sung-Bae Cho.
 \newblock Blurring-Sharpening Process Models for Collaborative Filtering,
@@ -601,6 +823,13 @@ Armand Joulin, Edouard Grave, Piotr Bojanowski, and Tomas Mikolov.
   of the Association for Computational Linguistics: Volume 2, Short Papers},
   2017.
 
+\bibitem{GLMM}
+Ke~Ju, Lifeng Lin, Haitao Chu, Liangliang Cheng, and Chang Xu.
+\newblock Laplace Approximation, Penalized Quasi-likelihood, and Adaptive
+  Gauss-Hermite Quadrature for Generalized Linear Mixed Models: Towards
+  meta-analysis of binary outcome with sparse data, 20,
+\newblock 2020.
+
 \bibitem{queryClassification}
 In-Ho Kang and GilChang Kim.
 \newblock Query Type Classification for Web Document Retrieval.
@@ -623,6 +852,13 @@ J.~Kiefer and J.~Wolfowitz.
   23(3):462 -- 466, {\em The Annals of Mathematical Statistics}.
 \newblock 1952.
 
+\bibitem{dwellTime2}
+Youngho Kim, Ahmed Hassan, Ryen~W. White, and Imed Zitouni.
+\newblock Comparing Client and Server Dwell Time Estimates for Click-level
+  Satisfaction Prediction.
+\newblock In {\em Proceedings of the 37th international ACM SIGIR conference on
+  Research \& development in information retrieval}. 2014.
+
 \bibitem{VDM}
 Diederik~P. Kingma, Tim Salimans, Ben Poole, and Jonathan Ho.
 \newblock On Density Estimation with Diffusion Models.
@@ -641,12 +877,24 @@ Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloe Rolland, Laura
 \newblock Segment Anything, {\em arXiv preprint arXiv:2304.02643}.
 \newblock 2023.
 
+\bibitem{KKBoxCat}
+{KKBox}.
+\newblock KKBox About Page.
+\newblock \url{https://www.kkbox.com/about/en/about}, 2022.
+\newblock Accessed on 03.02.2022.
+
 \bibitem{nonNeuralSparse}
 Yasamin Klingler, Claude Lehmann, Jo{\~a}o~Pedro Monteiro, Carlo Saladin,
   Abraham Bernstein, and Kurt Stockinger.
 \newblock Evaluation of Algorithms for Interaction-Sparse Recommendations:
   Neural Networks don't Always Win.
 \newblock  2022.
+
+\bibitem{streamingRecoReview}
+Hyeyoung Ko, Suyeon Lee, Yoonseo Park, and Anna Choi.
+\newblock A Survey of Recommendation Systems: Recommendation Models,
+  Techniques, and Application Fields, 11(1):141,
+\newblock 2022.
 
 \bibitem{oldReco}
 Ron Kohavi and Foster Provost.
@@ -672,6 +920,18 @@ Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E. Hinton.
 \newblock ImageNet classification with deep convolutional neural networks,
   60(6):84--90,
 \newblock 2017.
+
+\bibitem{hierLM}
+Jennifer~L. Krull and David~P. MacKinnon.
+\newblock Multilevel Modeling of Individual and Group Level Mediated Effects,
+  36(2):249--277,
+\newblock 2001.
+
+\bibitem{searchChallenges}
+Sudarshan Lamkhede and Sudeep Das.
+\newblock Challenges in Search on Streaming Services.
+\newblock In {\em Proceedings of the 42nd International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}. 2019.
 
 \bibitem{topKmulticlassSVM}
 Maksim Lapin, Matthias Hein, and Bernt Schiele.
@@ -702,6 +962,27 @@ Jae~Sik Lee and Jin~Chun Lee.
 \newblock In Xue Li, Osmar~R. Za{\"i}ane, and Zhanhuai Li, editors, {\em
   Advanced Data Mining and Applications}, pages 959--966. 2006.
 
+\bibitem{discoveryPersonas}
+Jin~Ha Lee and Rachel Price.
+\newblock Understanding Users of Commercial Music Services through Personas:
+  Design Implications.
+\newblock In Meinard M{\"{u}}ller and Frans Wiering, editors, {\em Proceedings
+  of the 16th International Society for Music Information Retrieval Conference,
+  {ISMIR} 2015, M{\'{a}}laga, Spain, October 26-30, 2015}, pages 476--482,
+  2015.
+
+\bibitem{lefortier-online-2014}
+Damien Lefortier, Pavel Serdyukov, and Maarten de~Rijke.
+\newblock Online Exploration for Detecting Shifts in Fresh Intent.
+\newblock In {\em CIKM 2014: 23rd ACM Conference on Information and Knowledge
+  Management}, pages 589--598. 2014.
+
+\bibitem{lefortier-blending-2014}
+Damien Lefortier, Pavel Serdyukov, Fedor Romanenko, and Maarten de~Rijke.
+\newblock Blending vertical and web results: A case study using video intent.
+\newblock In {\em 36th European Conference on Information Retrieval (ECIR
+  2014)}. 2014.
+
 \bibitem{lehmann2015dbpedia}
 Jens Lehmann, Robert Isele, Max Jakob, Anja Jentzsch, Dimitris Kontokostas,
   Pablo~N Mendes, Sebastian Hellmann, Mohamed Morsey, Patrick Van~Kleef,
@@ -716,6 +997,12 @@ Zhaoqi Leng, Mingxing Tan, Chenxi Liu, Ekin~Dogus Cubuk, Jay Shi, Shuyang
 \newblock {PolyLoss}: A Polynomial Expansion Perspective of Classification Loss
   Functions.
 \newblock In {\em International Conference on Learning Representations}, 2022.
+
+\bibitem{discoverySocial}
+Tuck~W. Leong and Peter~C. Wright.
+\newblock Revisiting Social Practices Surrounding Music.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}. 2013.
 
 \bibitem{li2020:rankopt}
 Hanze Li, Scott Sanner, Kai Luo, and Ga~Wu.
@@ -759,6 +1046,19 @@ J.~Lin.
   {\em IEEE Transactions on Information Theory}.
 \newblock 1991.
 
+\bibitem{longitudinalTransformer}
+Jeffrey Lin and Sheng Luo.
+\newblock Deep learning for the dynamic prediction of multivariate longitudinal
+  and survival data, 41(15):2894--2907, {\em Statistics in Medicine}.
+\newblock https://onlinelibrary.wiley.com/doi/pdf/10.1002/sim.9392, 2022.
+
+\bibitem{newIntents}
+Ting-En Lin, Hua Xu, and Hanlei Zhang.
+\newblock Discovering New Intents via Constrained Deep Adaptive Clustering with
+  Cluster Refinement.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~34, pages 8360--8367. 2020.
+
 \bibitem{focalLoss}
 Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar.
 \newblock Focal Loss for Dense Object Detection,
@@ -787,6 +1087,13 @@ Shilong Liu, Lei Zhang, Xiao Yang, Hang Su, and Jun Zhu.
 \newblock Query2Label: {A} Simple Transformer Way to Multi-Label
   Classification, abs/2107.10834, {\em CoRR}.
 \newblock 2107.10834, 2021.
+
+\bibitem{CTRSatisfaction2}
+Yiqun Liu, Ye~Chen, Jinhui Tang, Jiashen Sun, Min Zhang, Shaoping Ma, and Xuan
+  Zhu.
+\newblock Different Users, Different Opinions.
+\newblock In {\em Proceedings of the 38th International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}. 2015.
 
 \bibitem{pairwiseNet}
 Eneldo Loza~Mencia and Johannes Furnkranz.
@@ -835,12 +1142,32 @@ Benjamin Marlin.
 \newblock {\em Collaborative Filtering: A Machine Learning Perspective}.
 \newblock University of Toronto, 2004.
 
+\bibitem{CTRSatisfaction3}
+Rishabh Mehrotra, Ahmed~Hassan Awadallah, Milad Shokouhi, Emine Yilmaz, Imed
+  Zitouni, Ahmed El~Kholy, and Madian Khabsa.
+\newblock Deep Sequential Models for Task Satisfaction Prediction.
+\newblock In {\em Proceedings of the 2017 ACM on Conference on Information and
+  Knowledge Management}. 2017.
+
+\bibitem{WSDMUI}
+Rishabh Mehrotra, Ahmed~Hassan Awadallah, and Emine Yilmaz.
+\newblock LearnIR: WSDM 2018 Workshop on Learning from User Interactions.
+\newblock In {\em Proceedings of the Eleventh ACM International Conference on
+  Web Search and Data Mining}. 2018.
+
 \bibitem{spotifyIntent}
 Rishabh Mehrotra, Mounia Lalmas, Doug Kenney, Thomas Lim-Meng, and Golli
   Hashemian.
 \newblock Jointly Leveraging Intent and Interaction Signals to Predict User
   Satisfaction with Slate Recommendations.
 \newblock In {\em The World Wide Web Conference}, page 1256–1267. 2019.
+
+\bibitem{fairMarketplace}
+Rishabh Mehrotra, James McInerney, Hugues Bouchard, Mounia Lalmas, and Fernando
+  Diaz.
+\newblock Towards a Fair Marketplace.
+\newblock In {\em Proceedings of the 27th ACM International Conference on
+  Information and Knowledge Management}. 2018.
 
 \bibitem{multilabelReduction}
 Aditya~K Menon, Ankit~Singh Rawat, Sashank Reddi, and Sanjiv Kumar.
@@ -867,6 +1194,17 @@ Timo Milbich, Omair Ghori, Ferran Diego, and Bj{\"o}rn Ommer.
 \newblock Unsupervised Representation Learning by Discovering Reliable Image
   Relations, 102:107107,
 \newblock 2020.
+
+\bibitem{implicitEmacs}
+Masahiro Morita and Yoichi Shinoda.
+\newblock Information Filtering Based on User Behavior Analysis and Best Match
+  Text Retrieval.
+\newblock In {\em SIGIR '94}, pages 272--281. Springer London, 1994.
+
+\bibitem{piracyRecent}
+MUSO.
+\newblock Muso Discover Q1 2022 Digital Piracy Data Insights, {\em MUSO}.
+\newblock 2022.
 
 \bibitem{activeLearningMultiLabel}
 Felipe~Kenji Nakano, Ricardo Cerri, and Celine Vens.
@@ -901,6 +1239,13 @@ Xia Ning and George Karypis.
 \newblock In {\em 2011 IEEE 11th International Conference on Data Mining},
   pages 497--506, 2011.
 
+\bibitem{POIIntent}
+Behrooz Omidvar-Tehrani, Sruthi Viswanathan, Frederic Roulland, and Jean-Michel
+  Renders.
+\newblock Sage: Interactive State-aware Point-of-interest Recommendation.
+\newblock In {\em Workshop on State-Based User Modelling (SUM '20)}. 13th ACM
+  International Conference on Web Search and Data Mining, 2020.
+
 \bibitem{mAP}
 Rafael Padilla, Sergio~L. Netto, and Eduardo A.~B. da~Silva.
 \newblock A Survey on Performance Metrics for Object-Detection Algorithms.
@@ -931,6 +1276,12 @@ Yash Patel, Giorgos Tolias, and Jiri Matas.
 \newblock Recall@k Surrogate Loss with Large Batches and Similarity Mixup, {\em
   CVPR}.
 \newblock 2022.
+
+\bibitem{pei-2021-cooperative}
+Jiahuan Pei, Pengjie Ren, and Maarten de~Rijke.
+\newblock A Cooperative Memory Network for Personalized Task-oriented Dialogue
+  Systems with Incomplete User Profiles.
+\newblock In {\em The Web Conference 2021}. 2021.
 
 \bibitem{diagnosisCode}
 Adler Perotte, Rimma Pivovarov, Karthik Natarajan, Nicole Weiskopf, Frank Wood,
@@ -1062,6 +1413,12 @@ Suvash Sedhain, Aditya~Krishna Menon, Scott Sanner, and Lexing Xie.
 \newblock In {\em Proceedings of the 24th International Conference on World
   Wide Web}, page 111–112. ACM, 2015.
 
+\bibitem{homePageSpotify}
+Oguz Semerci, Alo{{\"\i}}s Gruson, Clay Gibson, Ben Lacker, Catherine Edwards,
+  and Vladan Radosavlijevic.
+\newblock Homepage Personalization at Spotify,
+\newblock 2019.
+
 \bibitem{imageClassification}
 Fumin Shen, Yadong Mu, Yang Yang, Wei Liu, Li~Liu, Jingkuan Song, and Heng~Tao
   Shen.
@@ -1082,6 +1439,11 @@ Samuel~L. Smith, Pieter{-}Jan Kindermans, and Quoc~V. Le.
 \newblock Don't Decay the Learning Rate, Increase the Batch Size,
   abs/1711.00489, {\em CoRR}.
 \newblock 1711.00489, 2017.
+
+\bibitem{IRLIntent}
+Aaron~J. Snoswell, Surya P.~N. Singh, and Nan Ye.
+\newblock LiMIIRL: Lightweight Multiple-Intent Inverse Reinforcement Learning,
+  2021, 2106.01777.
 
 \bibitem{jascha}
 Jascha Sohl-Dickstein, Eric Weiss, Niru Maheswaranathan, and Surya Ganguli.
@@ -1108,6 +1470,13 @@ Jiaming Song, Chenlin Meng, and Stefano Ermon.
 \newblock Denoising Diffusion Implicit Models.
 \newblock In {\em International Conference on Learning Representations}, 2021.
 
+\bibitem{MNARReco}
+Harald Steck.
+\newblock Training and Testing of Recommender Systems on Data Missing Not At
+  Random.
+\newblock In {\em Proceedings of the 16th ACM SIGKDD international conference
+  on Knowledge discovery and data mining - KDD '10}. ACM Press, 2010.
+
 \bibitem{SteckEvaluation}
 Harald Steck.
 \newblock Evaluation of Recommendations: Rating-Prediction and Ranking.
@@ -1125,6 +1494,12 @@ Stephen~V. Stehman.
   accuracy, 62(1):77--89, {\em Remote Sensing of Environment}.
 \newblock 1997.
 
+\bibitem{intentShopping}
+Ning Su, Jiyin He, Yiqun Liu, Min Zhang, and Shaoping Ma.
+\newblock User Intent, Behaviour, and Perceived Satisfaction in Product Search.
+\newblock In {\em Proceedings of the Eleventh ACM International Conference on
+  Web Search and Data Mining}. 2018.
+
 \bibitem{oldPersonalizationSearch}
 Jaime Teevan, Susan~T. Dumais, and Eric Horvitz.
 \newblock Personalizing Search via Automated Analysis of Interests and
@@ -1139,6 +1514,14 @@ Ambuj Tewari and Peter~L. Bartlett.
 \newblock In Peter Auer and Ron Meir, editors, {\em Learning Theory}, pages
   143--157. 2005.
 
+\bibitem{TikTokNotInterested}
+{TikTok}.
+\newblock How TikTok Recommends Videos \#ForYou.
+\newblock
+  \url{https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you},
+  2020.
+\newblock Accessed on 11.02.2022.
+
 \bibitem{hammingLoss}
 Grigorios Tsoumakas and Ioannis Katakis.
 \newblock Multi-Label Classification: An Overview, 3(3):1--13, {\em
@@ -1150,6 +1533,14 @@ John~Wilder Tukey.
 \newblock {\em Exploratory data analysis}.
 \newblock Addison-Wesley series in behavioral science: quantitative methods.
   Addison-Wesley, Reading, Mass., 1977.
+
+\bibitem{TwitchNotInterested}
+{Twitch}.
+\newblock Removing Recommendations You Are Not Interested In.
+\newblock
+  \url{https://help.twitch.tv/s/article/Removing-recommendations-you-are-not-interested-in?language=en_US},
+  2022.
+\newblock Accessed on 11.02.2022.
 
 \bibitem{trec}
 Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel,
@@ -1165,6 +1556,16 @@ Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
 \newblock In I.~Guyon, U.~Von Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
   S.~Vishwanathan, and R.~Garnett, editors, {\em Advances in Neural Information
   Processing Systems}, volume~30. Curran Associates, Inc., 2017.
+
+\bibitem{LOOBayes}
+Aki Vehtari, Andrew Gelman, and Jonah Gabry.
+\newblock Practical Bayesian Model Evaluation Using Leave-one-out
+  Cross-validation and WAIC, 27(5):1413--1432,
+\newblock 2016.
+
+\bibitem{PSIS}
+Aki Vehtari, Daniel Simpson, Andrew Gelman, Yuling Yao, and Jonah Gabry.
+\newblock {Pareto Smoothed Importance Sampling}, 2015, 1507.02646v8.
 
 \bibitem{Verstrepen2017}
 Koen Verstrepen, Kanishka Bhaduriy, Boris Cule, and Bart Goethals.
@@ -1211,6 +1612,13 @@ Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Quan~Z Sheng, and Mehmet Orgun.
   {\em arXiv preprint arXiv:2001.04830}.
 \newblock 2019.
 
+\bibitem{clickBait}
+Wenjie Wang, Fuli Feng, Xiangnan He, Hanwang Zhang, and Tat-Seng Chua.
+\newblock Clicks can be Cheating: Counterfactual Recommendation for Mitigating
+  Clickbait Issue.
+\newblock In {\em Proceedings of the 44th International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}. 2021.
+
 \bibitem{generativeReco}
 Wenjie Wang, Xinyu Lin, Fuli Feng, Xiangnan He, and Tat-Seng Chua.
 \newblock {Generative Recommendation: Towards Next-generation Recommender
@@ -1230,6 +1638,12 @@ Yunchao Wei, Wei Xia, Min Lin, Junshi Huang, Bingbing Ni, Jian Dong, Yao Zhao,
   38(9):1901--1907, {\em IEEE Transactions on Pattern Analysis and Machine
   Intelligence}.
 \newblock 2016.
+
+\bibitem{postClick}
+Hongyi Wen, Longqi Yang, and Deborah Estrin.
+\newblock Leveraging Post-click Feedback for Content Recommendations.
+\newblock In {\em Proceedings of the 13th ACM Conference on Recommender
+  Systems}. 2019.
 
 \bibitem{diffRec}
 Wang Wenjie, Xu~Yiyan, Fuli Feng, Xinyu Lin, Xiangnan He, and Tat-Seng Chua.
@@ -1327,6 +1741,28 @@ Ian~E.H. Yen, Xiangru Huang, Wei Dai, Pradeep Ravikumar, Inderjit Dhillon, and
   Classification.
 \newblock In {\em Proceedings of the 23rd ACM SIGKDD International Conference
   on Knowledge Discovery and Data Mining}, pages 545--553. 2017.
+
+\bibitem{dwellTime}
+Xing Yi, Liangjie Hong, Erheng Zhong, Nanthan~Nan Liu, and Suju Rajan.
+\newblock Beyond Clicks.
+\newblock In {\em Proceedings of the 8th ACM Conference on Recommender systems
+  - RecSys '14}. ACM Press, 2014.
+
+\bibitem{YoutubeSurveys}
+{Youtube}.
+\newblock YouTube Survey FAQs.
+\newblock
+  \url{https://support.google.com/youtube/thread/1920627/youtube-survey-faqs?hl=en},
+  2019.
+\newblock Accessed on 11.02.2022.
+
+\bibitem{YoutubeAboutRecos}
+{Youtube}.
+\newblock Manage Your Recommendations and Search Results.
+\newblock
+  \url{https://support.google.com/youtube/answer/6342839?hl=en\&co=GENIE.Platform\%3DAndroid},
+  2022.
+\newblock Accessed on 11.02.2022.
 
 \bibitem{exteremeMissing}
 Hsiang-Fu Yu, Prateek Jain, Purushottam Kar, and Inderjit~S. Dhillon.

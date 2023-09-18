@@ -4,3 +4,6 @@
 [submodule "text/04-research-sigmoidf1/multilabel"]
 	path = text/04-research-sigmoidf1/multilabel
 	url = https://github.com/gabriben/multilabel.git
+[submodule "text/04-research-intent/intent-based"]
+	path = text/04-research-intent/intent-based
+	url = https://github.com/gabriben/intent-based.git

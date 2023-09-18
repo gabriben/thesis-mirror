@@ -13,6 +13,14 @@
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "lstinline")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
-    "chapter:research-intent"))
+    "chapter:research-intent")
+   (LaTeX-add-environments
+    '("function*" LaTeX-env-args ["argument"] 0)
+    '("procedure*" LaTeX-env-args ["argument"] 0)
+    '("function" LaTeX-env-args ["argument"] 0)
+    '("procedure" LaTeX-env-args ["argument"] 0)
+    '("\\algocf@envname*" LaTeX-env-args ["argument"] 0)
+    '("\\algocf@envname" LaTeX-env-args ["argument"] 0)
+    '("algocf@algorithm" LaTeX-env-args ["argument"] 0)))
  :latex)
 
