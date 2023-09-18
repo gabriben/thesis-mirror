@@ -7,3 +7,6 @@
 [submodule "text/04-research-intent/intent-based"]
 	path = text/04-research-intent/intent-based
 	url = https://github.com/gabriben/intent-based.git
+[submodule "text/04-research-radio/RADio-TORS"]
+	path = text/04-research-radio/RADio-TORS
+	url = https://github.com/gabriben/RADio-TORS.git

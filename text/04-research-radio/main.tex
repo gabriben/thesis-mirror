@@ -1,7 +1,13 @@
 % !TEX root = ../thesis-main.tex
-
 \chapter{Normative Diversity}
 \label{chapter:research-radio}
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics{images/pipeline_step4.pdf}
+  \caption{The final step of the personalization pipeline}
+  \label{fig:pip4}
+\end{figure}
 
 \footnote[]{This chapter was published at the ACM Conference on Recommender Systems (RecSys 2022) under the title ``RADio – Rank-Aware Divergence Metrics to Measure Normative Diversity in News Recommendations'' \citep{radio}, , where it won a best paper runner up award.}
 \acresetall
@@ -17,15 +23,39 @@ In this chapter, we address the following research question:
 
 
 
+\section{Introduction}
+\subimport{RADio-TORS/sections}{01_intro}
+\label{sec:introduction}
+
+\subimport{RADio-TORS/sections}{02_related_work}
+
+\section{Operationalizing Normative Diversity for News Recommendation}
+\label{sec:method}
+\subimport{RADio-TORS/sections}{03_method}
+
+\label{sec:metrics_implementation}
+\subimport{RADio-TORS/sections}{04_metrics}
+
+\section{Experimental Setup} 
+\label{sec:experiments}
+\subimport{RADio-TORS/sections}{05_experiments}
+
+\section{Experimental Results} 
+\label{sec:results}
+\subimport{RADio-TORS/sections}{06_results}
+
+\section{The Effects of Metric Design Choices}
+\subimport{RADio-TORS/sections}{06_results_calibration}
+
+\section{Discussion}
+\label{sec:discussion}
+\subimport{RADio-TORS/sections}{07_discussion}
+
+\section{Conclusion}
+\label{sec:conclusions}
+\subimport{RADio-TORS/sections}{08_conclusions}
 
 
-% \input{04-research-pedagogy/sections/introduction.tex}
-% \input{04-research-pedagogy/sections/related-work.tex}
-% \input{04-research-pedagogy/sections/learning-objectives.tex}
-% \input{04-research-pedagogy/sections/course-setup.tex}
-% \input{04-research-pedagogy/sections/feedback.tex}
-% \input{04-research-pedagogy/sections/lessons-learned.tex}
-% \input{04-research-pedagogy/sections/conclusion.tex}
 
 \section*{Reproducibility}
 To facilitate the reproducibility of the work in this chapter, our code is available at \url{https://github.com/svrijenhoek/RADio}.

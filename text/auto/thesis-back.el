@@ -13,6 +13,7 @@
     "thesis"
     "04-research-recfusion/recfusion-arxiv/refs.bib"
     "04-research-sigmoidf1/multilabel/sigmoidF1/references.bib"
-    "04-research-intent/intent-based/intentBased/references.bib"))
+    "04-research-intent/intent-based/intentBased/references.bib"
+    "04-research-radio/RADio-TORS/references.bib"))
  :latex)
 

@@ -13,7 +13,8 @@
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "lstinline")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
-    "chapter:research-intent")
+    "chapter:research-intent"
+    "fig:pip3")
    (LaTeX-add-environments
     '("function*" LaTeX-env-args ["argument"] 0)
     '("procedure*" LaTeX-env-args ["argument"] 0)

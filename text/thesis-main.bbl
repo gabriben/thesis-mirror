@@ -33,6 +33,20 @@ Hesam Amoualian, Parantapa Goswami, Laurent Ach, Pradipto Das, and Pablo
 \newblock In {\em Proceedings Proceedings of ACM SIGIR Workshop on eCommerce
   (SIGIR eCom'20). ACM}. ACM, 2020.
 
+\bibitem{an2019lstur}
+Mingxiao An, Fangzhao Wu, Chuhan Wu, Kun Zhang, Zheng Liu, and Xing Xie.
+\newblock Neural News Recommendation with Long- and Short-term User
+  Representations.
+\newblock In {\em Proceedings of the 57th Annual Meeting of the Association for
+  Computational Linguistics}, pages 336--345, 2019.
+
+\bibitem{Anderson2020AlgorithmicEO}
+Ashton Anderson, Lucas Maystre, Ian Anderson, Rishabh Mehrotra, and Mounia
+  Lalmas.
+\newblock Algorithmic Effects on the Diversity of Consumption on Spotify, {\em
+  Proceedings of The Web Conference 2020}.
+\newblock 2020.
+
 \bibitem{AC-SUM-GAN}
 Evlampios Apostolidis, Eleni Adamantidou, Alexandros~I. Metsai, Vasileios
   Mezaris, and Ioannis Patras.
@@ -54,6 +68,12 @@ Rohit Babbar and Bernhard Sch\"{o}lkopf.
 \newblock In {\em Proceedings of the Tenth ACM International Conference on Web
   Search and Data Mining}, pages 721--729. 2017.
 
+\bibitem{baden2017conceptualizing}
+Christian Baden and Nina Springer.
+\newblock Conceptualizing Viewpoint Diversity in News Discourse,
+  18(2):176--194, {\em Journalism}.
+\newblock 2017.
+
 \bibitem{ASL}
 Emanuel~Ben Baruch, Tal Ridnik, Nadav Zamir, Asaf Noy, Itamar Friedman, Matan
   Protter, and Lihi Zelnik{-}Manor.
@@ -61,11 +81,25 @@ Emanuel~Ben Baruch, Tal Ridnik, Nadav Zamir, Asaf Noy, Itamar Friedman, Matan
   CoRR}.
 \newblock 2009.14119, 2020.
 
+\bibitem{bastian2019safeguarding}
+Mariella Bastian, Natali Helberger, and Mykola Makhortykh.
+\newblock Safeguarding the Journalistic DNA: Attitudes towards the Role of
+  Professional Values in Algorithmic News Recommender Designs, 0(0):1--29, {\em
+  Digital Journalism}.
+\newblock https://doi.org/10.1080/21670811.2021.1912622, 2021.
+
 \bibitem{lme4}
 Douglas Bates, Martin M{\"a}chler, Ben Bolker, and Steve Walker.
 \newblock Fitting Linear Mixed-Effects Models Using {lme4}, 67(1):1--48, {\em
   Journal of Statistical Software}.
 \newblock 2015.
+
+\bibitem{beam2014automating}
+Michael~A Beam.
+\newblock Automating the News: How Personalized News Recommender System Design
+  Choices Impact News Reception, 41(8):1019--1041, {\em Communication
+  Research}.
+\newblock 2014.
 
 \bibitem{Beel2019e}
 Joeran Beel and Victor Brunel.
@@ -154,6 +188,21 @@ James Bergstra, Daniel Yamins, and David Cox.
   the 30th International Conference on Machine Learning}, volume~28 of {\em
   Proceedings of Machine Learning Research},  2013.
 
+\bibitem{bernheim2021theory}
+B~Douglas Bernheim, Luca Braghieri, Alejandro Mart{\'\i}nez-Marquina, and David
+  Zuckerman.
+\newblock A Theory of Chosen Preferences, 111(2):720--54, {\em American
+  Economic Review}.
+\newblock 2021.
+
+\bibitem{bernstein2020diversity}
+Abraham Bernstein, Claes de~Vreese, Natali Helberger, Wolfgang Schulz,
+  Katharina Zweig, Christian Baden, Michael~A Beam, Marc~P Hauer, Lucien Heitz,
+  Pascal J{\"u}rgens, et~al.
+\newblock Diversity in News Recommendations, {\em arXiv preprint
+  arXiv:2005.09495}.
+\newblock 2020.
+
 \bibitem{bhargav2021:controlrecsys}
 Samarth Bhargav and Evangelos Kanoulas.
 \newblock Controllable Recommenders using Deep Generative Models and
@@ -188,6 +237,19 @@ M.~J. Blosseville, Georges H\'{e}brail, Marie-Ga{\"e}lle Monteil, and
   Conference on Research and Development in Information Retrieval}, pages
   51--58. 1992.
 
+\bibitem{bodo2019}
+Balazs Bodo.
+\newblock Selling News to Audiences -- A Qualitative Inquiry into the Emerging
+  Logics of Algorithmic News Personalization in European Quality News Media,
+  0(0):1--22, {\em Digital Journalism}.
+\newblock 2019.
+
+\bibitem{boididou2021building}
+Christina Boididou, Di~Sheng, Felix~J Mercer~Moss, and Alessandro Piscopo.
+\newblock Building Public Service Recommenders: Logbook of a Journey.
+\newblock In {\em Fifteenth ACM Conference on Recommender Systems}, pages
+  538--540. 2021.
+
 \bibitem{DLTabular2}
 Vadim Borisov, Tobias Leemann, Kathrin Se{\ss}ler, Johannes Haug, Martin
   Pawelczyk, and Gjergji Kasneci.
@@ -195,11 +257,30 @@ Vadim Borisov, Tobias Leemann, Kathrin Se{\ss}ler, Johannes Haug, Martin
   preprint arXiv:2110.01889}.
 \newblock 2021.
 
+\bibitem{Borodin2012DiverseRanking}
+Allan Borodin, Hyun~Chul Lee, and Yuli Ye.
+\newblock Max-Sum Diversification, Monotone Submodular Functions and Dynamic
+  Updates.
+\newblock In {\em Proceedings of the 31st ACM SIGMOD-SIGACT-SIGAI Symposium on
+  Principles of Database Systems}, pages 155--166. 2012.
+
 \bibitem{labelPowerset}
 Matthew~R. Boutell, Jiebo Luo, Xipeng Shen, and Christopher~M. Brown.
 \newblock Learning multi-label scene classification, 37(9):1757--1771, {\em
   Pattern Recognition}.
 \newblock 2004.
+
+\bibitem{Bradley2001ImprovingRD}
+Keith Bradley and Barry Smyth.
+\newblock Improving Recommendation Diversity.
+\newblock In {\em Proceedings of the 12th irish conference on artificial
+  intelligence and cognitive science}, pages 85--94, 2001.
+
+\bibitem{braun2019fake}
+Joshua~A Braun and Jessica~L Eklund.
+\newblock Fake news, real money: Ad tech platforms, profit-driven hoaxes, and
+  the business of journalism, 7(1):1--21, {\em Digital Journalism}.
+\newblock 2019.
 
 \bibitem{OVA1}
 Klaus Brinker, Johannes F\"{u}rnkranz, and Eyke H\"{u}llermeier.
@@ -220,6 +301,19 @@ Sahan Bulathwela, Mar\'{\i}a P\'{e}rez-Ortiz, Rishabh Mehrotra, Davor Orlic,
 \newblock SUM'20: State-Based User Modelling.
 \newblock In {\em Proceedings of the 13th International Conference on Web
   Search and Data Mining}, pages 899--900. 2020.
+
+\bibitem{tf-idf}
+Khoo~Khyou Bun and M.~Ishizuka.
+\newblock Emerging Topic Tracking System.
+\newblock In {\em Proceedings Third International Workshop on Advanced Issues
+  of E-Commerce and Web-Based Information Systems. WECWIS 2001}, pages 2--11,
+  2001.
+
+\bibitem{burke2018balanced}
+Robin Burke, Nasim Sonboli, and Aldo Ordonez-Gauger.
+\newblock Balanced Neighborhoods for Multi-sided Fairness in Recommendation.
+\newblock In {\em Conference on Fairness, Accountability and Transparency},
+  pages 202--214, 2018.
 
 \bibitem{gans}
 Gabriel Bénédict.
@@ -242,6 +336,26 @@ Steven {Caldwell Brown} and Amanda Krause.
   Perception and Cognition}, 2016.
 \newblock 14th Biennial International Conference on Music Perception and
   Cognition, ICMPC14.
+
+\bibitem{castells2015novelty}
+Pablo Castells, Neil~J Hurley, and Saul Vargas.
+\newblock Novelty and Diversity in Recommender Systems.
+\newblock In {\em Recommender Systems Handbook}, pages 881--918. Springer,
+  2015.
+
+\bibitem{Chakrabarti2008MMRMAPNDCG}
+Soumen Chakrabarti, Rajiv Khanna, Uma Sawant, and Chiru Bhattacharyya.
+\newblock Structured Learning for Non-Smooth Ranking Losses.
+\newblock In {\em Proceedings of the 14th ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, pages 88--96. 2008.
+
+\bibitem{chakraborty2019equalityVoice}
+Abhijnan Chakraborty, Gourab~K. Patro, Niloy Ganguly, Krishna~P. Gummadi, and
+  Patrick Loiseau.
+\newblock Equality of Voice: Towards Fair Representation in Crowdsourced Top-K
+  Recommendations.
+\newblock In {\em Proceedings of the Conference on Fairness, Accountability,
+  and Transparency}, pages 129--138. 2019.
 
 \bibitem{softF1}
 Wei-Cheng Chang, Hsiang-Fu Yu, Kai Zhong, Yiming Yang, and Inderjit~S. Dhillon.
@@ -272,6 +386,13 @@ James~J. Chen, Chen-An Tsai, Hojin Moon, Hongshik Ahn, John~J. Young, and
   Chun-Houh Chen.
 \newblock Decision threshold adjustment in class prediction, 17(3):337--352,
 \newblock 2006.
+
+\bibitem{Chen2018NIPSReranking}
+Laming Chen, Guoxin Zhang, and Hanning Zhou.
+\newblock Fast Greedy MAP Inference for Determinantal Point Process to Improve
+  Recommendation Diversity.
+\newblock In {\em Proceedings of the 32nd International Conference on Neural
+  Information Processing Systems}, pages 5627--5638. 2018.
 
 \bibitem{berdiff}
 Tao Chen, Chenhui Wang, and Hongming Shan.
@@ -348,6 +469,14 @@ Amanda Clare and Ross~D. King.
 \newblock Knowledge Discovery in Multi-label Phenotype Data, pages 42--53, {\em
   Lecture Notes in Computer Science}.
 \newblock 2001.
+
+\bibitem{Clarke2008IRDiv}
+Charles~L.A. Clarke, Maheedhar Kolla, Gordon~V. Cormack, Olga Vechtomova, Azin
+  Ashkan, Stefan B\"{u}ttcher, and Ian MacKinnon.
+\newblock Novelty and Diversity in Information Retrieval Evaluation.
+\newblock In {\em Proceedings of the 31st Annual International ACM SIGIR
+  Conference on Research and Development in Information Retrieval}, pages
+  659--666. 2008.
 
 \bibitem{arXiv}
 Cornell-University.
@@ -438,6 +567,21 @@ Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
   Chapter of the Association for Computational Linguistics: Human Language
   Technologies, Volume 1 (Long and Short Papers)},  2019.
 
+\bibitem{Dhamala2021fairMetrics}
+Jwala Dhamala, Tony Sun, Varun Kumar, Satyapriya Krishna, Yada Pruksachatkun,
+  Kai-Wei Chang, and Rahul Gupta.
+\newblock BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language
+  Generation.
+\newblock In {\em Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}, pages 862--872. 2021.
+
+\bibitem{DiNoia2014UserDiversity}
+Tommaso Di~Noia, Vito~Claudio Ostuni, Jessica Rosati, Paolo Tomeo, and Eugenio
+  Di~Sciascio.
+\newblock An Analysis of Users' Propensity toward Diversity in Recommendations.
+\newblock In {\em Proceedings of the 8th ACM Conference on Recommender
+  Systems}, pages 285--288. 2014.
+
 \bibitem{holisticVideoData}
 Ali Diba, Mohsen Fayyaz, Vivek Sharma, Manohar Paluri, Jurgen Gall, Rainer
   Stiefelhagen, and Luc~Van Gool.
@@ -445,16 +589,39 @@ Ali Diba, Mohsen Fayyaz, Vivek Sharma, Manohar Paluri, Jurgen Gall, Rainer
   arXiv:1904.11451v3}.
 \newblock 2019.
 
+\bibitem{readability}
+Carmine DimAscio.
+\newblock py-readability-metrics, 2020.
+
+\bibitem{Ding2021BanditOpt}
+Qinxu Ding, Yong Liu, Chunyan Miao, Fei Cheng, and Haihong Tang.
+\newblock A Hybrid Bandit Framework for Diversified Recommendation,
+  35(5):4036--4044,
+\newblock 2021.
+
 \bibitem{contextBandits}
 Paolo Dragone, Rishabh Mehrotra, and Mounia Lalmas.
 \newblock Deriving User- and Content-specific Rewards for Contextual Bandits.
 \newblock In {\em The World Wide Web Conference on - WWW '19}. ACM Press, 2019.
+
+\bibitem{draws2021assessing}
+Tim Draws, Nava Tintarev, and Ujwal Gadiraju.
+\newblock Assessing Viewpoint Diversity in Search Results Using Ranking
+  Fairness Metrics, 23(1):50--58, {\em ACM SIGKDD Explorations Newsletter}.
+\newblock 2021.
 
 \bibitem{multitaskLabel}
 Jingcheng Du, Qingyu Chen, Yifan Peng, Yang Xiang, Cui Tao, and Zhiyong Lu.
 \newblock ML-Net: Multi-label Classification of Biomedical Texts with Deep
   Neural Networks, 26(11):1279--1285,
 \newblock 2019.
+
+\bibitem{Du2021diversitySuitable}
+Yu~Du, Sylvie Ranwez, Nicolas Sutton-Charani, and Vincent Ranwez.
+\newblock Is Diversity Optimization Always Suitable? Toward a Better
+  Understanding of Diversity within Recommendation Approaches, 58(6):102721,
+  {\em Information Processing \& Management}.
+\newblock 2021.
 
 \bibitem{intentProductSearch}
 Huizhong Duan and ChengXiang Zhai.
@@ -472,11 +639,47 @@ Elad Eban, Mariano Schain, Alan Mackey, Ariel Gordon, Ryan Rifkin, and Gal
   volume~54 of {\em Proceedings of Machine Learning Research}, pages 832--840.
   2017.
 
+\bibitem{Ekstrand2014UserPerceptionDiv}
+Michael~D. Ekstrand, F.~Maxwell Harper, Martijn~C. Willemsen, and Joseph~A.
+  Konstan.
+\newblock User Perception of Differences in Recommender Algorithms.
+\newblock In {\em Proceedings of the 8th ACM Conference on Recommender
+  Systems}, pages 161--168. 2014.
+
+\bibitem{pmlr-v81-ekstrand18b}
+Michael~D. Ekstrand, Mucun Tian, Ion~Madrazo Azpiazu, Jennifer~D. Ekstrand,
+  Oghenemaro Anuyah, David McNeill, and Maria~Soledad Pera.
+\newblock All The Cool Kids, How Do They Fit In?: Popularity and Demographic
+  Biases in Recommender Evaluation and Effectiveness.
+\newblock In Sorelle~A. Friedler and Christo Wilson, editors, {\em Proceedings
+  of the 1st Conference on Fairness, Accountability and Transparency},
+  volume~81 of {\em Proceedings of Machine Learning Research}, pages 172--186.
+  2018.
+
 \bibitem{multilabelSVM}
 Andr\'{e} Elisseeff and Jason Weston.
 \newblock A Kernel Method for Multi-Labelled Classification.
 \newblock In {\em Proceedings of the 14th International Conference on Neural
   Information Processing Systems: Natural and Synthetic}, pages 681--687. 2001.
+
+\bibitem{endres2003new}
+Dominik~Maria Endres and Johannes~E Schindelin.
+\newblock A New Metric for Probability Distributions, 49(7):1858--1860, {\em
+  IEEE Transactions on Information theory}.
+\newblock 2003.
+
+\bibitem{Eskandanian2017ClusteringDiverse}
+Farzad Eskandanian, Bamshad Mobasher, and Robin Burke.
+\newblock A Clustering Approach for Personalizing Diversity in Collaborative
+  Recommender Systems.
+\newblock In {\em Proceedings of the 25th Conference on User Modeling,
+  Adaptation and Personalization}, pages 280--284. 2017.
+
+\bibitem{eskens2017}
+Sarah Eskens, Natali Helberger, and Judith Moeller.
+\newblock Challenged by News Personalisation: Five Perspectives on the Right to
+  Receive Information, 9(2):259--284, {\em Journal of Media Law}.
+\newblock 2017.
 
 \bibitem{GDPR}
 {European Commission}.
@@ -517,6 +720,12 @@ Maurizio Ferrari~Dacrema, Paolo Cremonesi, and Dietmar Jannach.
 \newblock In {\em Proceedings of the 13th ACM Conference on Recommender
   Systems}. ACM, 2019.
 
+\bibitem{ferre2018}
+Raul Ferrer-Conill and Edson C.~Tandoc Jr.
+\newblock The Audience-Oriented Editor, 6(4):436--453, {\em Digital
+  Journalism}.
+\newblock 2018.
+
 \bibitem{SIGIRDefinitions}
 Nicola Ferro and Diane Kelly.
 \newblock SIGIR Initiative to Implement ACM Artifact Review and Badging, 52(1),
@@ -539,6 +748,13 @@ K.~Fukushima.
 Yu~Gai, Zheng Zhang, and Kyunghyun Cho.
 \newblock Gradient-based learning for F-measure and other performance metrics,
   2019.
+
+\bibitem{Gan2020GraphsOpt}
+Lu~Gan, Diana Nurbakova, L\'{e}a Laporte, and Sylvie Calabretto.
+\newblock Enhancing Recommendation Diversity Using Determinantal Point
+  Processes on Knowledge Graphs.
+\newblock In {\em Proceedings of the 43rd International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}, pages 2001--2004. 2020.
 
 \bibitem{gao-2023-difformer}
 Zhujin Gao, Junliang Guo, Xu~Tan, Yongxin Zhu, Fang Zhang, Jiang Bian, and
@@ -572,6 +788,12 @@ Francisco Garcia-Valero, Michal Kazimierczak, Carolina Arias-Burgos, and Nathan
   Wajsman.
 \newblock Online Copyright Infringement in the European Union,
 \newblock 2021.
+
+\bibitem{Garcin2013ALSNoGood}
+Florent Garcin, Christos Dimitrakakis, and Boi Faltings.
+\newblock Personalized News Recommendation with Context Trees.
+\newblock In {\em Proceedings of the 7th ACM Conference on Recommender
+  Systems}, pages 105--112. 2013.
 
 \bibitem{shallowF4}
 Maxime Gasse and Alex Aussem.
@@ -608,6 +830,13 @@ Christian Grece and Marta Jim{\'e}nez~Pumares.
 \newblock Film and TV Content in VOD catalogues -- 2020 edition,
 \newblock 2020.
 
+\bibitem{grunchallenges2021}
+Andreas Gr\"{u}n and Xenija Neufeld.
+\newblock Challenges Experienced in Public Service Media Recommendation
+  Systems.
+\newblock In {\em Fifteenth ACM Conference on Recommender Systems}, pages
+  541--544. 2021.
+
 \bibitem{predsConf}
 Chuan Guo, Geoff Pleiss, Yu~Sun, and Kilian~Q. Weinberger.
 \newblock On Calibration of Modern Neural Networks.
@@ -635,6 +864,13 @@ Mateo Gutierrez~Granada and Daan Odijk.
 \newblock In {\em Fifteenth ACM Conference on Recommender Systems}, pages
   580--582. 2021.
 
+\bibitem{hada2022beyond}
+Rishav Hada, Amir~Ebrahimi Fard, Sarah Shugars, Federico Bianchi, Patricia
+  Rossini, Dirk Hovy, Rebekah Tromble, and Nava Tintarev.
+\newblock Beyond Digital" Echo Chambers": The Role of Viewpoint Diversity in
+  Political Discussion, {\em arXiv preprint arXiv:2212.09056}.
+\newblock 2022.
+
 \bibitem{cancerHallmarks}
 Douglas Hanahan and Robert~A. Weinberg.
 \newblock Hallmarks of Cancer: The Next Generation, 144(5):646--674,
@@ -657,6 +893,12 @@ Natali Helberger.
 \newblock On the Democratic Role of News Recommenders, 7(8):993--1012, {\em
   Digital Journalism}.
 \newblock https://doi.org/10.1080/21670811.2019.1623700, 2019.
+
+\bibitem{helberger2019democratic_rs}
+Natali Helberger.
+\newblock On the Democratic Role of News Recommenders, 0(0):1--20, {\em Digital
+  Journalism}.
+\newblock 2019.
 
 \bibitem{hendriksen-2020-analyzing}
 Mariya Hendriksen, Ernst Kuiper, Pim Nauts, Sebastian Schelter, and Maarten
@@ -700,6 +942,12 @@ Jonathan Ho, Tim Salimans, Alexey Gritsenko, William Chan, Mohammad Norouzi,
 Henning Hohnhold, Deirdre O’Brien, and Diane Tang.
 \newblock Focusing on the Long-term (It's Good for Users and Business),
 \newblock 2015.
+
+\bibitem{spacy}
+Matthew Honnibal, Ines Montani, Sofie Van~Landeghem, and Adriane Boyd.
+\newblock spaCy: Industrial-strength Natural Language Processing in Python,
+  {\em Release 3.2.1}.
+\newblock 2022.
 
 \bibitem{multinomialDiffusion}
 Emiel Hoogeboom, Didrik Nielsen, Priyank Jaini, Patrick Forr\'{e}, and Max
@@ -767,6 +1015,11 @@ Eyke H{\"u}llermeier, Johannes F{\"u}rnkranz, Weiwei Cheng, and Klaus Brinker.
   {\em Artificial Intelligence}.
 \newblock 2008.
 
+\bibitem{hume}
+David Hume.
+\newblock {\em A Treatise of Human Nature}.
+\newblock London, 1739.
+
 \bibitem{extremeMilliionsSlice}
 Himanshu Jain, Venkatesh Balasubramanian, Bhanu Chunduri, and Manik Varma.
 \newblock Slice: Scalable Linear Extreme Classifiers trained on 100 Million
@@ -789,6 +1042,11 @@ Dietmar Jannach, Gabriel de~Souza P.~Moreira, and Even Oldridge.
 \newblock In {\em Proceedings of the Recommender Systems Challenge 2020}. ACM,
   2020.
 
+\bibitem{Jarvelin2002NDCG}
+Kalervo J\"{a}rvelin and Jaana Kek\"{a}l\"{a}inen.
+\newblock Cumulated Gain-Based Evaluation of IR Techniques, 20(4):422--446,
+\newblock 2002.
+
 \bibitem{SpotifyVSNetflix}
 Tony Jebara.
 \newblock Personalization of Spotify Home and TensorFlow.
@@ -796,6 +1054,13 @@ Tony Jebara.
   \url{https://www.oreilly.com/radar/personalization-of-spotify-home-and-tensorflow/},
   2019.
 \newblock Accessed on 13.02.2022.
+
+\bibitem{jeffreys1946invariant}
+Harold Jeffreys.
+\newblock An Invariant Form for the Prior Probability in Estimation Problems,
+  186(1007):453--461, {\em Proceedings of the Royal Society of London. Series
+  A. Mathematical and Physical Sciences}.
+\newblock 1946.
 
 \bibitem{blur}
 Choi Jeongwhan, Hong Seoyoung, Noseong Park, and Sung-Bae Cho.
@@ -830,12 +1095,25 @@ Ke~Ju, Lifeng Lin, Haitao Chu, Liangliang Cheng, and Chang Xu.
   meta-analysis of binary outcome with sparse data, 20,
 \newblock 2020.
 
+\bibitem{JUGOVAC2017321}
+Michael Jugovac, Dietmar Jannach, and Lukas Lerche.
+\newblock Efficient Optimization of Multiple Recommendation Quality Factors
+  According to Individual User Tendencies, 81:321--331, {\em Expert Systems
+  with Applications}.
+\newblock 2017.
+
 \bibitem{queryClassification}
 In-Ho Kang and GilChang Kim.
 \newblock Query Type Classification for Web Document Retrieval.
 \newblock In {\em Proceedings of the 26th Annual International ACM SIGIR
   Conference on Research and Development in Informaion Retrieval}, pages
   64--71. 2003.
+
+\bibitem{karimi2018news}
+Mozhgan Karimi, Dietmar Jannach, and Michael Jugovac.
+\newblock News Recommender Systems--Survey and Roads Ahead, 54(6):1203--1227,
+  {\em Information Processing \& Management}.
+\newblock 2018.
 
 \bibitem{diff_3D_medical}
 Firas Khader, Gustav Müller-Franzes, Soroosh Tayebi~Arasteh, Tianyu Han,
@@ -852,12 +1130,25 @@ J.~Kiefer and J.~Wolfowitz.
   23(3):462 -- 466, {\em The Annals of Mathematical Statistics}.
 \newblock 1952.
 
+\bibitem{Kille2013plista}
+Benjamin Kille, Frank Hopfgartner, Torben Brodt, and Tobias Heintz.
+\newblock The Plista Dataset.
+\newblock In {\em Proceedings of the 2013 International News Recommender
+  Systems Workshop and Challenge}, pages 16--23. 2013.
+
 \bibitem{dwellTime2}
 Youngho Kim, Ahmed Hassan, Ryen~W. White, and Imed Zitouni.
 \newblock Comparing Client and Server Dwell Time Estimates for Click-level
   Satisfaction Prediction.
 \newblock In {\em Proceedings of the 37th international ACM SIGIR conference on
   Research \& development in information retrieval}. 2014.
+
+\bibitem{kincaid1975derivation}
+J.~Peter Kincaid, Robert~P. Fishburne~Jr., Richard~L. Rogers, and Brad~S.
+  Chissom.
+\newblock Derivation of New Readability Formulas (Automated Readability Index,
+  Fog count and Flesch Reading Ease Formula) for Navy Enlisted Personnel.
+\newblock 1975.
 
 \bibitem{VDM}
 Diederik~P. Kingma, Tim Salimans, Ben Poole, and Jonathan Ho.
@@ -926,6 +1217,18 @@ Jennifer~L. Krull and David~P. MacKinnon.
 \newblock Multilevel Modeling of Individual and Group Level Mediated Effects,
   36(2):249--277,
 \newblock 2001.
+
+\bibitem{Kullback1951KL-divergence}
+S.~Kullback and R.~A. Leibler.
+\newblock {On Information and Sufficiency}, 22(1):79 -- 86, {\em The Annals of
+  Mathematical Statistics}.
+\newblock 1951.
+
+\bibitem{kunaver2017}
+Matevz Kunaver and Tomaz Pozrl.
+\newblock Diversity in Recommender Systems -- A Survey, 123:154 -- 162, {\em
+  Knowledge-Based Systems}.
+\newblock 2017.
 
 \bibitem{searchChallenges}
 Sudarshan Lamkhede and Sudeep Das.
@@ -1040,6 +1343,18 @@ Dawen Liang, Rahul~G. Krishnan, Matthew~D. Hoffman, and Tony Jebara.
 \newblock In {\em Proceedings of the 2018 World Wide Web Conference}, page
   689–698. ACM, 2018.
 
+\bibitem{Liese2006fDiv}
+F.~Liese and I.~Vajda.
+\newblock On Divergences and Informations in Statistics and Information Theory,
+  52(10):4394--4412, {\em IEEE Transactions on Information Theory}.
+\newblock 2006.
+
+\bibitem{doi:10.1080/21670811.2022.2084131}
+Bibo Lin and Seth~C. Lewis.
+\newblock The One Thing Journalistic AI Just Might Do for Democracy,
+  10(10):1627--1649, {\em Digital Journalism}.
+\newblock https://doi.org/10.1080/21670811.2022.2084131, 2022.
+
 \bibitem{js}
 J.~Lin.
 \newblock Divergence measures based on the Shannon entropy, 37(1):145--151,
@@ -1051,6 +1366,12 @@ Jeffrey Lin and Sheng Luo.
 \newblock Deep learning for the dynamic prediction of multivariate longitudinal
   and survival data, 41(15):2894--2907, {\em Statistics in Medicine}.
 \newblock https://onlinelibrary.wiley.com/doi/pdf/10.1002/sim.9392, 2022.
+
+\bibitem{lin1991divergence}
+Jianhua Lin.
+\newblock Divergence Measures Based on the Shannon Entropy, 37(1):145--151,
+  {\em IEEE Transactions on Information theory}.
+\newblock 1991.
 
 \bibitem{newIntents}
 Ting-En Lin, Hua Xu, and Hanlei Zhang.
@@ -1095,11 +1416,35 @@ Yiqun Liu, Ye~Chen, Jinhui Tang, Jiashen Sun, Min Zhang, Shaoping Ma, and Xuan
 \newblock In {\em Proceedings of the 38th International ACM SIGIR Conference on
   Research and Development in Information Retrieval}. 2015.
 
+\bibitem{loecherbach2020unified}
+Felicia Loecherbach, Judith Moeller, Damian Trilling, and Wouter van Atteveldt.
+\newblock The Unified Framework of Media Diversity: A Systematic Literature
+  Review, pages 1--38, {\em Digital Journalism}.
+\newblock 2020.
+
+\bibitem{loria2018textblob}
+Steven Loria.
+\newblock textblob Documentation, {\em Release 0.7.0}.
+\newblock 2021.
+
 \bibitem{pairwiseNet}
 Eneldo Loza~Mencia and Johannes Furnkranz.
 \newblock Pairwise learning of multilabel classifications with perceptrons.
 \newblock In {\em 2008 IEEE International Joint Conference on Neural Networks
   (IEEE World Congress on Computational Intelligence)}, pages 2899--2906, 2008.
+
+\bibitem{lu2020beyond}
+Feng Lu, Anca Dumitrache, and David Graus.
+\newblock Beyond Optimizing for Clicks: Incorporating Editorial Values in News
+  Recommendation, {\em arXiv preprint arXiv:2004.09980}.
+\newblock 2020.
+
+\bibitem{10.1145/3209978.3210007}
+Hongyu Lu, Min Zhang, and Shaoping Ma.
+\newblock Between Clicks and Satisfaction: Study on Multi-Phase User
+  Preferences and Satisfaction for Online News Reading.
+\newblock In {\em The 41st International ACM SIGIR Conference on Research \&
+  Development in Information Retrieval}, pages 435--444. 2018.
 
 \bibitem{nonNeuralSessionBased}
 Malte Ludewig and Dietmar Jannach.
@@ -1141,6 +1486,13 @@ Christopher~D. Manning, Prabhakar Raghavan, and Hinrich Sch{\"u}tze.
 Benjamin Marlin.
 \newblock {\em Collaborative Filtering: A Machine Learning Perspective}.
 \newblock University of Toronto, 2004.
+
+\bibitem{mattis2021nudging}
+Nicolas~Michael Mattis, Philipp~K Masur, Judith Moeller, and Wouter van
+  Atteveldt.
+\newblock Nudging towards Diversity: A Theoretical Framework for Facilitating
+  Diverse News Consumption through Recommender Design.
+\newblock 2021.
 
 \bibitem{CTRSatisfaction3}
 Rishabh Mehrotra, Ahmed~Hassan Awadallah, Milad Shokouhi, Emine Yilmaz, Imed
@@ -1195,11 +1547,39 @@ Timo Milbich, Omair Ghori, Ferran Diego, and Bj{\"o}rn Ommer.
   Relations, 102:107107,
 \newblock 2020.
 
+\bibitem{mitchell2020diversity}
+Margaret Mitchell, Dylan Baker, Nyalleng Moorosi, Emily Denton, Ben Hutchinson,
+  Alex Hanna, Timnit Gebru, and Jamie Morgenstern.
+\newblock Diversity and Inclusion Metrics in Subset Selection.
+\newblock In {\em Proceedings of the AAAI/ACM Conference on AI, Ethics, and
+  Society}, pages 117--123, 2020.
+
+\bibitem{moller2018not}
+Judith M{\"o}ller, Damian Trilling, Natali Helberger, and Bram van Es.
+\newblock Do Not Blame It on the Algorithm: An Empirical Assessment of Multiple
+  Recommender Systems and their Impact on Content Diversity, 21(7):959--977,
+  {\em Information, Communication \& Society}.
+\newblock 2018.
+
+\bibitem{doi:10.1080/1461670X.2022.2034522}
+Lynge~Asbj{\o}rn M{\o}ller.
+\newblock Recommended for You: How Newspapers Normalise Algorithmic News
+  Recommendation to Fit Their Gatekeeping Role, 23(7):800--817, {\em Journalism
+  Studies}.
+\newblock https://doi.org/10.1080/1461670X.2022.2034522, 2022.
+
 \bibitem{implicitEmacs}
 Masahiro Morita and Yoichi Shinoda.
 \newblock Information Filtering Based on User Behavior Analysis and Best Match
   Text Retrieval.
 \newblock In {\em SIGIR '94}, pages 272--281. Springer London, 1994.
+
+\bibitem{mulder2021operationalizing}
+Mats Mulder, Oana Inel, Jasper Oosterman, and Nava Tintarev.
+\newblock Operationalizing Framing to Support Multiperspective Recommendations
+  of Opinion Pieces.
+\newblock In {\em Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}, pages 478--488, 2021.
 
 \bibitem{piracyRecent}
 MUSO.
@@ -1233,6 +1613,13 @@ Preksha Nema, Alexandros Karatzoglou, and Filip Radlinski.
 \newblock In {\em Proceedings of the 30th ACM International Conference on
   Information \& Knowledge Management}, page 1356–1365. ACM, 2021.
 
+\bibitem{nic2018reuters}
+Newman Nic, Richard Fletcher, Antonis Kalogeropoulos, David~AL Levy, and
+  Rasmus~Kleis Nielsen.
+\newblock Reuters Institute Digital News Report 2018, page~39, {\em Reuters
+  Institute for the Study of Journalism}.
+\newblock 2018.
+
 \bibitem{SLIM}
 Xia Ning and George Karypis.
 \newblock {SLIM}: Sparse Linear Methods for Top-N Recommender Systems.
@@ -1246,6 +1633,12 @@ Behrooz Omidvar-Tehrani, Sruthi Viswanathan, Frederic Roulland, and Jean-Michel
 \newblock In {\em Workshop on State-Based User Modelling (SUM '20)}. 13th ACM
   International Conference on Web Search and Data Mining, 2020.
 
+\bibitem{Searcoid2007distanceMetrics}
+M{\'\i}che{\'a}l. O'Searcoid.
+\newblock {\em Metric Spaces}.
+\newblock Springer Undergraduate Mathematics Series. Springer London, London,
+  1st ed. 2007. edition, 2007.
+
 \bibitem{mAP}
 Rafael Padilla, Sergio~L. Netto, and Eduardo A.~B. da~Silva.
 \newblock A Survey on Performance Metrics for Object-Detection Algorithms.
@@ -1258,6 +1651,19 @@ Rong Pan, Yunhong Zhou, Bin Cao, Nathan~N. Liu, Rajan Lukose, Martin Scholz,
 \newblock One-Class Collaborative Filtering.
 \newblock In {\em 2008 Eighth IEEE International Conference on Data Mining},
   pages 502--511, 2008.
+
+\bibitem{10.1145/3460231.3474234}
+Javier Parapar and Filip Radlinski.
+\newblock Towards Unified Metrics for Accuracy and Diversity for Recommender
+  Systems.
+\newblock In {\em Fifteenth ACM Conference on Recommender Systems}, pages
+  75--84. 2021.
+
+\bibitem{pariser2011filter}
+Eli Pariser.
+\newblock {\em The Filter Bubble: How the New Personalized Web is Changing What
+  We Read and How We Think}.
+\newblock Penguin, 2011.
 
 \bibitem{pytorch}
 Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory
@@ -1297,6 +1703,19 @@ Yashoteja Prabhu, Anil Kag, Shrutendra Harsola, Rahul Agrawal, and Manik Varma.
 \newblock In {\em Proceedings of the 2018 World Wide Web Conference}, pages
   993--1002. 2018.
 
+\bibitem{Puthiya2016diversereco}
+Shameem~A. Puthiya~Parambath, Nicolas Usunier, and Yves Grandvalet.
+\newblock A Coverage-Based Approach to Recommendation Diversity On Similarity
+  Graph.
+\newblock In {\em Proceedings of the 10th ACM Conference on Recommender
+  Systems}, pages 15--22. 2016.
+
+\bibitem{qin2013CFDiversity}
+Lijing Qin and Xiaoyan Zhu.
+\newblock Promoting Diversity in Recommendation by Entropy Regularizer.
+\newblock In {\em Proceedings of the Twenty-Third International Joint
+  Conference on Artificial Intelligence}, pages 2698--2704. AAAI Press, 2013.
+
 \bibitem{multiclassToBinary3}
 Harish~G. Ramaswamy, Balaji~Srinivasan Babu, Shivani Agarwal, and Robert~C.
   Williamson.
@@ -1305,6 +1724,12 @@ Harish~G. Ramaswamy, Balaji~Srinivasan Babu, Shivani Agarwal, and Robert~C.
 \newblock In Maria~Florina Balcan, Vitaly Feldman, and Csaba Szepesv{\'a}ri,
   editors, {\em Proceedings of The 27th Conference on Learning Theory},
   volume~35 of {\em Proceedings of Machine Learning Research},  2014.
+
+\bibitem{raza2021DNNDivAcc}
+Shaina Raza and Chen Ding.
+\newblock Deep Dynamic Neural Network to trade-off between Accuracy and
+  Diversity in a News Recommender System, abs/2103.08458, {\em CoRR}.
+\newblock 2103.08458, 2021.
 
 \bibitem{stochasticNegativeMining}
 Sashank~J. Reddi, Satyen Kale, Felix Yu, Daniel Holtmann-Rice, Jiecao Chen, and
@@ -1376,6 +1801,12 @@ Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily
   Understanding.
 \newblock In {\em Advances in Neural Information Processing Systems}.
 
+\bibitem{Sakai2019GoodDiversity}
+Tetsuya Sakai and Zhaohao Zeng.
+\newblock Which Diversity Evaluation Measures Are "Good"?
+\newblock In {\em Proceedings of the 42nd International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}, pages 595--604. 2019.
+
 \bibitem{mobileNet}
 Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh
   Chen.
@@ -1400,6 +1831,12 @@ Badrul Sarwar, George Karypis, Joseph Konstan, and John Riedl.
 \newblock Item-based collaborative filtering recommendation algorithms.
 \newblock In {\em Proceedings of the 10th international conference on World
   Wide Web}, pages 285--295, 2001.
+
+\bibitem{sax2022algorithmic}
+Marijn Sax.
+\newblock Algorithmic news diversity and democratic theory: adding agonism to
+  the mix, pages 1--21, {\em Digital Journalism}.
+\newblock 2022.
 
 \bibitem{scarlett_cevher_2021}
 Jonathan Scarlett and Volkan Cevher.
@@ -1433,6 +1870,18 @@ Ilya Shenbin, Anton Alekseev, Elena Tutubalina, Valentin Malykh, and Sergey~I.
   Implicit Feedback.
 \newblock In {\em Proceedings of the 13th International Conference on Web
   Search and Data Mining}. ACM, 2020.
+
+\bibitem{usersChoosePopularity}
+Jane~B Singer.
+\newblock User-generated Visibility: Secondary Gatekeeping in a Shared Media
+  Space, 16(1):55--73, {\em New Media \& Society}.
+\newblock https://doi.org/10.1177/1461444813477833, 2014.
+
+\bibitem{smets2022we}
+Annelien Smets, Jonathan Hendrickx, and Pieter Ballon.
+\newblock We’re in This Together: A Multi-Stakeholder Approach for News
+  Recommenders, pages 1--19, {\em Digital Journalism}.
+\newblock 2022.
 
 \bibitem{bigBSArxiv}
 Samuel~L. Smith, Pieter{-}Jan Kindermans, and Quoc~V. Le.
@@ -1483,10 +1932,23 @@ Harald Steck.
 \newblock In {\em Proceedings of the 7th ACM Conference on Recommender
   Systems}, page 213–220. ACM, 2013.
 
+\bibitem{steck2018}
+Harald Steck.
+\newblock Calibrated Recommendations.
+\newblock In {\em Proceedings of the 12th ACM Conference on Recommender
+  Systems}, pages 154--162. 2018.
+
 \bibitem{EASE}
 Harald Steck.
 \newblock Embarrassingly Shallow Autoencoders for Sparse Data,
 \newblock 2019.
+
+\bibitem{steel2018multiple}
+Daniel Steel, Sina Fazelpour, Kinley Gillette, Bianca Crewe, and Michael
+  Burgess.
+\newblock Multiple Diversity Concepts and their Ethical-epistemic Implications,
+  8(3):761--780, {\em European Journal for Philosophy of Science}.
+\newblock 2018.
 
 \bibitem{confusionMatrix}
 Stephen~V. Stehman.
@@ -1494,11 +1956,23 @@ Stephen~V. Stehman.
   accuracy, 62(1):77--89, {\em Remote Sensing of Environment}.
 \newblock 1997.
 
+\bibitem{stromback2005}
+Jesper Str\"{o}mb\"{a}ck.
+\newblock In Search of a Standard: Four Models of Democracy and their Normative
+  Implications for Journalism, 6(3):331--345, {\em Journalism Studies}.
+\newblock 2005.
+
 \bibitem{intentShopping}
 Ning Su, Jiyin He, Yiqun Liu, Min Zhang, and Shaoping Ma.
 \newblock User Intent, Behaviour, and Perceived Satisfaction in Product Search.
 \newblock In {\em Proceedings of the Eleventh ACM International Conference on
   Web Search and Data Mining}. 2018.
+
+\bibitem{Tax2015metaLTR}
+Niek Tax, Sander Bockting, and Djoerd Hiemstra.
+\newblock A Cross-benchmark Comparison of 87 Learning to Rank Methods,
+  51(6):757--772, {\em Information Processing \& Management}.
+\newblock 2015.
 
 \bibitem{oldPersonalizationSearch}
 Jaime Teevan, Susan~T. Dumais, and Eric Horvitz.
@@ -1508,11 +1982,22 @@ Jaime Teevan, Susan~T. Dumais, and Eric Horvitz.
   Conference on Research and Development in Information Retrieval}, page
   449–456. 2005.
 
+\bibitem{tenenboim2015prompts}
+Ori Tenenboim and Akiba~A Cohen.
+\newblock What Prompts Users to Click and Comment: A Longitudinal Study of
+  Online News, 16(2):198--217, {\em Journalism}.
+\newblock 2015.
+
 \bibitem{multiclassToBinary2}
 Ambuj Tewari and Peter~L. Bartlett.
 \newblock On the Consistency of Multiclass Classification Methods.
 \newblock In Peter Auer and Ron Meir, editors, {\em Learning Theory}, pages
   143--157. 2005.
+
+\bibitem{coverthomas1991}
+Joy A.~Thomas Thomas M.~Cover.
+\newblock {\em Elements of Information Theory}.
+\newblock Wiley, 1991.
 
 \bibitem{TikTokNotInterested}
 {TikTok}.
@@ -1521,6 +2006,12 @@ Ambuj Tewari and Peter~L. Bartlett.
   \url{https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you},
   2020.
 \newblock Accessed on 11.02.2022.
+
+\bibitem{trilling2020}
+Damian Trilling and Marieke van Hoof.
+\newblock Between Article and Topic: News Events as Level of Analysis and Their
+  Computational Identification, 8(10):1317--1337, {\em Digital Journalism}.
+\newblock https://doi.org/10.1080/21670811.2020.1839352, 2020.
 
 \bibitem{hammingLoss}
 Grigorios Tsoumakas and Ioannis Katakis.
@@ -1549,6 +2040,13 @@ Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel,
   TREC Fair Ranking}.
 \newblock 2021.
 
+\bibitem{vargas2011rank}
+Sa{\'u}l Vargas and Pablo Castells.
+\newblock Rank and Relevance in Novelty and Diversity Metrics for Recommender
+  Systems.
+\newblock In {\em Proceedings of the fifth ACM conference on Recommender
+  systems}, pages 109--116, 2011.
+
 \bibitem{attention}
 Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
   Aidan~N Gomez, \L~ukasz Kaiser, and Illia Polosukhin.
@@ -1572,6 +2070,14 @@ Koen Verstrepen, Kanishka Bhaduriy, Boris Cule, and Bart Goethals.
 \newblock Collaborative Filtering for Binary, Positiveonly Data, 19(1):1–21,
 \newblock 2017.
 
+\bibitem{vrijenhoek2023mind}
+Sanne Vrijenhoek.
+\newblock Do You MIND? Reflections on the MIND Dataset for Research
+  on Diversity in News Recommendations.
+\newblock In Ludovico Boratto, Stefano Faralli, Mirko Marras, and Giovanni
+  Stilo, editors, {\em Advances in Bias and Fairness in Information Retrieval},
+  pages 147--154. 2023.
+
 \bibitem{radio}
 Sanne Vrijenhoek, Gabriel B\'{e}n\'{e}dict, Mateo Gutierrez~Granada, Daan
   Odijk, and Maarten de~Rijke.
@@ -1579,6 +2085,14 @@ Sanne Vrijenhoek, Gabriel B\'{e}n\'{e}dict, Mateo Gutierrez~Granada, Daan
   Diversity in News Recommendations.
 \newblock In {\em Proceedings of the 16th ACM Conference on Recommender
   Systems}, page 208–219. 2022.
+
+\bibitem{vrijenhoek2021recommenders}
+Sanne Vrijenhoek, Mesut Kaya, Nadia Metoui, Judith M\"{o}ller, Daan Odijk, and
+  Natali Helberger.
+\newblock Recommenders with a Mission: Assessing Diversity in News
+  Recommendations.
+\newblock In {\em Proceedings of the 2021 Conference on Human Information
+  Interaction and Retrieval}, pages 173--183. 2021.
 
 \bibitem{F-inference}
 Willem Waegeman, Krzysztof Dembczy\'{n}ki, Arkadiusz Jachnik, Weiwei Cheng, and
@@ -1593,6 +2107,19 @@ Joojo Walker, Ting Zhong, Fengli Zhang, Qiang Gao, and Fan Zhou.
   International Conference, KSEM 2022, Singapore, August 6–8, 2022,
   Proceedings, Part III}, page 593–605. Springer-Verlag, 2022.
 
+\bibitem{wallace2018modelling}
+Julian Wallace.
+\newblock Modelling Contemporary Gatekeeping: The Rise of Individuals,
+  Algorithms and Platforms in Digital News Dissemination, 6(3):274--293, {\em
+  Digital Journalism}.
+\newblock 2018.
+
+\bibitem{waller2019GSscore}
+Isaac Waller and Ashton Anderson.
+\newblock Generalists and Specialists: Using Community Embeddings to Quantify
+  Activity Diversity in Online Platforms.
+\newblock In {\em The World Wide Web Conference}, pages 1954--1964. 2019.
+
 \bibitem{multilabelImage1}
 Jiang Wang, Yi~Yang, Junhua Mao, Zhiheng Huang, Chang Huang, and Wei Xu.
 \newblock CNN-RNN: A Unified Framework for Multi-Label Image Classification.
@@ -1605,6 +2132,13 @@ Jingdong Wang, Ke~Sun, Tianheng Cheng, Borui Jiang, Chaorui Deng, Yang Zhao,
   pages 1--1, {\em IEEE Transactions on Pattern Analysis and Machine
   Intelligence}.
 \newblock 2020.
+
+\bibitem{10.1145/3460231.3474244}
+Ningxia Wang and Li~Chen.
+\newblock User Bias in Beyond-Accuracy Measurement of Recommendation
+  Algorithms.
+\newblock In {\em Fifteenth ACM Conference on Recommender Systems}, pages
+  133--142. 2021.
 
 \bibitem{wang2019:survey_sequential}
 Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Quan~Z Sheng, and Mehmet Orgun.
@@ -1639,6 +2173,13 @@ Yunchao Wei, Wei Xia, Min Lin, Junshi Huang, Bingbing Ni, Jian Dong, Yao Zhao,
   Intelligence}.
 \newblock 2016.
 
+\bibitem{welbers2018gatekeeper}
+Kasper Welbers, Wouter van Atteveldt, Jan Kleinnijenhuis, and Nel Ruigrok.
+\newblock A Gatekeeper among Gatekeepers: News Agency Influence in Print and
+  Online Newspapers in the Netherlands, 19(3):315--333, {\em Journalism
+  Studies}.
+\newblock 2018.
+
 \bibitem{postClick}
 Hongyi Wen, Longqi Yang, and Deborah Estrin.
 \newblock Leveraging Post-click Feedback for Content Recommendations.
@@ -1650,12 +2191,44 @@ Wang Wenjie, Xu~Yiyan, Fuli Feng, Xinyu Lin, Xiangnan He, and Tat-Seng Chua.
 \newblock Diffusion Recommender Model,
 \newblock 2023.
 
+\bibitem{ggplot2}
+Hadley Wickham.
+\newblock {\em ggplot2: Elegant Graphics for Data Analysis -- Violin plot}.
+\newblock Springer-Verlag New York, 2016.
+
 \bibitem{tencent}
 Baoyuan Wu, Weidong Chen, Yanbo Fan, Yong Zhang, Jinlong Hou, Jie Liu, and Tong
   Zhang.
 \newblock Tencent ML-Images: A Large-Scale Multi-Label Image Database for
   Visual Representation Learning, 7:172683--172693, {\em IEEE Access}.
 \newblock 2019.
+
+\bibitem{wu2019naml}
+Chuhan Wu, Fangzhao Wu, Mingxiao An, Jianqiang Huang, Yongfeng Huang, and Xing
+  Xie.
+\newblock Neural News Recommendation with Attentive Multi-view Learning, {\em
+  arXiv preprint arXiv:1907.05576}.
+\newblock 2019.
+
+\bibitem{wu2019npa}
+Chuhan Wu, Fangzhao Wu, Mingxiao An, Jianqiang Huang, Yongfeng Huang, and Xing
+  Xie.
+\newblock NPA: Neural News Recommendation with Personalized Attention.
+\newblock In {\em Proceedings of the 25th ACM SIGKDD international conference
+  on knowledge discovery \& data mining}, pages 2576--2584, 2019.
+
+\bibitem{wu2019nrms}
+Chuhan Wu, Fangzhao Wu, Suyu Ge, Tao Qi, Yongfeng Huang, and Xing Xie.
+\newblock Neural News Recommendation with Multi-head Self-attention.
+\newblock In {\em Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing and the 9th International Joint Conference on
+  Natural Language Processing (EMNLP-IJCNLP)}, pages 6389--6394, 2019.
+
+\bibitem{wu2020mind}
+Fangzhao Wu, Ying Qiao, Jiun-Hung Chen, Chuhan Wu, Tao Qi, Jianxun Lian,
+  Danyang Liu, Xing Xie, Jianfeng Gao, Winnie Wu, and Ming Zhou.
+\newblock MIND: A Large-scale Dataset for News Recommendation, {\em ACL}.
+\newblock 2020.
 
 \bibitem{gao2019:dlc}
 Ga~Wu, Kai Luo, Scott Sanner, and Harold Soh.
@@ -1669,6 +2242,25 @@ Le~Wu, Peijie Sun, Yanjie Fu, Richang Hong, Xiting Wang, and Meng Wang.
 \newblock In {\em Proceedings of the 42nd International ACM SIGIR Conference on
   Research and Development in Information Retrieval}, page 235–244. ACM,
   2019.
+
+\bibitem{Wu2019RecentAI}
+Qiong Wu, Yong Liu, Chunyan Miao, Yin Zhao, Lu~Guan, and Haihong Tang.
+\newblock Recent Advances in Diversified Recommendation, abs/1905.06589, {\em
+  ArXiv}.
+\newblock 2019.
+
+\bibitem{newsrooms}
+Shangyuan Wu, Edson~C. Tandoc, and Charles~T. Salmon.
+\newblock Journalism Reconfigured: Assessing Human-machine Relations and the
+  Autonomous Power of Automation in News Production., 20(10):1440 -- 1457, {\em
+  Journalism Studies}.
+\newblock 2019.
+
+\bibitem{wu2018personalizing}
+Wen Wu, Li~Chen, and Yu~Zhao.
+\newblock Personalizing Recommendation Diversity based on User Personality,
+  28(3):237--276, {\em User Modeling and User-Adapted Interaction}.
+\newblock 2018.
 
 \bibitem{unifiedView}
 Xi-Zhu Wu and Zhi-Hua Zhou.
@@ -1697,6 +2289,12 @@ Jianxiong Xiao, James Hays, Krista~A. Ehinger, Aude Oliva, and Antonio
 \newblock SUN database: Large-scale scene recognition from abbey to zoo.
 \newblock In {\em 2010 IEEE Computer Society Conference on Computer Vision and
   Pattern Recognition}, pages 3485--3492, 2010.
+
+\bibitem{Xie2021NetworkOpt}
+Ruobing Xie, Qi~Liu, Shukai Liu, Ziwei Zhang, Peng Cui, Bo~Zhang, and Leyu Lin.
+\newblock Improving Accuracy and Diversity in Matching of Recommendation with
+  Diversified Preference Network, {\em arXiv preprint arXiv:2102.03787}.
+\newblock 2021.
 
 \bibitem{yang23:learn_diffus_prior_nerfs}
 Guandao Yang, Abhijit Kundu, Leonidas~J. Guibas, Jonathan~T. Barron, and Ben
@@ -1748,6 +2346,12 @@ Xing Yi, Liangjie Hong, Erheng Zhong, Nanthan~Nan Liu, and Suju Rajan.
 \newblock In {\em Proceedings of the 8th ACM Conference on Recommender systems
   - RecSys '14}. ACM Press, 2014.
 
+\bibitem{Yilmaz2010effectivenessLTR}
+Emine Yilmaz and Stephen Robertson.
+\newblock On the Choice of Effectiveness Measures for Learning to Rank,
+  13(3):271--290,
+\newblock 2010.
+
 \bibitem{YoutubeSurveys}
 {Youtube}.
 \newblock YouTube Survey FAQs.
@@ -1770,6 +2374,15 @@ Hsiang-Fu Yu, Prateek Jain, Purushottam Kar, and Inderjit~S. Dhillon.
 \newblock In {\em Proceedings of the 31st International Conference on
   International Conference on Machine Learning - Volume 32}, pages
   I--593--I--601. JMLR.org, 2014.
+
+\bibitem{spark}
+Matei Zaharia, Reynold~S. Xin, Patrick Wendell, Tathagata Das, Michael
+  Armbrust, Ankur Dave, Xiangrui Meng, Josh Rosen, Shivaram Venkataraman,
+  Michael~J. Franklin, Ali Ghodsi, Joseph Gonzalez, Scott Shenker, and Ion
+  Stoica.
+\newblock Apache Spark: A Unified Engine for Big Data Processing,
+  59(11):56–65,
+\newblock 2016.
 
 \bibitem{bigBird}
 Manzil Zaheer, Guru Guruganesh, Kumar~Avinava Dubey, Joshua Ainslie, Chris
