@@ -79,11 +79,16 @@
     "thefootnote"
     "svfootnote")
    (LaTeX-add-environments
+    '("function*" LaTeX-env-args ["argument"] 0)
+    '("procedure*" LaTeX-env-args ["argument"] 0)
+    '("function" LaTeX-env-args ["argument"] 0)
+    '("procedure" LaTeX-env-args ["argument"] 0)
+    '("\\algocf@envname*" LaTeX-env-args ["argument"] 0)
+    '("\\algocf@envname" LaTeX-env-args ["argument"] 0)
+    '("algocf@algorithm" LaTeX-env-args ["argument"] 0)
     "theorem"
     "lemma"
-    "proposition"
     "corollary"
-    "definition"
     "example"
     "remark"
     "question")

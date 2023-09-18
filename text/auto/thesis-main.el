@@ -18,18 +18,24 @@
     "latex2e"
     "packages"
     "04-research-recfusion/recfusion-arxiv/packages"
+    "04-research-sigmoidf1/multilabel/sigmoidF1/packages"
     "definitions"
     "thesis-front"
     "acknowledgements"
     "01-introduction/main"
-    "04-research-sigmoidf1/main"
-    "04-research-intent/main"
-    "04-research-radio/main"
     "05-conclusions/main"
     "thesis-back"
     "book"
     "bk10")
    (TeX-add-symbols
-    "MakeUppercase"))
+    "MakeUppercase")
+   (LaTeX-add-environments
+    '("function*" LaTeX-env-args ["argument"] 0)
+    '("procedure*" LaTeX-env-args ["argument"] 0)
+    '("function" LaTeX-env-args ["argument"] 0)
+    '("procedure" LaTeX-env-args ["argument"] 0)
+    '("\\algocf@envname*" LaTeX-env-args ["argument"] 0)
+    '("\\algocf@envname" LaTeX-env-args ["argument"] 0)
+    '("algocf@algorithm" LaTeX-env-args ["argument"] 0)))
  :latex)
 

@@ -1,3 +1,6 @@
 [submodule "recfusion-arxiv"]
 	path = text/04-research-recfusion/recfusion-arxiv
 	url = https://github.com/gabriben/recfusion-arxiv.git
+[submodule "text/04-research-sigmoidf1/multilabel"]
+	path = text/04-research-sigmoidf1/multilabel
+	url = https://github.com/gabriben/multilabel.git

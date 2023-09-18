@@ -38,7 +38,6 @@
     "babel"
     "statex"
     "algorithmic"
-    "algorithm"
     "paralist"
     "flushend"
     "enumitem"
@@ -60,6 +59,14 @@
     "hyperref"
     "bookmark"
     "appendix")
+   (LaTeX-add-environments
+    '("function*" LaTeX-env-args ["argument"] 0)
+    '("procedure*" LaTeX-env-args ["argument"] 0)
+    '("function" LaTeX-env-args ["argument"] 0)
+    '("procedure" LaTeX-env-args ["argument"] 0)
+    '("\\algocf@envname*" LaTeX-env-args ["argument"] 0)
+    '("\\algocf@envname" LaTeX-env-args ["argument"] 0)
+    '("algocf@algorithm" LaTeX-env-args ["argument"] 0))
    (LaTeX-add-lengths
     "appendixafterchapheadskip"
     "appendixbeforechapheadskip"

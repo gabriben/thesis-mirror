@@ -1,5 +1,55 @@
 \begin{thebibliography}{100}
 
+\bibitem{tensorflow}
+Mart\'{\i}n Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen,
+  Craig Citro, Greg~S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin,
+  Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard,
+  Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh
+  Levenberg, Dandelion Man\'{e}, Rajat Monga, Sherry Moore, Derek Murray, Chris
+  Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal
+  Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Vi\'{e}gas,
+  Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, and
+  Xiaoqiang Zheng.
+\newblock {TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems,
+  2015.
+\newblock Software available from tensorflow.org.
+
+\bibitem{millionsOfLabels}
+Rahul Agrawal, Archit Gupta, Yashoteja Prabhu, and Manik Varma.
+\newblock Multi-Label Learning with Millions of Labels: Recommending Advertiser
+  Bid Phrases for Web Pages.
+\newblock In {\em Proceedings of the 22nd International Conference on World
+  Wide Web}, pages 13--24. 2013.
+
+\bibitem{Amoualian2020SIGIR2E}
+Hesam Amoualian, Parantapa Goswami, Laurent Ach, Pradipto Das, and Pablo
+  Montalvo.
+\newblock SIGIR 2020 E-Commerce Workshop Data Challenge Overview.
+\newblock In {\em Proceedings Proceedings of ACM SIGIR Workshop on eCommerce
+  (SIGIR eCom'20). ACM}. ACM, 2020.
+
+\bibitem{AC-SUM-GAN}
+Evlampios Apostolidis, Eleni Adamantidou, Alexandros~I. Metsai, Vasileios
+  Mezaris, and Ioannis Patras.
+\newblock {AC-SUM-GAN}: Connecting Actor-Critic and Generative Adversarial
+  Networks for Unsupervised Video Summarization,, {\em IEEE Transactions on
+  Circuits and Systems for Video Technology}.
+\newblock 2020.
+
+\bibitem{extremeDiSMEC}
+Rohit Babbar and Bernhard Sch\"{o}lkopf.
+\newblock DiSMEC: Distributed Sparse Machines for Extreme Multi-Label
+  Classification.
+\newblock In {\em Proceedings of the Tenth ACM International Conference on Web
+  Search and Data Mining}, pages 721--729. 2017.
+
+\bibitem{ASL}
+Emanuel~Ben Baruch, Tal Ridnik, Nadav Zamir, Asaf Noy, Itamar Friedman, Matan
+  Protter, and Lihi Zelnik{-}Manor.
+\newblock Asymmetric Loss For Multi-Label Classification, abs/2009.14119, {\em
+  CoRR}.
+\newblock 2009.14119, 2020.
+
 \bibitem{Beel2019e}
 Joeran Beel and Victor Brunel.
 \newblock Data Pruning in Recommender Systems Research: Best-Practice or
@@ -12,6 +62,13 @@ Joeran Beel and Stefan Langer.
   Studies in the Context of Research-Paper Recommender Systems, page 153–168,
   {\em Lecture Notes in Computer Science}.
 \newblock 2015.
+
+\bibitem{weightedMetrics}
+Bichitrananda Behera, G.~{Kumaravelan}, and P.~{Kumar B.}
+\newblock Performance Evaluation of Deep Learning Algorithms in Biomedical
+  Document Classification.
+\newblock In {\em 2019 11th International Conference on Advanced Computing
+  (ICoAC)}, pages 220--224, 2019.
 
 \bibitem{sigmoidf1}
 Gabriel B{\'e}n{\'e}dict, Hendrik~Vincent Koops, Daan Odijk, and Maarten
@@ -39,6 +96,13 @@ Yoshua Bengio, Aaron Courville, and Pascal Vincent.
   35(8):1798--1828, {\em IEEE Transactions on Pattern Analysis and Machine
   Intelligence}.
 \newblock 2013.
+
+\bibitem{HARAM}
+Fernando Benites and Elena Sapozhnikova.
+\newblock {HARAM}: A Hierarchical {ARAM} Neural Network for Large-Scale Text
+  Classification.
+\newblock In {\em 2015 IEEE International Conference on Data Mining Workshop
+  (ICDMW)}, pages 847--854, 2015.
 
 \bibitem{bennett2007:netflix}
 James Bennett and Stan Lanning.
@@ -73,6 +137,46 @@ Samarth Bhargav and Evangelos Kanoulas.
   Disentanglement, {\em arXiv preprint arXiv:2110.05056}.
 \newblock 2021.
 
+\bibitem{extremeMultilabelEmbeddings}
+Kush Bhatia, Himanshu Jain, Purushottam Kar, Manik Varma, and Prateek Jain.
+\newblock Sparse Local Embeddings for Extreme Multi-label Classification.
+\newblock In C.~Cortes, N.~Lawrence, D.~Lee, M.~Sugiyama, and R.~Garnett,
+  editors, {\em Advances in Neural Information Processing Systems}, volume~28.
+  Curran Associates, Inc., 2015.
+
+\bibitem{Bishop}
+Christopher~M. Bishop.
+\newblock {\em Pattern Recognition and Machine Learning}.
+\newblock Information science and statistics. Springer, 5 edition, 2007.
+
+\bibitem{documentClassification}
+M.~J. Blosseville, Georges H\'{e}brail, Marie-Ga{\"e}lle Monteil, and
+  N.~P\'{e}not.
+\newblock Automatic Document Classification: Natural Language Processing,
+  Statistical Analysis, and Expert System Techniques Used Together.
+\newblock In {\em Proceedings of the 15th Annual International ACM SIGIR
+  Conference on Research and Development in Information Retrieval}, pages
+  51--58. 1992.
+
+\bibitem{labelPowerset}
+Matthew~R. Boutell, Jiebo Luo, Xipeng Shen, and Christopher~M. Brown.
+\newblock Learning multi-label scene classification, 37(9):1757--1771, {\em
+  Pattern Recognition}.
+\newblock 2004.
+
+\bibitem{OVA1}
+Klaus Brinker, Johannes F\"{u}rnkranz, and Eyke H\"{u}llermeier.
+\newblock A Unified Model for Multilabel Classification and Ranking.
+\newblock In {\em Proceedings of the 2006 Conference on ECAI 2006: 17th
+  European Conference on Artificial Intelligence August 29 -- September 1,
+  2006, Riva Del Garda, Italy}, pages 489--493. 2006.
+
+\bibitem{textCategorization}
+Trstenjak Bruno, Mikac Sasa, and Dzenana Donko.
+\newblock {KNN} with {TF-IDF} based framework for text categorization,
+  69:1356--1364,
+\newblock 2013.
+
 \bibitem{gans}
 Gabriel Bénédict.
 \newblock Generative Adversarial Networks, {\em Spectra ML Review Paper
@@ -86,6 +190,18 @@ Gabriel Bénédict, Olivier Jeunen, Samuele Papa, Samarth Bhargav, Daan Odijk,
   Recommendation, {\em arXiv}.
 \newblock 2306.08947, 2023.
 
+\bibitem{softF1}
+Wei-Cheng Chang, Hsiang-Fu Yu, Kai Zhong, Yiming Yang, and Inderjit~S. Dhillon.
+\newblock The Unknown Benefits of using a Soft-F1 Loss in Classification
+  Systems,
+\newblock 2019.
+
+\bibitem{extremeMultilabelText}
+Wei-Cheng Chang, Hsiang-Fu Yu, Kai Zhong, Yiming Yang, and Inderjit~S. Dhillon.
+\newblock Taming Pretrained Transformers for Extreme Multi-label Text
+  Classification,
+\newblock 2020.
+
 \bibitem{chen23:singl_stage_diffus_nerf}
 Hansheng Chen, Jiatao Gu, Anpei Chen, Wei Tian, Zhuowen Tu, Lingjie Liu, and
   Hao Su.
@@ -93,11 +209,24 @@ Hansheng Chen, Jiatao Gu, Anpei Chen, Wei Tian, Zhuowen Tu, Lingjie Liu, and
   and Reconstruction, {\em arXiv preprint arXiv:2304.06714v2}.
 \newblock 2023.
 
+\bibitem{decisionThreshold}
+James~J. Chen, Chen-An Tsai, Hojin Moon, Hongshik Ahn, John~J. Young, and
+  Chun-Houh Chen.
+\newblock Decision threshold adjustment in class prediction, 17(3):337--352,
+\newblock 2006.
+
 \bibitem{berdiff}
 Tao Chen, Chenhui Wang, and Hongming Shan.
 \newblock {BerDiff}: Conditional {Bernoulli} Diffusion Model for Medical Image
   Segmentation, {\em arXiv preprint arXiv:2304.04429}.
 \newblock 2023.
+
+\bibitem{rankingNDCG}
+Wei Chen, Tie-yan Liu, Yanyan Lan, Zhi-ming Ma, and Hang Li.
+\newblock Ranking Measures and Loss Functions in Learning to Rank.
+\newblock In Y.~Bengio, D.~Schuurmans, J.~Lafferty, C.~Williams, and
+  A.~Culotta, editors, {\em Advances in Neural Information Processing Systems},
+  volume~22. Curran Associates, Inc., 2009.
 
 \bibitem{chen-2018-collective}
 Yifan Chen and Maarten de~Rijke.
@@ -105,11 +234,44 @@ Yifan Chen and Maarten de~Rijke.
   Side Information.
 \newblock In {\em 3rd Workshop on Deep Learning for Recommender Systems}. 2018.
 
+\bibitem{moviePosters}
+Wei-Ta Chu and Hung-Jui Guo.
+\newblock Movie Genre Classification based on Poster Images with Deep Neural
+  Networks,
+\newblock 2017.
+
+\bibitem{ML-DT}
+Amanda Clare and Ross~D. King.
+\newblock Knowledge Discovery in Multi-label Phenotype Data, pages 42--53, {\em
+  Lecture Notes in Computer Science}.
+\newblock 2001.
+
+\bibitem{arXiv}
+Cornell-University.
+\newblock {arXiv} dataset and metadata of {1.7M+} scholarly papers across
+  {STEM}.
+\newblock \url{kaggle.com/Cornell-University/arxiv}, 2021.
+
+\bibitem{softMargin}
+Corinna Cortes and Vladimir Vapnik.
+\newblock Support-Vector Networks.
+\newblock In {\em Machine Learning}, pages 273--297, 1995.
+
 \bibitem{croitoru-2023-diffusion}
 Florinel-Alin Croitoru, Vlad Hondru, Radu~Tudor Ionescu, and Mubarak Shah.
 \newblock Diffusion Models in Vision: A Survey, pages 1--20, {\em IEEE
   Transactions on Pattern Analysis and Machine Intelligence}.
 \newblock 2023.
+
+\bibitem{CUNHA}
+Washington Cunha, V{\'\i}tor Mangaravite, Christian Gomes, S{\'e}rgio Canuto,
+  Elaine Resende, Cecilia Nascimento, Felipe Viegas, Celso Fran{\c c}a,
+  Wellington~Santos Martins, Jussara~M. Almeida, Thierson Rosa, Leonardo Rocha,
+  and Marcos~Andr{\'e} Gon{\c c}alves.
+\newblock On the cost-effectiveness of neural and non-neural approaches and
+  representations for text classification: A comprehensive comparative study,
+  58(3):102481, {\em Information Processing \& Management}.
+\newblock 2021.
 
 \bibitem{dacrema2021:repro_followup}
 Maurizio~Ferrari Dacrema, Simone Boglio, Paolo Cremonesi, and Dietmar Jannach.
@@ -118,11 +280,90 @@ Maurizio~Ferrari Dacrema, Simone Boglio, Paolo Cremonesi, and Dietmar Jannach.
   Systems}.
 \newblock 2021.
 
+\bibitem{deepF}
+Stijn Decubber, Thomas Mortier, Krzysztof Dembczynski, and Willem Waegeman.
+\newblock Deep F-Measure Maximization in Multi-label Classification: A
+  Comparative Study.
+\newblock In {\em ECML/PKDD}, pages 290--305, 2018.
+
 \bibitem{firstReco}
 Florence Dehart.
 \newblock The Application of Special Library Services and Techniques to the
   College Library, 27(2):130--152, {\em College \& Research Libraries}.
 \newblock 1966.
+
+\bibitem{OVA2}
+Krzysztof Dembczy\'{n}ski, Weiwei Cheng, and Eyke H\"{u}llermeier.
+\newblock Bayes Optimal Multilabel Classification via Probabilistic Classifier
+  Chains.
+\newblock In {\em Proceedings of the 27th International Conference on
+  International Conference on Machine Learning}, pages 279--286. 2010.
+
+\bibitem{shallowF3}
+Krzysztof Dembczynski, Arkadiusz Jachnik, Wojciech Kotlowski, Willem Waegeman,
+  and Eyke Huellermeier.
+\newblock Optimizing the F-Measure in Multi-Label Classification: Plug-in Rule
+  Approach versus Structured Loss Minimization.
+\newblock In Sanjoy Dasgupta and David McAllester, editors, {\em Proceedings of
+  the 30th International Conference on Machine Learning}, volume~28 of {\em
+  Proceedings of Machine Learning Research},  2013.
+
+\bibitem{shallowF2}
+Krzysztof Dembczynski, Willem Waegeman, Weiwei Cheng, and Eyke H\"{u}llermeier.
+\newblock An Exact Algorithm for F-Measure Maximization.
+\newblock In J.~Shawe-Taylor, R.~Zemel, P.~Bartlett, F.~Pereira, and K.Q.
+  Weinberger, editors, {\em Advances in Neural Information Processing Systems},
+  volume~24. Curran Associates, Inc., 2011.
+
+\bibitem{imagenet}
+Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li~Fei-Fei.
+\newblock {ImageNet}: A Large-Scale Hierarchical Image Database.
+\newblock In {\em 2009 IEEE Conference on Computer Vision and Pattern
+  Recognition}, pages 248--255, 2009.
+
+\bibitem{BERT}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock {BERT}: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding.
+\newblock In {\em Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers)},  2019.
+
+\bibitem{holisticVideoData}
+Ali Diba, Mohsen Fayyaz, Vivek Sharma, Manohar Paluri, Jurgen Gall, Rainer
+  Stiefelhagen, and Luc~Van Gool.
+\newblock {Large Scale Holistic Video Understanding}, {\em arXiv preprint
+  arXiv:1904.11451v3}.
+\newblock 2019.
+
+\bibitem{multitaskLabel}
+Jingcheng Du, Qingyu Chen, Yifan Peng, Yang Xiang, Cui Tao, and Zhiyong Lu.
+\newblock ML-Net: Multi-label Classification of Biomedical Texts with Deep
+  Neural Networks, 26(11):1279--1285,
+\newblock 2019.
+
+\bibitem{optimizableLosses}
+Elad Eban, Mariano Schain, Alan Mackey, Ariel Gordon, Ryan Rifkin, and Gal
+  Elidan.
+\newblock {Scalable Learning of Non-Decomposable Objectives}.
+\newblock In Aarti Singh and Jerry Zhu, editors, {\em Proceedings of the 20th
+  International Conference on Artificial Intelligence and Statistics},
+  volume~54 of {\em Proceedings of Machine Learning Research}, pages 832--840.
+  2017.
+
+\bibitem{multilabelSVM}
+Andr\'{e} Elisseeff and Jason Weston.
+\newblock A Kernel Method for Multi-Labelled Classification.
+\newblock In {\em Proceedings of the 14th International Conference on Neural
+  Information Processing Systems: Natural and Synthetic}, pages 681--687. 2001.
+
+\bibitem{pascalVOC}
+Mark Everingham, Luc~Van Gool, Christopher~KI Williams, John Winn, and Andrew
+  Zisserman.
+\newblock The {PASCAL} visual object classes challenge 2007 ({VOC2007})
+  results.
+\newblock
+  \url{http://www.pascal-network.org/challenges/VOC/voc2007/index.html}, 2007.
 
 \bibitem{Feller1949OnTT}
 William Feller.
@@ -151,6 +392,11 @@ K.~Fukushima.
   Biological Cybernetics}.
 \newblock 1980.
 
+\bibitem{multiclassOptDL2}
+Yu~Gai, Zheng Zhang, and Kyunghyun Cho.
+\newblock Gradient-based learning for F-measure and other performance metrics,
+  2019.
+
 \bibitem{gao-2023-difformer}
 Zhujin Gao, Junliang Guo, Xu~Tan, Yongxin Zhu, Fang Zhang, Jiang Bian, and
   Linli Xu.
@@ -164,16 +410,53 @@ Zhujin Gao, Junliang Guo, Xu~Tan, Yongxin Zhu, Fang Zhang, Jiang Bian, and
 \newblock Difformer: Empowering Diffusion Models on the Embedding Space for
   Text Generation, 2023, 2212.09412.
 
+\bibitem{shallowF4}
+Maxime Gasse and Alex Aussem.
+\newblock F-measure Maximization in Multi-Label Classification with
+  Conditionally Independent Label Subsets, abs/1604.07759, {\em CoRR}.
+\newblock 1604.07759, 2016.
+
 \bibitem{NetflixReco}
 Carlos~A. Gomez-Uribe and Neil Hunt.
 \newblock The Netflix Recommender System, 6(4):1–19,
 \newblock 2015.
+
+\bibitem{mobileNetV2}
+Google.
+\newblock Feature vectors of images with {MobileNet V2} (depth multiplier 1.00)
+  trained on {ImageNet} ({ILSVRC-2012-CLS}).
+\newblock
+  \url{https://tfhub.dev/google/imagenet/mobilenet_v2_100_224/feature_vector/4},
+  2021.
+
+\bibitem{binaryOpt}
+Josif Grabocka, Randolf Scholz, and Lars Schmidt{-}Thieme.
+\newblock Learning Surrogate Losses, abs/1905.10108, {\em CoRR}.
+\newblock 1905.10108, 2019.
+
+\bibitem{predsConf}
+Chuan Guo, Geoff Pleiss, Yu~Sun, and Kilian~Q. Weinberger.
+\newblock On Calibration of Modern Neural Networks.
+\newblock In Doina Precup and Yee~Whye Teh, editors, {\em Proceedings of the
+  34th International Conference on Machine Learning}, volume~70 of {\em
+  Proceedings of Machine Learning Research}, pages 1321--1330. 2017.
+
+\bibitem{cancerHallmarks}
+Douglas Hanahan and Robert~A. Weinberg.
+\newblock Hallmarks of Cancer: The Next Generation, 144(5):646--674,
+\newblock 2011.
 
 \bibitem{movieLens}
 F.~Maxwell Harper and Joseph~A. Konstan.
 \newblock The {MovieLens} Datasets: History and Context, 5:Article 19, {\em ACM
   Transactions on Interactive Intelligent Systems}.
 \newblock 2015.
+
+\bibitem{oldarXiv}
+Jun He, Liqun Wang, Liu Liu, Jiao Feng, and Hao Wu.
+\newblock Long Document Classification From Local Word Glimpses via Recurrent
+  Attention Learning, 7:40707--40718, {\em IEEE Access}.
+\newblock 2019.
 
 \bibitem{helberger}
 Natali Helberger.
@@ -220,6 +503,13 @@ Emiel Hoogeboom, Didrik Nielsen, Priyank Jaini, Patrick Forr\'{e}, and Max
   Vaughan, editors, {\em Advances in Neural Information Processing Systems},
   volume~34, pages 12454--12465. Curran Associates, Inc., 2021.
 
+\bibitem{ULMFit}
+Jeremy Howard and Sebastian Ruder.
+\newblock Universal Language Model Fine-tuning for Text Classification, {\em
+  Proceedings of the 56th Annual Meeting of the Association for Computational
+  Linguistics (Volume 1: Long Papers)}.
+\newblock 2018.
+
 \bibitem{nonNeuralBasket1}
 Haoji Hu, Xiangnan He, Jinyang Gao, and Zhi-Li Zhang.
 \newblock Modeling Personalized Item Frequency Information for Next-basket
@@ -233,12 +523,50 @@ Yifan Hu, Yehuda Koren, and Chris Volinsky.
 \newblock In {\em 2008 Eighth IEEE International Conference on Data Mining},
   pages 263--272, 2008.
 
+\bibitem{sigmoid}
+Hao Huang, Haihua Xu, Xianhui Wang, and Wushour Silamu.
+\newblock Maximum F1-Score Discriminative Training Criterion for Automatic
+  Mispronunciation Detection, 23(4):787--797,
+\newblock 2015.
+
 \bibitem{huang-2022-different}
 Jin Huang, Harrie Oosterhuis, and Maarten de~Rijke.
 \newblock It Is Different When Items Are Older: Debiasing Recommendations When
   Selection Bias and User Preferences are Dynamic.
 \newblock In {\em WSDM 2022: The Fifteenth International Conference on Web
   Search and Data Mining}, pages 381--289. 2022.
+
+\bibitem{DistilBERTModel}
+Huggingface.
+\newblock {DistilBERT}.
+\newblock \url{https://huggingface.co/transformers/model_doc/distilbert.html},
+  2021.
+
+\bibitem{IRClassStat}
+David~A Hull.
+\newblock {\em Information retrieval using statistical classification}.
+\newblock PhD thesis, Stanford University, 1994.
+
+\bibitem{pairwiseBinary}
+Eyke H{\"u}llermeier, Johannes F{\"u}rnkranz, Weiwei Cheng, and Klaus Brinker.
+\newblock Label ranking by learning pairwise preferences, 172(16):1897--1916,
+  {\em Artificial Intelligence}.
+\newblock 2008.
+
+\bibitem{extremeMilliionsSlice}
+Himanshu Jain, Venkatesh Balasubramanian, Bhanu Chunduri, and Manik Varma.
+\newblock Slice: Scalable Linear Extreme Classifiers trained on 100 Million
+  Labels for Related Searches.
+\newblock In {\em WSDM '19, February 11--15, 2019, Melbourne, VIC, Australia}.
+  2019.
+\newblock Best Paper Award at WSDM '19.
+
+\bibitem{exteremeMissingApplications}
+Himanshu Jain, Yashoteja Prabhu, and Manik Varma.
+\newblock Extreme Multi-Label Loss Functions for Recommendation, Tagging,
+  Ranking; Other Missing Label Applications.
+\newblock In {\em Proceedings of the 22nd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, pages 935--944. 2016.
 
 \bibitem{nonNeuralClassic2}
 Dietmar Jannach, Gabriel de~Souza P.~Moreira, and Even Oldridge.
@@ -252,12 +580,33 @@ Choi Jeongwhan, Hong Seoyoung, Noseong Park, and Sung-Bae Cho.
 \newblock Blurring-Sharpening Process Models for Collaborative Filtering,
 \newblock 2023.
 
+\bibitem{extremeClassification}
+Yacine Jernite, Anna Choromanska, and David Sontag.
+\newblock Simultaneous Learning of Trees and Representations for Extreme
+  Classification and Density Estimation.
+\newblock In {\em Proceedings of the 34th International Conference on Machine
+  Learning - Volume 70}, pages 1665--1674. JMLR.org, 2017.
+
 \bibitem{socialDiffusion2}
 Bo~Jin, Ke~Cheng, Liang Zhang, Yanjie Fu, Minghao Yin, and Lu~Jiang.
 \newblock Partial Relationship Aware Influence Diffusion via a Multi-Channel
   Encoding Scheme for Social Recommendation.
 \newblock In {\em Proceedings of the 29th ACM International Conference on
   Information and Knowledge Management}, page 585–594. ACM, 2020.
+
+\bibitem{PAL}
+Armand Joulin, Edouard Grave, Piotr Bojanowski, and Tomas Mikolov.
+\newblock Bag of Tricks for Efficient Text Classification.
+\newblock In {\em Proceedings of the 15th Conference of the {E}uropean Chapter
+  of the Association for Computational Linguistics: Volume 2, Short Papers},
+  2017.
+
+\bibitem{queryClassification}
+In-Ho Kang and GilChang Kim.
+\newblock Query Type Classification for Web Document Retrieval.
+\newblock In {\em Proceedings of the 26th Annual International ACM SIGIR
+  Conference on Research and Development in Informaion Retrieval}, pages
+  64--71. 2003.
 
 \bibitem{diff_3D_medical}
 Firas Khader, Gustav Müller-Franzes, Soroosh Tayebi~Arasteh, Tianyu Han,
@@ -311,6 +660,36 @@ Yehuda Koren, Robert Bell, and Chris Volinsky.
   42(8):30–37,
 \newblock 2009.
 
+\bibitem{multilabelMetrics}
+Oluwasanmi~O. Koyejo, Nagarajan Natarajan, Pradeep~K. Ravikumar, and
+  Inderjit~S. Dhillon.
+\newblock Consistent Multilabel Classification.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~28, pages 3321--3329. Curran Associates, Inc., 2015.
+
+\bibitem{saturation}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E. Hinton.
+\newblock ImageNet classification with deep convolutional neural networks,
+  60(6):84--90,
+\newblock 2017.
+
+\bibitem{topKmulticlassSVM}
+Maksim Lapin, Matthias Hein, and Bernt Schiele.
+\newblock Top-k Multiclass {SVM}.
+\newblock In {\em Proceedings of the 28th International Conference on Neural
+  Information Processing Systems - Volume 1}, pages 325--333. 2015.
+
+\bibitem{lossTopKError}
+Maksim Lapin, Matthias Hein, and Bernt Schiele.
+\newblock Loss Functions for Top-k Error: Analysis and Insights,
+\newblock 2016.
+
+\bibitem{chemExposure}
+Kristin Larsson, Ilona Silins, Yufan Guo, Anna Korhonen, Ulla Stenius, and
+  Marika Berglund.
+\newblock Text Mining for Improved Human Exposure Assessment, 229:S119,
+\newblock 2014.
+
 \bibitem{nonNeuralBasket2}
 Sara Latifi, Noemi Mauro, and Dietmar Jannach.
 \newblock Session-aware recommendation: A surprising quest for the
@@ -322,6 +701,21 @@ Jae~Sik Lee and Jin~Chun Lee.
 \newblock Customer Churn Prediction by Hybrid Model.
 \newblock In Xue Li, Osmar~R. Za{\"i}ane, and Zhanhuai Li, editors, {\em
   Advanced Data Mining and Applications}, pages 959--966. 2006.
+
+\bibitem{lehmann2015dbpedia}
+Jens Lehmann, Robert Isele, Max Jakob, Anja Jentzsch, Dimitris Kontokostas,
+  Pablo~N Mendes, Sebastian Hellmann, Mohamed Morsey, Patrick Van~Kleef,
+  S{\"o}ren Auer, and Christian Bizer.
+\newblock {DBpedia} -- {A} large-scale, multilingual knowledge base extracted
+  from {Wikipedia}, 6(2):167--195, {\em Semantic Web}.
+\newblock 2015.
+
+\bibitem{polyloss}
+Zhaoqi Leng, Mingxing Tan, Chenxi Liu, Ekin~Dogus Cubuk, Jay Shi, Shuyang
+  Cheng, and Dragomir Anguelov.
+\newblock {PolyLoss}: A Polynomial Expansion Perspective of Classification Loss
+  Functions.
+\newblock In {\em International Conference on Learning Representations}, 2022.
 
 \bibitem{li2020:rankopt}
 Hanze Li, Scott Sanner, Kai Luo, and Ga~Wu.
@@ -335,6 +729,11 @@ Ming Li, Sami Jullien, Mozhdeh Ariannezhad, and Maarten de~Rijke.
 \newblock A Next Basket Recommendation Reality Check, {\em arXiv preprint
   arXiv:2109.14233}.
 \newblock 2021.
+
+\bibitem{multitaskLabelImages}
+Yuncheng Li, Yale Song, and Jiebo Luo.
+\newblock Improving Pairwise Ranking for Multi-label Image Classification,
+\newblock 2017.
 
 \bibitem{seqdiffrec}
 Zihao Li, Aixin Sun, and Chenliang Li.
@@ -359,6 +758,41 @@ J.~Lin.
 \newblock Divergence measures based on the Shannon entropy, 37(1):145--151,
   {\em IEEE Transactions on Information Theory}.
 \newblock 1991.
+
+\bibitem{focalLoss}
+Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar.
+\newblock Focal Loss for Dense Object Detection,
+\newblock 2017.
+
+\bibitem{COCO}
+Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva
+  Ramanan, Piotr Doll{\'a}r, and C.~Lawrence Zitnick.
+\newblock Microsoft COCO: Common Objects in Context, pages 740--755, {\em
+  Lecture Notes in Computer Science}.
+\newblock 2014.
+
+\bibitem{threshForF1}
+Zachary~C. Lipton, Charles Elkan, and Balakrishnan Naryanaswamy.
+\newblock Optimal Thresholding of Classifiers to Maximize F1 Measure, pages
+  225--239, {\em Lecture Notes in Computer Science}.
+\newblock 2014.
+
+\bibitem{extremeSIGIR}
+Jingzhou Liu, Wei-Cheng Chang, Yuexin Wu, and Yiming Yang.
+\newblock Deep Learning for Extreme Multi-label Text Classification,
+\newblock 2017.
+
+\bibitem{Query2Label}
+Shilong Liu, Lei Zhang, Xiao Yang, Hang Su, and Jun Zhu.
+\newblock Query2Label: {A} Simple Transformer Way to Multi-Label
+  Classification, abs/2107.10834, {\em CoRR}.
+\newblock 2107.10834, 2021.
+
+\bibitem{pairwiseNet}
+Eneldo Loza~Mencia and Johannes Furnkranz.
+\newblock Pairwise learning of multilabel classifications with perceptrons.
+\newblock In {\em 2008 IEEE International Joint Conference on Neural Networks
+  (IEEE World Congress on Computational Intelligence)}, pages 2899--2906, 2008.
 
 \bibitem{nonNeuralSessionBased}
 Malte Ludewig and Dietmar Jannach.
@@ -385,6 +819,17 @@ Jun Ma and Bo~Wang.
   arXiv:2304.12306}.
 \newblock 2023.
 
+\bibitem{multilabelMethods}
+Gjorgji Madjarov, Dragi Kocev, Dejan Gjorgjevikj, and Sa{\v s}o D{\v z}eroski.
+\newblock An extensive experimental comparison of methods for multi-label
+  learning, 45(9):3084--3104, {\em Pattern recognition}.
+\newblock 2012.
+
+\bibitem{introIR}
+Christopher~D. Manning, Prabhakar Raghavan, and Hinrich Sch{\"u}tze.
+\newblock {\em Introduction to Information Retrieval}.
+\newblock Cambridge University Press, 2008.
+
 \bibitem{marlin2004:cf_ml_perspective}
 Benjamin Marlin.
 \newblock {\em Collaborative Filtering: A Machine Learning Perspective}.
@@ -396,6 +841,13 @@ Rishabh Mehrotra, Mounia Lalmas, Doug Kenney, Thomas Lim-Meng, and Golli
 \newblock Jointly Leveraging Intent and Interaction Signals to Predict User
   Satisfaction with Slate Recommendations.
 \newblock In {\em The World Wide Web Conference}, page 1256–1267. 2019.
+
+\bibitem{multilabelReduction}
+Aditya~K Menon, Ankit~Singh Rawat, Sashank Reddi, and Sanjiv Kumar.
+\newblock Multilabel reductions: what is my loss optimising?
+\newblock In H.~Wallach, H.~Larochelle, A.~Beygelzimer, F.~d\textquotesingle
+  Alch\'{e}-Buc, E.~Fox, and R.~Garnett, editors, {\em Advances in Neural
+  Information Processing Systems}, volume~32. Curran Associates, Inc., 2019.
 
 \bibitem{menzen-2021-alternating}
 Clara Menzen, Manon Kok, and Kim Batselier.
@@ -410,6 +862,32 @@ Lien Michiels, Robin Verachtert, and Bart Goethals.
 \newblock In {\em Proceedings of the 16th ACM Conference on Recommender
   Systems}, pages 648--651, 2022.
 
+\bibitem{unsupervisedImage}
+Timo Milbich, Omair Ghori, Ferran Diego, and Bj{\"o}rn Ommer.
+\newblock Unsupervised Representation Learning by Discovering Reliable Image
+  Relations, 102:107107,
+\newblock 2020.
+
+\bibitem{activeLearningMultiLabel}
+Felipe~Kenji Nakano, Ricardo Cerri, and Celine Vens.
+\newblock Active Learning for Hierarchical Multi-label Classification,
+  34(5):1496--1530, {\em Data Mining and Knowledge Discovery}.
+\newblock 2020.
+
+\bibitem{multiclassOpt1}
+Harikrishna Narasimhan, Purushottam Kar, and Prateek Jain.
+\newblock Optimizing Non-Decomposable Performance Measures: A Tale of Two
+  Classes.
+\newblock In {\em Proceedings of the 32nd International Conference on
+  International Conference on Machine Learning - Volume 37}, pages 199--208.
+  JMLR.org, 2015.
+
+\bibitem{moviePostersData}
+Neha.
+\newblock Movie Genre from its Poster.
+\newblock \url{https://www.kaggle.com/neha1703/movie-genre-from-its-poster},
+  2018.
+
 \bibitem{nema2021:betavae}
 Preksha Nema, Alexandros Karatzoglou, and Filip Radlinski.
 \newblock Disentangling Preference Representations for Recommendation
@@ -423,12 +901,68 @@ Xia Ning and George Karypis.
 \newblock In {\em 2011 IEEE 11th International Conference on Data Mining},
   pages 497--506, 2011.
 
+\bibitem{mAP}
+Rafael Padilla, Sergio~L. Netto, and Eduardo A.~B. da~Silva.
+\newblock A Survey on Performance Metrics for Object-Detection Algorithms.
+\newblock In {\em 2020 International Conference on Systems, Signals and Image
+  Processing (IWSSIP)}, pages 237--242, 2020.
+
 \bibitem{Pan2008}
 Rong Pan, Yunhong Zhou, Bin Cao, Nathan~N. Liu, Rajan Lukose, Martin Scholz,
   and Qiang Yang.
 \newblock One-Class Collaborative Filtering.
 \newblock In {\em 2008 Eighth IEEE International Conference on Data Mining},
   pages 502--511, 2008.
+
+\bibitem{pytorch}
+Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory
+  Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, Alban
+  Desmaison, Andreas Kopf, Edward Yang, Zachary DeVito, Martin Raison, Alykhan
+  Tejani, Sasank Chilamkurthy, Benoit Steiner, Lu~Fang, Junjie Bai, and Soumith
+  Chintala.
+\newblock PyTorch: An Imperative Style, High-Performance Deep Learning Library.
+\newblock In H.~Wallach, H.~Larochelle, A.~Beygelzimer, F.~d\textquotesingle
+  Alch\'{e}-Buc, E.~Fox, and R.~Garnett, editors, {\em Advances in Neural
+  Information Processing Systems 32}, pages 8024--8035. Curran Associates,
+  Inc., 2019.
+
+\bibitem{recallLoss}
+Yash Patel, Giorgos Tolias, and Jiri Matas.
+\newblock Recall@k Surrogate Loss with Large Batches and Similarity Mixup, {\em
+  CVPR}.
+\newblock 2022.
+
+\bibitem{diagnosisCode}
+Adler Perotte, Rimma Pivovarov, Karthik Natarajan, Nicole Weiskopf, Frank Wood,
+  and No{\'e}mie Elhadad.
+\newblock Diagnosis Code Assignment: Models and Evaluation Metrics,
+  21(2):231--237,
+\newblock 2014.
+
+\bibitem{extremeParabel}
+Yashoteja Prabhu, Anil Kag, Shrutendra Harsola, Rahul Agrawal, and Manik Varma.
+\newblock Parabel: Partitioned Label Trees for Extreme Classification with
+  Application to Dynamic Search Advertising.
+\newblock In {\em Proceedings of the 2018 World Wide Web Conference}, pages
+  993--1002. 2018.
+
+\bibitem{multiclassToBinary3}
+Harish~G. Ramaswamy, Balaji~Srinivasan Babu, Shivani Agarwal, and Robert~C.
+  Williamson.
+\newblock On the Consistency of Output Code Based Learning Algorithms for
+  Multiclass Learning Problems.
+\newblock In Maria~Florina Balcan, Vitaly Feldman, and Csaba Szepesv{\'a}ri,
+  editors, {\em Proceedings of The 27th Conference on Learning Theory},
+  volume~35 of {\em Proceedings of Machine Learning Research},  2014.
+
+\bibitem{stochasticNegativeMining}
+Sashank~J. Reddi, Satyen Kale, Felix Yu, Daniel Holtmann-Rice, Jiecao Chen, and
+  Sanjiv Kumar.
+\newblock Stochastic Negative Mining for Learning with Large Output Spaces.
+\newblock In Kamalika Chaudhuri and Masashi Sugiyama, editors, {\em Proceedings
+  of the Twenty-Second International Conference on Artificial Intelligence and
+  Statistics}, volume~89 of {\em Proceedings of Machine Learning Research},
+  pages 1940--1949. 2019.
 
 \bibitem{nonNeuralClassic4}
 Steffen Rendle, Walid Krichene, Li~Zhang, and Yehuda Koren.
@@ -441,6 +975,13 @@ Steffen Rendle, Li~Zhang, and Yehuda Koren.
 \newblock On the Difficulty of Evaluating Baselines: A Study on Recommender
   Systems, {\em arXiv preprint arXiv:1905.01395v1}.
 \newblock 2019.
+
+\bibitem{TresNet}
+Tal Ridnik, Hussam Lawen, Asaf Noy, Emanuel Ben~Baruch, Gilad Sharir, and
+  Itamar Friedman.
+\newblock TResNet: High Performance GPU-Dedicated Architecture.
+\newblock In {\em Proceedings of the IEEE/CVF Winter Conference on Applications
+  of Computer Vision (WACV)}, 2021.
 
 \bibitem{sgd1}
 Herbert Robbins and Sutton Monro.
@@ -465,6 +1006,12 @@ Olaf Ronneberger, Philipp Fischer, and Thomas Brox.
   {\em arXiv preprint arXiv:1505.04597}.
 \newblock 2015.
 
+\bibitem{inplaceABN}
+Samuel Rota~Bul\`o, Lorenzo Porzi, and Peter Kontschieder.
+\newblock In-Place Activated BatchNorm for Memory-Optimized Training of DNNs.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, 2018.
+
 \bibitem{sachdeva2022infinite}
 Noveen Sachdeva, Mehak~Preet Dhaliwal, Carole-Jean Wu, and Julian McAuley.
 \newblock Infinite Recommendation Networks: A Data-Centric Approach.
@@ -477,6 +1024,25 @@ Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily
 \newblock Photorealistic Text-to-Image Diffusion Models with Deep Language
   Understanding.
 \newblock In {\em Advances in Neural Information Processing Systems}.
+
+\bibitem{mobileNet}
+Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh
+  Chen.
+\newblock {MobileNetV2}: Inverted Residuals and Linear Bottlenecks.
+\newblock In {\em 2018 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, 2018.
+
+\bibitem{distilBert}
+Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf.
+\newblock {DistilBERT}, a distilled version of {BERT:} smaller, faster, cheaper
+  and lighter, abs/1910.01108, {\em CoRR}.
+\newblock 1910.01108, 2019.
+
+\bibitem{multiclassOptDL}
+Amartya Sanyal, Pawan Kumar, Purushottam Kar, Sanjay Chawla, and Fabrizio
+  Sebastiani.
+\newblock Optimizing Non-decomposable Measures with Deep Networks, 107,
+\newblock 2018.
 
 \bibitem{itemBased}
 Badrul Sarwar, George Karypis, Joseph Konstan, and John Riedl.
@@ -496,6 +1062,13 @@ Suvash Sedhain, Aditya~Krishna Menon, Scott Sanner, and Lexing Xie.
 \newblock In {\em Proceedings of the 24th International Conference on World
   Wide Web}, page 111–112. ACM, 2015.
 
+\bibitem{imageClassification}
+Fumin Shen, Yadong Mu, Yang Yang, Wei Liu, Li~Liu, Jingkuan Song, and Heng~Tao
+  Shen.
+\newblock Classification by Retrieval: Binarizing Data and Classifiers.
+\newblock In {\em Proceedings of the 40th International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}, pages 595--604. 2017.
+
 \bibitem{RecVAE}
 Ilya Shenbin, Anton Alekseev, Elena Tutubalina, Valentin Malykh, and Sergey~I.
   Nikolenko.
@@ -503,6 +1076,12 @@ Ilya Shenbin, Anton Alekseev, Elena Tutubalina, Valentin Malykh, and Sergey~I.
   Implicit Feedback.
 \newblock In {\em Proceedings of the 13th International Conference on Web
   Search and Data Mining}. ACM, 2020.
+
+\bibitem{bigBSArxiv}
+Samuel~L. Smith, Pieter{-}Jan Kindermans, and Quoc~V. Le.
+\newblock Don't Decay the Learning Rate, Increase the Batch Size,
+  abs/1711.00489, {\em CoRR}.
+\newblock 1711.00489, 2017.
 
 \bibitem{jascha}
 Jascha Sohl-Dickstein, Eric Weiss, Niru Maheswaranathan, and Surya Ganguli.
@@ -517,6 +1096,12 @@ Jascha Sohl-Dickstein, Eric Weiss, Niru Maheswaranathan, and Surya Ganguli.
 \newblock In {\em Proceedings of the 32nd International Conference on Machine
   Learning}, volume~37 of {\em Proceedings of Machine Learning Research}, pages
   2256--2265. PMLR, 2015.
+
+\bibitem{multiInstance}
+Hossein Soleimani and David~J. Miller.
+\newblock Semisupervised, Multilabel, Multi-Instance Learning for Structured
+  Data, 29(4):1053--1102, {\em Neural Computation}.
+\newblock 2017.
 
 \bibitem{songdenoising}
 Jiaming Song, Chenlin Meng, and Stefano Ermon.
@@ -548,6 +1133,24 @@ Jaime Teevan, Susan~T. Dumais, and Eric Horvitz.
   Conference on Research and Development in Information Retrieval}, page
   449–456. 2005.
 
+\bibitem{multiclassToBinary2}
+Ambuj Tewari and Peter~L. Bartlett.
+\newblock On the Consistency of Multiclass Classification Methods.
+\newblock In Peter Auer and Ron Meir, editors, {\em Learning Theory}, pages
+  143--157. 2005.
+
+\bibitem{hammingLoss}
+Grigorios Tsoumakas and Ioannis Katakis.
+\newblock Multi-Label Classification: An Overview, 3(3):1--13, {\em
+  International Journal of Data Warehousing and Mining (IJDWM)}.
+\newblock 2007.
+
+\bibitem{tukey}
+John~Wilder Tukey.
+\newblock {\em Exploratory data analysis}.
+\newblock Addison-Wesley series in behavioral science: quantitative methods.
+  Addison-Wesley, Reading, Mass., 1977.
+
 \bibitem{trec}
 Ali Vardasbi, Gabriel Bénédict, Shashank Gupta, Maria Heuss, Pooya Khandel,
   Ming Li, and Fatemeh Sarvi.
@@ -576,12 +1179,31 @@ Sanne Vrijenhoek, Gabriel B\'{e}n\'{e}dict, Mateo Gutierrez~Granada, Daan
 \newblock In {\em Proceedings of the 16th ACM Conference on Recommender
   Systems}, page 208–219. 2022.
 
+\bibitem{F-inference}
+Willem Waegeman, Krzysztof Dembczy\'{n}ki, Arkadiusz Jachnik, Weiwei Cheng, and
+  Eyke H\"{u}llermeier.
+\newblock On the Bayes-Optimality of F-Measure Maximizers, 15(1):3333--3388,
+\newblock 2014.
+
 \bibitem{walker-2022-recommendation}
 Joojo Walker, Ting Zhong, Fengli Zhang, Qiang Gao, and Fan Zhou.
 \newblock Recommendation Via Collaborative Diffusion Generative Model.
 \newblock In {\em Knowledge Science, Engineering and Management: 15th
   International Conference, KSEM 2022, Singapore, August 6–8, 2022,
   Proceedings, Part III}, page 593–605. Springer-Verlag, 2022.
+
+\bibitem{multilabelImage1}
+Jiang Wang, Yi~Yang, Junhua Mao, Zhiheng Huang, Chang Huang, and Wei Xu.
+\newblock CNN-RNN: A Unified Framework for Multi-Label Image Classification.
+\newblock 2016.
+
+\bibitem{highResRepresentation}
+Jingdong Wang, Ke~Sun, Tianheng Cheng, Borui Jiang, Chaorui Deng, Yang Zhao,
+  Dong Liu, Yadong Mu, Mingkui Tan, Xinggang Wang, and et~al.
+\newblock Deep High-Resolution Representation Learning for Visual Recognition,
+  pages 1--1, {\em IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}.
+\newblock 2020.
 
 \bibitem{wang2019:survey_sequential}
 Shoujin Wang, Liang Hu, Yan Wang, Longbing Cao, Quan~Z Sheng, and Mehmet Orgun.
@@ -595,10 +1217,31 @@ Wenjie Wang, Xinyu Lin, Fuli Feng, Xiangnan He, and Tat-Seng Chua.
   Paradigm}, {\em arXiv}.
 \newblock 2304.03516v1, 2023.
 
+\bibitem{lambdaLoss}
+Xuanhui Wang, Cheng Li, Nadav Golbandi, Mike Bendersky, and Marc Najork.
+\newblock The {LambdaLoss} Framework for Ranking Metric Optimization.
+\newblock In {\em Proceedings of The 27th ACM International Conference on
+  Information and Knowledge Management (CIKM '18)}, pages 1313--1322, 2018.
+
+\bibitem{multilabelImage2}
+Yunchao Wei, Wei Xia, Min Lin, Junshi Huang, Bingbing Ni, Jian Dong, Yao Zhao,
+  and Shuicheng Yan.
+\newblock HCP: A Flexible CNN Framework for Multi-Label Image Classification,
+  38(9):1901--1907, {\em IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}.
+\newblock 2016.
+
 \bibitem{diffRec}
 Wang Wenjie, Xu~Yiyan, Fuli Feng, Xinyu Lin, Xiangnan He, and Tat-Seng Chua.
 \newblock Diffusion Recommender Model,
 \newblock 2023.
+
+\bibitem{tencent}
+Baoyuan Wu, Weidong Chen, Yanbo Fan, Yong Zhang, Jinlong Hou, Jie Liu, and Tong
+  Zhang.
+\newblock Tencent ML-Images: A Large-Scale Multi-Label Image Database for
+  Visual Representation Learning, 7:172683--172693, {\em IEEE Access}.
+\newblock 2019.
 
 \bibitem{gao2019:dlc}
 Ga~Wu, Kai Luo, Scott Sanner, and Harold Soh.
@@ -613,11 +1256,33 @@ Le~Wu, Peijie Sun, Yanjie Fu, Richang Hong, Xiting Wang, and Meng Wang.
   Research and Development in Information Retrieval}, page 235–244. ACM,
   2019.
 
+\bibitem{unifiedView}
+Xi-Zhu Wu and Zhi-Hua Zhou.
+\newblock A Unified View of Multi-Label Performance Measures.
+\newblock In Doina Precup and Yee~Whye Teh, editors, {\em Proceedings of the
+  34th International Conference on Machine Learning}, volume~70 of {\em
+  Proceedings of Machine Learning Research}, pages 3780--3788. 2017.
+
 \bibitem{wu2016:cdae}
 Yao Wu, Christopher DuBois, Alice~X. Zheng, and Martin Ester.
 \newblock Collaborative Denoising Auto-Encoders for Top-N Recommender Systems.
 \newblock In {\em Proceedings of the Ninth ACM International Conference on Web
   Search and Data Mining}, page 153–162. ACM, 2016.
+
+\bibitem{OVATheory}
+Marek Wydmuch, Kalina Jasinska, Mikhail Kuznetsov, R\'{o}bert Busa-Fekete, and
+  Krzysztof Dembczy\'{n}ski.
+\newblock A No-Regret Generalization of Hierarchical Softmax to Extreme
+  Multi-Label Classification.
+\newblock In {\em Proceedings of the 32nd International Conference on Neural
+  Information Processing Systems}, pages 6358--6368. 2018.
+
+\bibitem{faceDetection}
+Jianxiong Xiao, James Hays, Krista~A. Ehinger, Aude Oliva, and Antonio
+  Torralba.
+\newblock SUN database: Large-scale scene recognition from abbey to zoo.
+\newblock In {\em 2010 IEEE Computer Society Conference on Computer Vision and
+  Pattern Recognition}, pages 3485--3492, 2010.
 
 \bibitem{yang23:learn_diffus_prior_nerfs}
 Guandao Yang, Abhijit Kundu, Leonidas~J. Guibas, Jonathan~T. Barron, and Ben
@@ -634,10 +1299,100 @@ Hojin Yang, Tianshu Shen, and Scott Sanner.
   Research and Development in Information Retrieval}, page 2111–2115. ACM,
   2021.
 
+\bibitem{statTextCategorization}
+Yiming Yang.
+\newblock An Evaluation of Statistical Approaches to Text Categorization,
+  1:69--90, {\em Information Retrieval}.
+\newblock 2004.
+
+\bibitem{XLNet}
+Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Russ~R Salakhutdinov,
+  and Quoc~V Le.
+\newblock XLNet: Generalized Autoregressive Pretraining for Language
+  Understanding.
+\newblock In H.~Wallach, H.~Larochelle, A.~Beygelzimer, F.~d\textquotesingle
+  Alch\'{e}-Buc, E.~Fox, and R.~Garnett, editors, {\em Advances in Neural
+  Information Processing Systems}, volume~32, pages 5753--5763. Curran
+  Associates, Inc., 2019.
+
+\bibitem{shallowF1}
+Nan Ye, Kian Ming~Adam Chai, Wee~Sun Lee, and Hai~Leong Chieu.
+\newblock Optimizing F-measure: A Tale of Two Approaches.
+\newblock In {\em ICML}, 2012.
+
+\bibitem{extremePPDsparse}
+Ian~E.H. Yen, Xiangru Huang, Wei Dai, Pradeep Ravikumar, Inderjit Dhillon, and
+  Eric Xing.
+\newblock PPDsparse: A Parallel Primal-Dual Sparse Method for Extreme
+  Classification.
+\newblock In {\em Proceedings of the 23rd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, pages 545--553. 2017.
+
+\bibitem{exteremeMissing}
+Hsiang-Fu Yu, Prateek Jain, Purushottam Kar, and Inderjit~S. Dhillon.
+\newblock Large-Scale Multi-Label Learning with Missing Labels.
+\newblock In {\em Proceedings of the 31st International Conference on
+  International Conference on Machine Learning - Volume 32}, pages
+  I--593--I--601. JMLR.org, 2014.
+
+\bibitem{bigBird}
+Manzil Zaheer, Guru Guruganesh, Kumar~Avinava Dubey, Joshua Ainslie, Chris
+  Alberti, Santiago Ontanon, Philip Pham, Anirudh Ravula, Qifan Wang, Li~Yang,
+  and Amr Ahmed.
+\newblock Big Bird: Transformers for Longer Sequences.
+\newblock In {\em Advances in Neural Information Processing Systems}, 2020.
+
 \bibitem{diffusionImageSurvey}
 Chenshuang Zhang, Chaoning Zhang, Mengchun Zhang, and In~So Kweon.
 \newblock {Text-to-image Diffusion Models in Generative AI: A Survey}, {\em
   arXiv}.
 \newblock 2303.07909v2, 2023.
+
+\bibitem{multilabelBackprop}
+Min-Ling Zhang and Zhi-Hua Zhou.
+\newblock Multilabel Neural Networks with Applications to Functional Genomics
+  and Text Categorization, 18(10):1338--1351,
+\newblock 2006.
+
+\bibitem{ML-KNN}
+Min-Ling Zhang and Zhi-Hua Zhou.
+\newblock ML-KNN: A Lazy Learning Approach to Multi-label Learning,
+  40(7):2038--2048,
+\newblock 2007.
+
+\bibitem{multilabelReview}
+Min-Ling Zhang and Zhi-Hua Zhou.
+\newblock A Review on Multi-Label Learning Algorithms, 26(8):1819--1837,
+\newblock 2014.
+
+\bibitem{shallowF5}
+Mingyuan Zhang, Harish~G. Ramaswamy, and Shivani Agarwal.
+\newblock Convex Calibrated Surrogates for the Multi-Label F-Measure.
+\newblock In {\em Proceedings of the 37th International Conference on Machine
+  Learning}. JMLR.org, 2020.
+
+\bibitem{multiclassToBinary1}
+Tong Zhang.
+\newblock {Statistical behavior and consistency of classification methods based
+  on convex risk minimization}, 32(1):56 -- 85, {\em The Annals of Statistics}.
+\newblock 2004.
+
+\bibitem{textClassificationLeCun}
+Xiang Zhang, Junbo Zhao, and Yann LeCun.
+\newblock Character-Level Convolutional Networks for Text Classification.
+\newblock In {\em Proceedings of the 28th International Conference on Neural
+  Information Processing Systems - Volume 1}, pages 649--657. 2015.
+
+\bibitem{multiInstanceMultiLabel}
+Zhi-Hua Zhou, Min-Ling Zhang, Sheng-Jun Huang, and Yu-Feng Li.
+\newblock Multi-instance multi-label learning, 176(1):2291 -- 2320, {\em
+  Artificial Intelligence}.
+\newblock 2012.
+
+\bibitem{multilabelImage3}
+Feng Zhu, Hongsheng Li, Wanli Ouyang, Nenghai Yu, and Xiaogang Wang.
+\newblock Learning Spatial Regularization With Image-Level Supervisions for
+  Multi-Label Image Classification.
+\newblock 2017.
 
 \end{thebibliography}

@@ -15,14 +15,19 @@ In this chapter, we address the following research question:
 
 \noindent
 
-%\input{04-research-focus/sections/introduction.tex}
-%\input{04-research-focus/sections/related-work.tex}
-%\input{04-research-focus/sections/method.tex}
-%\input{04-research-focus/sections/experimental-setup.tex}
-%\input{04-research-focus/sections/experiment1.tex}
-%\input{04-research-focus/sections/experiment2.tex}
-%\input{04-research-focus/sections/discussion.tex}
-%\input{04-research-focus/sections/conclusion.tex}
+\subimport{multilabel/sigmoidF1/sections}{01-introduction}
+\subimport{multilabel/sigmoidF1/sections}{02-background}
+\subimport{multilabel/sigmoidF1/sections}{06-related-work}
+\subimport{multilabel/sigmoidF1/sections}{03-method}
+\subimport{multilabel/sigmoidF1/sections}{04-experimental-setup}
+\subimport{multilabel/sigmoidF1/sections}{05-experimental-results}
+\subimport{multilabel/sigmoidF1/sections}{07-discussion}
+\subimport{multilabel/sigmoidF1/sections}{08-conclusions}
+
+\begin{appendices}
+\chapter{Appendix of Metrics as Losses}
+\subimport{multilabel/sigmoidF1/appendix}{appendix}
+\end{appendices}
 
 \section*{Reproducibility}
 To facilitate the reproducibility of this work, our code is available at \url{https://github.com/gabriben/metrics-as-losses}.

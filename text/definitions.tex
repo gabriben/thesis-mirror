@@ -86,10 +86,10 @@
 
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{lemma}[theorem]{Lemma}
-\newtheorem{proposition}[theorem]{Proposition}
+%\newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{corollary}[theorem]{Corollary}
 \theoremstyle{definition}
-\newtheorem{definition}{Definition}[section]
+%\newtheorem{definition}{Definition}[section]
 \newtheorem{example}{Example}[section]
 \theoremstyle{remark}
 \newtheorem{remark}{Remark}
@@ -127,6 +127,7 @@
 \newcommand{\perturbl}{\hat{P}}
 
 
+\if0
 % For algorithm
 \newlength\myindent
 \setlength\myindent{1em}
@@ -139,7 +140,7 @@
 
 % Make Algorithm counter depend on chapter
 \counterwithin{algorithm}{chapter}
-
+\fi
 
 % For quote
 \newlength\longest
