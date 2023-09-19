@@ -6,6 +6,13 @@
 %\chapter{Counterfactual Explanations for Graphs}
 \label{chapter:research-recfusion}
 
+\if0
+nth step in personalization pipeline...
+motivation...
+gap...
+how it fits in the thesis
+\fi
+
 \begin{figure}[ht]
   \centering
   \includegraphics{images/pipeline_step1.pdf}
@@ -16,14 +23,20 @@
 \footnote[]{This chapter is under submission at International Conference on Learning Representations (ICLR) under the title ``RecFusion: A Binomial Diffusion Process for 1D Data for Recommendation'' \cite{recfusion}.}
 \acresetall
 
-%\todo{Add intro paragraph that connects this chapter to its RQ from chapter 1: How can we extend our explanation method for tree-based models to graph-based models? first extend problem formalization to graphs, then apply the same gradient-based optimization technique as in FOCUS}
+As a first step in our personalization pipeline, we look at recommendation – or presenting the right content to the right user algorithmically - in a new generative manner. Generative models, like diffusion models have been used on modalities like music, image; but can they be used on unstructured data? Beyond the technical aspect of fitting diffusion to yet another problem, we are motivated to use diffusion on the classical user-item matrix situation because it opens doors to diffusion mechanisms like guidance (e.g. conditioning on a movie genre) or inpainting (e.g. guessing what users have watched on other platforms and filling some gaps in the user-item matrix). In other words,
 
 \medskip
 \noindent
 \textbf{\ref{rq:recfusion}:} \acl{rq:recfusion}
 \medskip
 
-\noindent
+
+We respond to this question by first formulating different diffusion models for that particular recommendation setup. While the U-Net architectures translated from the image domain \cite{DDPM} do not perform well, our own 1D diffusion models based on a simple MLP architecture and a Bernoulli forward and backward process are performing competitively against VAE methods. For the first time, we propose a mathematical derivation of that Bernoulli process first proposed in an appendix of the original diffusion work~\cite{jascha}. Beyond Gauss and Bernoulli, I am excited to continue working on further diffusion distributions processes in the future.
+
+
+
+%\todo{Add intro paragraph that connects this chapter to its RQ from chapter 1: How can we extend our explanation method for tree-based models to graph-based models? first extend problem formalization to graphs, then apply the same gradient-based optimization technique as in FOCUS}
+
 
 \subimport{recfusion-arxiv/sections}{01_introduction}
 \subimport{recfusion-arxiv/sections}{02_method}
@@ -32,10 +45,7 @@
 \subimport{recfusion-arxiv/sections}{05_related_work}
 \subimport{recfusion-arxiv/sections}{06_discussion}
 
-\begin{appendices}
-\chapter{Appendix of Generative Recommendations with Diffusion}
-\subimport{recfusion-arxiv}{appendix}
-\end{appendices}
+
 
 %\input{04-research-recfusion/recfusion-arxiv/sections/01_introduction}
 
@@ -52,6 +62,25 @@
 %\input{04-research-cfgnn/sections/appendix_final.tex}
 
 
+\section{Upshots for the personalization pipeline}
+
+\if0
+in this chapter, ...
+how we answered the research question
+future work
+
+in the next chapter we continue...
+2 sentences
+\fi
+
+In this chapter, we formulated and trained a diffusion model for recommendation. We answer the research question on two levels.
+\begin{enumerate*}[label={(\roman*)}]
+\item Mathematically, our 1D Bernoulli or Gaussian diffusion processes fit the user-item matrix setting.
+\item RecFusion outperforms other existing diffusion models for recommendation and remains inferior to VAE-based and non-neural models.
+\end{enumerate*}
+More work is needed towards beating these baselines and unlocking the diffusion tricks like guidance and inpainting.
+
+Thanks to RecFusion, we can distribute recommendation strips to each user. In the next chapter, we are interested in how these strips look. More precisely, how to illustrate each video in the strip for each type of user in an enticing way. If users can be organized into what movie genres they like the most, this becomes a multilabel classification problem: for each candidate video thumbnails, what is (are) the genre(s) they most relate to?
 
 \section*{Reproducibility}
 To facilitate the reproducibility of the work in this chapter, our code is available at \url{https://github.com/gabriben/recfusion}.
@@ -59,8 +88,10 @@ To facilitate the reproducibility of the work in this chapter, our code is avail
 
 
 
-
-
+\begin{appendices}
+\chapter{Appendix of Generative Recommendations with Diffusion}
+\subimport{recfusion-arxiv}{appendix}
+\end{appendices}
 
 
 

@@ -12,14 +12,26 @@
 \footnote[]{This chapter was published at the ACM Conference on Recommender Systems (RecSys 2022) under the title ``RADio – Rank-Aware Divergence Metrics to Measure Normative Diversity in News Recommendations'' \citep{radio}, , where it won a best paper runner up award.}
 \acresetall
 
-In this chapter, we address the following research question:
+\if0
+nth step in personalization pipeline...
+motivation...
+gap...
+how it fits in the thesis
+\fi
+
+Pushing content to the user, changing its appearance and measuring the user satisfaction are essential business concerns for a streaming platform. Now that we have reached the last step of our personalization pipeline, we take a step back and look at
+\begin{enumerate*}[label={(\roman*)}]
+\item what does the platform stand for in terms of its norms and values?
+\item can the platform measure whether the users' behavior aligns with these norms and values?
+\end{enumerate*}
+While there is emerging discussion on the first issue~\cite{helberger, normalize, fairChatGPTReco}, the second is less discussed. Instead of relating to normative concepts, existing metrics are related to objective concepts, like how item embeddings differ across a list~\cite{liang2021ILD}. Moving away from existing metrics we ask,
 
 \medskip
 \noindent
 \textbf{\ref{rq:radio}:} \acl{rq:radio}
 \medskip
 
-\noindent
+We propose a mathematic formulation of a diversity metric that is based on the Jensen-Shannon Divergence and that is rank aware. We illustrate how this metric fits into an existing normative diversity paradigm. Prior to tackling this question, we made sure to use the standard news dataset MIND~\cite{wu2020mind}, to improve reproducibility. By doing so, we were encouraged to first analyze the quality of this dataset and the distribution in news categories. We release code and a data preprocessing pipeline to extract concepts like text complexity, the presence alternative voices, the polarity of the article etc. Altogether, this chapter forms a pipeline of its own dedicated to responsible recommendations.
 
 
 
@@ -55,6 +67,22 @@ In this chapter, we address the following research question:
 \label{sec:conclusions}
 \subimport{RADio-TORS/sections}{08_conclusions}
 
+
+
+\section{Upshots for the personalization pipeline}
+
+\if0
+in this chapter, ...
+how we answered the research question
+future work
+
+in the next chapter we continue...
+2 sentences
+\fi
+
+In this last chapter we look at aspects related to the platforms role in society. We found that it is possible to formulate a metric that adapts to sanity checks on any norms and values, as long as they can be expressed in terms of distributions and are measurable. Oftentimes downplayed or ignored, and although we will never be able to measure its actual downstream effect, we try to put the platforms immense role in society into perspective.
+
+For the future, we hope to first motivate and possibly force platforms to monitor their level of diversity on different normative levels, especially for news and video platforms that are now part of most of the connected world's daily life. But we hope it does not stop here. Rather, why not use these diversity metrics as losses (see Chapter~\ref{chapter:research-sigmoidf1}) for our next recommender system? And thus close the loop between passive observations via metrics and active nudges via recommendations. In other terms, make our personalization pipeline a personalization loop.
 
 
 \section*{Reproducibility}

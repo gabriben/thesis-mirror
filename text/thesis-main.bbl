@@ -1343,6 +1343,12 @@ Dawen Liang, Rahul~G. Krishnan, Matthew~D. Hoffman, and Tony Jebara.
 \newblock In {\em Proceedings of the 2018 World Wide Web Conference}, page
   689–698. ACM, 2018.
 
+\bibitem{liang2021ILD}
+Yile Liang and Tieyun Qian.
+\newblock Recommending Accurate and Diverse Items Using Bilateral Branch
+  Network, abs/2101.00781, {\em CoRR}.
+\newblock 2101.00781, 2021.
+
 \bibitem{Liese2006fDiv}
 F.~Liese and I.~Vajda.
 \newblock On Divergences and Informations in Statistics and Information Theory,
@@ -2094,6 +2100,13 @@ Sanne Vrijenhoek, Mesut Kaya, Nadia Metoui, Judith M\"{o}ller, Daan Odijk, and
 \newblock In {\em Proceedings of the 2021 Conference on Human Information
   Interaction and Retrieval}, pages 173--183. 2021.
 
+\bibitem{normalize}
+Sanne Vrijenhoek, Lien Michiels, Johannes Kruse, Jordi~Viader Guerrero, Alain
+  Starke, and Nava Tintarev.
+\newblock NORMalize: The First Workshop on Normative Design and Evaluation of
+  Recommender Systems.
+\newblock In {\em 17th ACM Conference on Recommender Systems}. 2023.
+
 \bibitem{F-inference}
 Willem Waegeman, Krzysztof Dembczy\'{n}ki, Arkadiusz Jachnik, Weiwei Cheng, and
   Eyke H\"{u}llermeier.
@@ -2396,6 +2409,12 @@ Chenshuang Zhang, Chaoning Zhang, Mengchun Zhang, and In~So Kweon.
 \newblock {Text-to-image Diffusion Models in Generative AI: A Survey}, {\em
   arXiv}.
 \newblock 2303.07909v2, 2023.
+
+\bibitem{fairChatGPTReco}
+Jizhi Zhang, Keqin Bao, Yang Zhang, Wenjie Wang, Fuli Feng, and Xiangnan He.
+\newblock Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large
+  Language Model Recommendation.
+\newblock In {\em 17th ACM Conference on Recommender Systems}. 2023.
 
 \bibitem{multilabelBackprop}
 Min-Ling Zhang and Zhi-Hua Zhou.
